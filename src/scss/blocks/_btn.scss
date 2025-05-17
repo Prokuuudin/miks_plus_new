@@ -1,0 +1,53 @@
+.btn,
+a.btn {
+	display: inline-block;
+	padding: 12px;
+	min-width: 180px;
+	height: auto;
+	border-radius: 5px;
+	background-color: #fff;
+	font-family: var(--font-family);
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 125%;
+	text-transform: none;
+	text-align: center;
+	color: var(--accent-2);
+	letter-spacing: 0.3px;
+	transition: all 0.2s ease-in;
+	
+	border: 1px solid var(--accent-2);
+	
+	&:hover {
+		box-shadow: 0 2px 8px rgba(0, 0, 0, 0.9);
+		scale: 1.05;
+		background-color: var(--accent-2);
+		color: #fff;
+	}
+
+	@include tablet {
+		font-size: 16px;
+		padding: 10px 8px;
+	}
+
+	@include mobile {
+		padding: 8px 9px;
+		min-width: 170px;
+		font-size: 14px;
+	}
+
+	&--small {
+		min-width: unset;
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+
+	&--mobile-wide {
+		@include mobile {
+			min-width: unset;
+			width: 100%;
+			text-align: left;
+			padding: 8px 16px;
+		}
+	}
+}

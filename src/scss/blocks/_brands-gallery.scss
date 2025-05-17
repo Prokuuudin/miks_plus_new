@@ -1,0 +1,22 @@
+.brands__gallery{
+        display: flex;
+        position: 0 30px;
+        margin: 0 auto;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 20px;
+}
+
+.gallery-item{
+    width: 200px;
+    height: 100px;
+    border: 1px solid #000 ;
+    border-radius: 5px;
+}
+
+.gallery-item__img{
+    // padding: 20px;
+    width: 100%;
+
+}

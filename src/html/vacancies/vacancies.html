@@ -1,0 +1,58 @@
+<main class="vacancies">
+		<section>			
+			<h1 class="title-1">Вакансии Miks Plus</h1>
+			<P>На данный момент мы нуждаемся в следующих специалистах:</P>
+			
+			<ul class="vacancy__list">
+				<li class="vacancy__list-item">
+					<h2 class="title-2">Продавец-консультант</h2>
+					<p>Город: Рига</p>
+					<p>Зарплата: 1000 - 1200 EUR</p>
+				</li>
+				<li class="vacancy__list-item">
+					<h2 class="title-2">Менеджер по продажам</h2>
+					<p>Город: Рига</p>
+					<p>Зарплата: 1200 - 1500 EUR</p>
+				</li>
+				<li class="vacancy__list-item">
+					<h2 class="title-2">Кассир</h2>
+					<p>Город: Рига</p>
+					<p>Зарплата: 900 - 1100 EUR</p>
+				</li>
+			</ul>	
+			<p>Даже если на данный момент у нас нет вакансии подходящей вам, это не значит, что ее не появится в будущем
+			</p>
+			<p>Заполните анкету, чтобы мы могли с вами связаться</p>			
+			<div class="vacancy__form">
+			
+				<form action="/send.php" method="post" id="form" class="form" name="form"
+                        enctype="multipart/form-data" autocomplete="on">
+
+                <input type="text" placeholder="Ваше имя" name="name" id="formName" class="form__input _req" data-placeholder-key="form-name">
+
+                <input type="text" placeholder="Ваш email" name="email" id="formEmail" class="form__input _req _email" data-placeholder-key="form-email">                
+             
+                <input type="tel" id="formTel" class="form__input _req" name="tel" placeholder="Ваш телефон" data-placeholder-key="form-phone">                
+                <textarea name="message" data-placeholder-key="form-message" wrap="hard"></textarea>
+				<label for="cv">Резюме</label>
+				<input type="file" id="cv" name="cv" accept=".pdf,.doc,.docx" required />
+
+                <div class="form-group">
+                    <input id="formAgreement" type="checkbox" name="agreement" class="checkbox__input _req " data-key="form-agreement">
+                    <label for="formAgreement" class="checkbox__label" >
+                        <span class="checkbox__box-span">
+                            <span data-key="users-agreement-1">Я принимаю условия </span><a data-key="policy-link" href="./../../files/agreement-nservice_lv_en_ru.pdf" target="_blank">политики конфиденциальности </a><span data-key="users-agreement-2">компании и даю согласие на обработку своих персональных данных.
+                            </span>
+                        </span>                                                           
+                    </label>
+                
+				</div>
+                
+				<div class="form__footer">
+                    <div class="g-recaptcha" data-sitekey="6LfAtjIrAAAAAMhoGprYdYPcXdDGQIHl4esyNJFC"></div>
+                    <button type="submit" class="btn form__button" data-key="form-submit">Оставить заявку</button>
+                </div>
+            </form>
+			</div>			
+		</section>
+	</main>
