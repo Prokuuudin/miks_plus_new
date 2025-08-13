@@ -12,21 +12,28 @@
 	</head>
 
 	<body>
-		<header class="header">
+		<header class="header" id="header">
 			<div class="container">
 				<div class="header__row">
-					<a href="index.html" class="logo">Микс плюс</a>
+					<a href="index.html" class="logo">
+						<picture>
+							<source srcset="./img/logo_MiksPlus.webp 1x, ./img/logo_MiksPlus@2x.webp 2x" type="image/webp" />
+							<source srcset="./img/logo_MiksPlus.jpg 1x, ./img/logo_MiksPlus@2x.jpg 2x" type="image/jpeg" />
+							<img src="./img/logo_MiksPlus.jpg" alt="Логотип" />
+						</picture>
+					</a>
+
 					<nav class="header__nav nav">
 						<ul class="nav__list">
 							<li><a href="index.html" class="active">о&#160;нас</a></li>
-							<li><a href="#brands">бренды</a></li>
-							<li><a href="#catalogs">каталоги</a></li>
+							<li><a href="#brands">дистрибуция</a></li>
 							<li><a href="https://www.hairshop.lv" target="_blank">интернет-магазин</a></li>
 							<li><a href="shops.html" target="_blank">магазины</a></li>
 							<li><a href="vacancies.html" target="_blank">вакансии</a></li>
 							<li><a href="#contacts">контакты</a></li>
 						</ul>
 					</nav>
+
 					<div class="switcher-wrapper">
 						<input type="radio" name="language" value="lv" id="lang-lv" />
 						<label class="switcher" for="lang-lv">LV</label>
@@ -36,12 +43,14 @@
 						<label class="switcher" for="lang-ru">RU</label>
 						<span class="lang-placeholder"></span>
 					</div>
-					<button class="mobile-nav-btn">
+
+					<button class="mobile-nav-btn" id="mobile-nav-btn">
 						<div class="nav-icon"></div>
 					</button>
 				</div>
 			</div>
 		</header>
+
 		<div class="mobile-nav">
 			<ul class="mobile-nav__list">
 				<li><a href="index.html">о&#160;нас</a></li>
@@ -53,6 +62,11 @@
 				<li><a href="docs.html">контакты</a></li>
 			</ul>
 		</div>
+
+		<main style="margin-top: 120px; padding: 20px;">
+			<h1>Контент страницы</h1>
+			<p>Прокрутите страницу вниз, чтобы увидеть эффект уменьшения хедера.</p>
+		</main>
 
 		<main class="shops">
 			<div class="container">

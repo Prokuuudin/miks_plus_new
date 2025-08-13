@@ -1,44 +1,118 @@
+
 .header {
-	width: 100%;
-	padding: 50px;
-	background-color: #fff;
-	z-index: 99;
-	border-bottom: 1px solid #ede4e4;
-	position: fixed;		
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #2c3e50;
+    color: white;
+    padding: 20px 0;
+    transition: all 0.3s ease;
+    z-index: 1000;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
 }
 
-.header__row{
-	display: flex;	
-	justify-content: space-between;
-	align-items: center;
+.header.small {
+    padding: 10px 0;
 }
 
-.header__links_socials{	
-	display: flex;
-	gap: 5px;
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
 }
 
-.header__links a{
-	color: var(--accent-2);
-	transition: all 0.1s ease-in;
-	
-		&:hover{
-			color: var(--accent);
-			scale: 1.1;
-	}
+.header__row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.header-scroll{
-	position: sticky;
-	top: 0;
-	padding: 0;
+.logo img {
+    height: 50px;
+    transition: height 0.3s ease;
 }
 
-.header__nav {
-	display: flex;
-
-	@include mobile {
-		display: none;
-	}
+.header.small .logo img {
+    height: 40px;
 }
 
+.nav__list {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+.nav__list a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    transition: font-size 0.3s ease;
+}
+
+.header.small .nav__list a {
+    font-size: 14px;
+}
+
+/* ---------- LANGUAGE SWITCHER ---------- */
+.switcher-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.switcher {
+    cursor: pointer;
+    padding: 3px 6px;
+    border-radius: 3px;
+    transition: background 0.2s;
+}
+
+.switcher:hover {
+    background: rgba(255,255,255,0.2);
+}
+
+/* ---------- MOBILE NAV ---------- */
+.mobile-nav-btn {
+    display: none;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.nav-icon {
+    width: 25px;
+    height: 2px;
+    background: white;
+    position: relative;
+}
+
+.nav-icon::before,
+.nav-icon::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 25px;
+    height: 2px;
+    background: white;
+    transition: all 0.3s ease;
+}
+
+.nav-icon::before {
+    top: -8px;
+}
+
+.nav-icon::after {
+    top: 8px;
+}
+
+/* ---------- RESPONSIVE ---------- */
+@media (max-width: 768px) {
+    .nav__list {
+        display: none;
+    }
+
+    .mobile-nav-btn {
+        display: block;
+    }
+}

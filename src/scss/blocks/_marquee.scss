@@ -14,6 +14,7 @@
             white-space: nowrap;
             // background-color: rgb(43, 43, 44, 0.23);
 			background: linear-gradient(90deg, #FF2D55, #FB3DFF, #9B23EA);
+						
             padding: 10px 0;
         }
 
@@ -21,7 +22,7 @@
 			display: flex;
 			width: max-content;
             align-items: center;
-            animation: marquee1 100s linear infinite;
+            animation: marquee1 150s linear infinite;
         }
         
 		.marquee-item img {
@@ -35,16 +36,8 @@
             display: inline-flex;
 			align-items: center;
             padding: 10px 20px;
-            margin: 0 50px;
-            background: linear-gradient(90deg, #FF2D55, #FB3DFF, #9B23EA);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-
-			@media(max-width:440px){
-				font-size: 100px;
-				line-height: 136.18px;
-				letter-spacing: 2px;
-			}
+            margin: 0 30px;         
+          	
         }
 	
 		@keyframes marquee1 {

@@ -1,5 +1,11 @@
+import headerScroll from './modules/header-scroll.js';
+headerScroll();
+
 import setLanguage from './modules/setLanguage.js';
 setLanguage();
+
+import initProjectsAccordion from './modules/projects-accordion.js';
+initProjectsAccordion();
 
 import placeholderBehavior from './modules/placeholder-behavior.js';
 placeholderBehavior();
@@ -33,3 +39,4 @@ getSwiperWave();
 
 import getCookiesConsent from './modules/agreement-cookies.js';
 getCookiesConsent();
+
