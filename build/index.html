@@ -63,90 +63,59 @@
 			</ul>
 		</div>
 
-		<main style="margin-top: 120px; padding: 20px;">
-			<h1>Контент страницы</h1>
-			<p>Прокрутите страницу вниз, чтобы увидеть эффект уменьшения хедера.</p>
-		</main>
 		<main>
 			<section class="about">
 				<div class="container">
 					<h1 class="title-1">Лучшая косметика для волос и&#160;не&#160;волос</h1>
 					<p>Самые популярные бренды по&#160;лучшим ценам</p>
-					<h2 class="about__title">О&#160;нас</h2>
+					<h2 class="about__title visually-hidden">О&#160;нас</h2>
 					<p class="about__text">
-						Miks Plus&#160;&#8212; это интернет-магазин, который предлагает широкий ассортимент косметики для волос и&#160;не&#160;только. Мы&#160;работаем с&#160;самыми
-						популярными брендами, чтобы предоставить нашим клиентам только лучшее.
+						Miks Plus&#160;&#8212; это интернет-магазин, который предлагает широкий ассортимент косметики для волос и&#160;не&#160;только
 					</p>
 				</div>
 			</section>
 
-			<section class="contacts" id="contacts">
-				<div class="container">
-					<h2 class="title-3" data-key="contacts-title">Свяжитесь с&#160;нами удобным для вас способом:</h2>
-					<div class="contacts__wrapper">
-						<div class="contacts__left-side">
-							<div class="contacts__socials">
-								<a href="https://www.facebook.com/profile.php?id=100076170825394" target="_blank" class="contacts__socials-item">
-									<svg class="icon icon--facebook">
-										<use href="./img/svgsprite/sprite.symbol.svg#facebook"></use>
-									</svg>
-									<span class="icon-text">facebook</span>
-								</a>
-								<a href="https://www.instagram.com/nservice_it_help/" target="_blank" class="contacts__socials-item">
-									<svg class="icon icon--instagram">
-										<use href="./img/svgsprite/sprite.symbol.svg#instagram"></use>
-									</svg>
-									<span class="icon-text">instagram</span>
-								</a>
-							</div>
-							<div class="contacts__contacts">
-								<a href="mailTo:service@nservice.lv">
-									<svg class="icon icon--email">
-										<use href="./img/svgsprite/sprite.symbol.svg#email"></use>
-									</svg>
-									<span class="contacts__email">service@nservice.lv</span>
-								</a>
-								<a href="tel:+37129503980">
-									<svg class="icon icon--phone">
-										<use href="./img/svgsprite/sprite.symbol.svg#phone"></use>
-									</svg>
-									<span class="contacts__phone">+371 29 503 980</span>
-								</a>
-							</div>
+			<section class="activities-section">
+				<h2>Наша деятельность</h2>
+				<div class="activities">
+					<div class="activity-card" data-type="seminars">
+						<div class="card-front">Семинары</div>
+						<div class="card-back">
 							<picture>
-								<source srcset="./img/nservice-img/business2.webp 1x, ./img/nservice-img/business2@2x.webp 2x" type="image/webp" />
-								<source srcset="./img/nservice-img/business2.png 1x, ./img/nservice-img/business2@2x.png 2x" type="image/png" />
-								<img class="contacts__img" src="./img/nservice-img/business2.png" alt="" />
+								<source srcset="seminars.webp 1x, seminars@2x.webp 2x" type="image/webp" />
+								<source srcset="seminars.jpg 1x, seminars@2x.jpg 2x" type="image/jpeg" />
+								<img src="seminars.jpg" alt="Семинары" />
 							</picture>
+							<h3>Семинары</h3>
+							<p>Углублённые образовательные мероприятия для профессионалов.</p>
+							<a href="#">Узнать больше</a>
 						</div>
-
-						<form action="/send.php" method="post" id="form" class="form" name="form" enctype="multipart/form-data" autocomplete="on">
-							<input type="text" placeholder="Ваше имя" name="name" id="formName" class="form__input _req" data-placeholder-key="form-name" />
-
-							<input type="text" placeholder="Ваш email" name="email" id="formEmail" class="form__input _req _email" data-placeholder-key="form-email" />
-
-							<input type="tel" id="formTel" class="form__input _req" name="tel" placeholder="Ваш телефон" data-placeholder-key="form-phone" />
-
-							<textarea name="message" data-placeholder-key="form-message" wrap="hard"></textarea>
-
-							<label for="cv">Резюме</label>
-							<input type="file" id="cv" name="cv" accept=".pdf,.doc,.docx" required />
-
-							<div class="form-group">
-								<input id="formAgreement" type="checkbox" name="agreement" class="checkbox__input _req " data-key="form-agreement" />
-								<label for="formAgreement" class="checkbox__label">
-									<span class="checkbox__box-span">
-										<span data-key="users-agreement-1">Я&#160;принимаю условия </span
-										><a data-key="policy-link" href="./files/agreement-nservice_lv_en_ru.pdf" target="_blank">политики конфиденциальности </a
-										><span data-key="users-agreement-2">компании и&#160;даю согласие на&#160;обработку своих персональных данных. </span>
-									</span>
-								</label>
-							</div>
-							<div class="form__footer">
-								<div class="g-recaptcha" data-sitekey="6LfAtjIrAAAAAMhoGprYdYPcXdDGQIHl4esyNJFC"></div>
-								<button type="submit" class="btn form__button" data-key="form-submit">Оставить заявку</button>
-							</div>
-						</form>
+					</div>
+					<div class="activity-card" data-type="exhibitions">
+						<div class="card-front">Выставки</div>
+						<div class="card-back">
+							<picture>
+								<source srcset="exhibitions.webp 1x, exhibitions@2x.webp 2x" type="image/webp" />
+								<source srcset="exhibitions.jpg 1x, exhibitions@2x.jpg 2x" type="image/jpeg" />
+								<img src="exhibitions.jpg" alt="Выставки" />
+							</picture>
+							<h3>Выставки</h3>
+							<p>Наше участие и&#160;организация тематических выставок.</p>
+							<a href="#">Подробнее</a>
+						</div>
+					</div>
+					<div class="activity-card" data-type="sponsorship">
+						<div class="card-front">Спонсорство</div>
+						<div class="card-back">
+							<picture>
+								<source srcset="sponsorship.webp 1x, sponsorship@2x.webp 2x" type="image/webp" />
+								<source srcset="sponsorship.jpg 1x, sponsorship@2x.jpg 2x" type="image/jpeg" />
+								<img src="sponsorship.jpg" alt="Спонсорство" />
+							</picture>
+							<h3>Спонсорство</h3>
+							<p>Поддержка ключевых мероприятий и&#160;инициатив.</p>
+							<a href="#">Открыть</a>
+						</div>
 					</div>
 				</div>
 			</section>

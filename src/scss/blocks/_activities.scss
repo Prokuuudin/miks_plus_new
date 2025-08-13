@@ -18,6 +18,13 @@
   height: 250px;
   position: relative;
   perspective: 1000px;
+  transition: transform 0.6s ease;
+  z-index: 1;
+}
+
+.activity-card:hover {
+  transform: scale(1.25);
+  z-index: 10;
 }
 
 .card-front,
@@ -79,7 +86,7 @@
 }
 
 .activity-card:hover .card-front {
-  transform: rotateY(180deg);
+  transform: rotateY(180deg);  
 }
 
 .activity-card:hover .card-back {

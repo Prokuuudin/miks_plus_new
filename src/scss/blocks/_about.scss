@@ -1,11 +1,21 @@
 .about {
-	background-image: url("../../img/backgrounds/bg-01@2x.jpg");
-	background-size: cover;
-	background-position: center;
-	background-repeat: no-repeat;
-	padding: 60px 0;
-	color: #fff;
+    background-image: url("../../img/backgrounds/bg-01@2x.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+	min-height: 100vh; 
+    
+	display: flex;
+    flex-direction: column;
+    justify-content: center; /* Центрируем по вертикали */
+    align-items: center; /* Центрируем по горизонтали */
+    
+    padding: 0 20px; /* Горизонтальные отступы */
+    color: #fff;
+    margin-top: 50px; /* Если фиксированный хедер */
 }
+
 
 .about .container {
 	max-width: 1200px;

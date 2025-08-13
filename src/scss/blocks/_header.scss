@@ -1,10 +1,9 @@
-
 .header {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    background-color: #2c3e50;
+    background-color: #000;
     color: white;
     padding: 20px 0;
     transition: all 0.3s ease;
@@ -28,15 +27,16 @@
     align-items: center;
 }
 
-.logo img {
-    height: 50px;
-    transition: height 0.3s ease;
+.logo {
+    width: 100px;
+    height: 100px;
+    transition: width 0.3s ease, height 0.3s ease;
 }
 
-.header.small .logo img {
+.header.small .logo {
+    width: 40px;
     height: 40px;
 }
-
 .nav__list {
     display: flex;
     gap: 20px;
