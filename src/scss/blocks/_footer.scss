@@ -1,71 +1,69 @@
 .footer {
-	position: relative;
-	padding: 25px 10px;
-	background-color: #000;
-	margin-top: var(--section-padding-top);
-	
-	// @include small-mobile{
-	// 	padding: 10px 5px;
-	// 	margin-top: var(--section-padding-top-mobile);
-	// }
+  position: relative;
+  border-top: 1px solid rgba(0,0,0,.08);
+  background: #f5b6b6;
+  box-shadow: 0 -10px 30px rgba(0,0,0,.08);
+}
+
+.footer__container {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 0 20px;
 }
 
 .footer__row {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 24px 40px;
+  align-items: center;
+  padding: 28px 0;
+}
+
+@media (max-width: 720px) {
+  .footer__row {
+    grid-template-columns: 1fr;
+    gap: 16px;
+    padding: 20px 0;
+  }
+}
+
+.footer__company { 
 	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	color: #fff;
-	
-	@include mobile {
-		display: block;
-		position: relative;
-	}
+	flex-direction: column;
+	gap: 15px; 
 }
 
-.footer__left-side p{
-	font-size: 24px;
-	line-height: 1.5;
-
-	// @include small-mobile{
-	// 	font-size: 16px;
-	// 	line-height: 1.2;
-	// }	
+.footer__title {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 0;
 }
 
-.footer__data a{
-	font-size: 20px;
-	color:#fff;
-	transition: all 0.2s ease-in;
-	
-	&:hover{
-		color: var(--accent);
-	}
-	// @include small-mobile{
-	// 	font-size: 14px;		
-	// }
+.footer__info {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  font-size: 15px;
+  color: #000;
+}
+
+.footer__link {
+  display: inline-flex;
+  align-items: center;
+  gap: 15px;
+  text-decoration: none;
+  font-weight: 600;
+  color: #000;
+  position: relative;
 }
 
 .footer__copyright {
-	margin-top: 130px;
-	padding: 10px 0;
-	font-size: 20px;
-	
-	@include mobile {
-		margin-top: 15px;
-		font-size: 14px;
-		margin-left: 5px;
-	}
-
-	// @include small-mobile{
-	// 	font-size: 12px;
-	// 	margin-top: 10px;
-	// }
+  margin: 0;
+  font-size: 14px;
+  color: #000;
+  text-align: right;
 }
 
-.footer__right-side{
-	margin-top: 140px;
-
-	@include mobile {
-		margin-top: 10px;
-	}
+@media (max-width: 720px) {
+  .footer__copyright { text-align: left; }
 }

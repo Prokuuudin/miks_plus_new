@@ -1,40 +1,7 @@
 <section class="contacts" id="contacts">
     <div class="container">
-        <h2 class="title-3" data-key="contacts-title">Свяжитесь с нами удобным для вас способом:</h2>
-        <div class="contacts__wrapper">
-            <div class="contacts__left-side">
-                <div class="contacts__socials">
-                    <a href="https://www.facebook.com/profile.php?id=100076170825394" target="_blank" class="contacts__socials-item">
-                        <svg class="icon icon--facebook">
-                            <use href="./img/svgsprite/sprite.symbol.svg#facebook"></use>                             
-                        </svg>
-                        <span class="icon-text">facebook</span>
-                    </a>
-                    <a href="https://www.instagram.com/nservice_it_help/" target="_blank" class="contacts__socials-item">
-                        <svg class="icon icon--instagram">
-                            <use href="./img/svgsprite/sprite.symbol.svg#instagram"></use>
-                        </svg>
-                        <span class="icon-text">instagram</span>
-                    </a>
-                </div>
-                <div class="contacts__contacts">
-                    <a href="mailTo:service@nservice.lv">
-                        <svg class="icon icon--email">
-                            <use href="./img/svgsprite/sprite.symbol.svg#email"></use>
-                        </svg>
-                        <span class="contacts__email">service@nservice.lv</span>                        
-                    </a>
-                    <a href="tel:+37129503980">
-                        <svg class="icon icon--phone">
-                            <use href="./img/svgsprite/sprite.symbol.svg#phone"></use>
-                        </svg>
-                        <span class="contacts__phone">+371 29 503 980</span>                        
-                    </a>
-                </div>
-                <img class="contacts__img" src="./../../img/nservice-img/business2.png" alt="">                
-            </div>
-                            
-            <form action="/send.php" method="post" id="form" class="form" name="form"
+        <h2 class="contacts__title title-2" data-key="contacts-title">Свяжитесь с нами удобным для вас способом:</h2>
+        <form action="/send.php" method="post" id="form" class="form" name="form"
                         enctype="multipart/form-data" autocomplete="on">
 
                 <input type="text" placeholder="Ваше имя" name="name" id="formName" class="form__input _req" data-placeholder-key="form-name">
@@ -61,7 +28,6 @@
                     <div class="g-recaptcha" data-sitekey="6LfAtjIrAAAAAMhoGprYdYPcXdDGQIHl4esyNJFC"></div>
                     <button type="submit" class="btn form__button" data-key="form-submit">Оставить заявку</button>
                 </div>
-            </form>
-        </div>
+            </form>        
     </div>
 </section>

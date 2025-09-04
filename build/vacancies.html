@@ -44,6 +44,22 @@
 						<span class="lang-placeholder"></span>
 					</div>
 
+					<div class="header__socials">
+						<a href="https://www.facebook.com/profile.php?id=61566023952182" target="_blank">
+							<abbr title="facebook">
+								<svg class="icon icon--facebook">
+									<use href="./img/svgsprite/sprite.symbol.svg#facebook"></use>
+								</svg>
+							</abbr>
+						</a>
+						<a href="https://www.instagram.com/iluxsiir.ee/" target="_blank">
+							<abbr title="instagram">
+								<svg class="icon icon--instagram">
+									<use href="./img/svgsprite/sprite.symbol.svg#instagram"></use>
+								</svg>
+							</abbr>
+						</a>
+					</div>
 					<button class="mobile-nav-btn" id="mobile-nav-btn">
 						<div class="nav-icon"></div>
 					</button>
@@ -117,23 +133,59 @@
 				</div>
 			</section>
 		</main>
-		<footer class="footer">
-			<div class="container">
+		<!-- <footer class="footer">
+    <div class="container">
+        <div class="footer__row">            
+                <div class="footer__data">            
+                    <div class="h3 title-3" data-key="footer-company-name">"Miks Plus", SIA</div>
+                    <p> <span data-key="footer-company-registration" >Рег. номер: 40203287886</span>
+                        <span data-key="footer-company-address">Адрес: Рига, ул. Русес 26-135, LV-1029, Латвия</span>                    
+                        <a href="mailTo:service@nservice.lv">miksplus@miksplus.lv</a> 
+                        <a href="https://nservice.lv/" target="_blank">www.miksplus.lv</a>
+                    </p>
+                </div>
+                <p class="footer__copyright">Copyright © 2025. <span data-key="footer-rights">Все права защищены</span></p>            
+        </div>
+    </div>
+</footer> -->
+
+		<footer class="footer" role="contentinfo" aria-label="Информация о компании">
+			<div class="footer__container">
 				<div class="footer__row">
-					<div class="footer__data">
-						<div class="h3 title-3" data-key="footer-company-name">&#171;Miks Plus&#187;, SIA</div>
-						<p>
-							<span data-key="footer-company-registration">Рег. номер: 40203287886</span>
-							<span data-key="footer-company-address">Адрес: Рига, ул.&#160;Русес 26-135, LV-1029, Латвия</span>
-							<a href="mailTo:service@nservice.lv">miksplus@miksplus.lv</a>
-							<a href="https://nservice.lv/" target="_blank">www.miksplus.lv</a>
-						</p>
+					<div class="footer__company">
+						<a href="index.html" class="logo">
+							<picture>
+								<source srcset="./img/logo_MiksPlus.webp 1x, ./img/logo_MiksPlus@2x.webp 2x" type="image/webp" />
+								<source srcset="./img/logo_MiksPlus.jpg 1x, ./img/logo_MiksPlus@2x.jpg 2x" type="image/jpeg" />
+								<img src="./img/logo_MiksPlus.jpg" alt="Логотип" />
+							</picture>
+						</a>
+						<h3 class="footer__title" data-key="footer-company-name">&#171;Miks Plus&#187;, SIA</h3>
+						<div class="footer__info">
+							<span class="footer__text" data-key="footer-company-registration">
+								Рег. номер: 40203287886
+							</span>
+							<span class="footer__text" data-key="footer-company-address">
+								Адрес: Рига, ул.&#160;Русес 26-135, LV-1029, Латвия
+							</span>
+
+							<a class="footer__link" href="mailto:miksplus@miksplus.lv">
+								miksplus@miksplus.lv
+							</a>
+
+							<a class="footer__link" href="https://nservice.lv/" target="_blank" rel="noopener">
+								www.miksplus.lv
+							</a>
+						</div>
 					</div>
-					<p class="footer__copyright">Copyright &#169; 2025. <span data-key="footer-rights">Все права защищены</span></p>
+
+					<p class="footer__copyright">
+						Copyright &#169; 2025.
+						<span data-key="footer-rights">Все права защищены</span>
+					</p>
 				</div>
 			</div>
 		</footer>
-
 		<script src="./js/index.bundle.js"></script>
 	</body>
 </html>

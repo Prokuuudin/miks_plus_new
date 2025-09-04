@@ -1,16 +1,21 @@
-.title-1 {
+h1.title-1 {
 	margin: 1em 0 0.5em;
-	font-size: 38px;
+	font-size: 52px;
 	font-weight: 700;
-	font-family: var(--font-titles);
+	text-transform: uppercase;
+	font-family: var(--font-main);
+	
 }
 
 .title-2 {
 	margin: 1em 0 0.5em;
 	font-size: 32px;
 	font-weight: 700;
-	font-family: var(--font-titles);
+	font-family: var(--font-main);
+	text-transform: uppercase;
+	
 }
+
 
 .title-3 {
 	margin: 1em 0 0.5em;

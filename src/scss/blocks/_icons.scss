@@ -7,30 +7,28 @@
 .icon {
 	fill: transparent;
 	stroke: transparent;
-	width: 62px;
-	height: 62px;
+	width: 22px;
+	height: 22px;
 }
 
-.icon--heart-line {
-	fill: rgb(241, 68, 131);
-}
-
-.icon--id-card-line {
-	fill: rgb(51, 51, 51);
-}
-.icon--search-line {
-	fill: rgb(28, 176, 80);
-}
-
-.icon--user-star {
-	fill: rgb(26, 134, 235);
-}
-
-.icon--user {
-	stroke: rgb(26, 134, 235);
+.icon--facebook, 
+.icon--instagram,
+.icon--email,
+.icon--phone {
+	width: 25px;
+	height: 25px;
+	fill: var(--accent-2);
 	transition: all 0.2s ease-in;
+	margin-right: 10px;
 
-	&:hover {
-		stroke: rgb(17, 193, 90);
+	&:hover{
+		fill: var(--accent);
+		scale: 1.5;
+	}
+
+	@include mobile {
+		width: 20px;
+		height: 20px;
+		margin-right: 0;
 	}
 }
