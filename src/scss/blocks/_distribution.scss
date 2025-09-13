@@ -10,7 +10,7 @@
 
 .brand-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 150px 20px;
   margin-top: 30px;
 }
@@ -92,4 +92,12 @@
 }
 .brand-card.flipped .card-back {
   transform: rotateY(0);
+}
+
+.card-back .card-link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  color: inherit;
 }
