@@ -3,15 +3,13 @@
   background: #fff;
   font-family: var(--font-titles);
   text-align: center;
-  font-size: 32px;
-  font-weight: 600;
-  text-transform: uppercase;
+  font-size: 32px;    
 }
 
 .brand-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 150px 20px;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 50px;
   margin-top: 30px;
 }
 
@@ -20,6 +18,15 @@
   aspect-ratio: 1 / 1;
   position: relative;
   perspective: 800px;  
+  display: flex;
+  flex-direction: column;
+}
+
+.brand__title {
+  font-size: 20px;
+  margin: 10px 0;
+  color: #000;
+  text-transform: uppercase;
 }
 
 .card-front, .card-back {
@@ -34,23 +41,55 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  font-weight: bold;
   padding: 10px;
 }
 
 .card-front {
-  background-color: #1e88e5;
+  background-color: #fcfcfc;
   color: white;
   font-size: 16px;
   cursor: pointer;
 }
 
 .card-back {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
   background-color: #f9f9f9;
   transform: rotateY(180deg);
+  text-align: center;
+  justify-content: space-between; 
+  padding: 10px;
+}
+
+.card-back .card-link {
+  display: flex;
   flex-direction: column;
-  text-align: left;
-  padding: 15px;
+  align-items: center;
+  text-decoration: none;
+  color: inherit;
+  flex-grow: 1;       /* занимает верхнюю часть карточки */
+  overflow-y: auto;   /* вертикальный скролл при переполнении */
+  justify-content: flex-start;
+}
+
+.card-back h3 {
+  margin: 0 0 10px 0; /* расстояние от верхнего края и до параграфа */
+  font-size: 16px;
+  flex-shrink: 0;     /* h3 не сжимается при скролле */
+}
+
+.card-back p {
+  font-size: 14px;
+  margin: 0;
+  line-height: 1.4;
+}
+
+.card-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: auto; /* прижимает кнопки к низу карточки */
 }
 
 .card-back img {
@@ -61,25 +100,13 @@
   margin: 10px 0;
 }
 
-.card-back h3 {
-  margin: 5px 0;
-  font-size: 16px;
-}
-
-.card-back p {
-  font-size: 14px;
-  flex-grow: 1;
-}
-
-.card-back a {
-  margin-top: auto;
+.card-back a.shop-link {
   text-decoration: none;
   color: #1e88e5;
   font-weight: bold;
 }
 
 .card-back button.close-btn {
-  margin-top: 10px;
   background: #ccc;
   border: none;
   padding: 5px 10px;
@@ -92,12 +119,4 @@
 }
 .brand-card.flipped .card-back {
   transform: rotateY(0);
-}
-
-.card-back .card-link {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-decoration: none;
-  color: inherit;
 }

@@ -10,13 +10,30 @@
 	width: 22px;
 	height: 22px;
 }
-
 .icon--facebook, 
-.icon--instagram,
+.icon--instagram {
+	width: 30px;
+	height: 30px;
+	fill: rgb(45, 3, 136);
+	transition: all 0.2s ease-in;
+	margin-right: 10px;
+
+	&:hover{		
+		scale: 1.1;
+		// rotate: -5deg;
+	}
+
+	@include mobile {
+		width: 20px;
+		height: 20px;
+		margin-right: 0;
+	}
+}
+
 .icon--email,
 .icon--phone {
-	width: 25px;
-	height: 25px;
+	width: 20px;
+	height: 20px;
 	fill: var(--accent-2);
 	transition: all 0.2s ease-in;
 	margin-right: 10px;
@@ -46,8 +63,10 @@
 .icon--11luxina,
 .icon--12sanctuaryspa,
 .icon--13stapiz,
-.icon--14sttropez {
+.icon--14sttropez, 
+.icon--15beautyimage,
+.icon--16otools {
 	width: 100px;
 	height: 100px;
-	fill: var(--accent-2);	
+	fill: var(--accent-2);
 }

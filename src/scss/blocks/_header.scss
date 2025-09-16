@@ -40,36 +40,36 @@
 }
 
 .nav__list a {
+    position: relative; /* для линии */
     color: white;
     font-family: var(--font-accent);
     text-decoration: none;
     text-transform: lowercase;
-    // letter-spacing: 1.1px;
-    font-size: 18px;
+    font-size: 26px;
     font-weight: 400;
     transition: font-size 0.3s ease;
 }
 
 .header.small .nav__list a {
-    font-size: 14px;
+    font-size: 22px;
 }
 
-/* ---------- LANGUAGE SWITCHER ---------- */
-.switcher-wrapper {
-    display: flex;
-    align-items: center;
-    gap: 5px;
+/* ---------- Линия под ссылкой (только при ховере) ---------- */
+.nav__list a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+    width: 100%;
+    height: 2px;
+    background-color: white;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.3s ease;
 }
 
-.switcher {
-    cursor: pointer;
-    padding: 3px 6px;
-    border-radius: 3px;
-    transition: background 0.2s;
-}
-
-.switcher:hover {
-    background: rgba(255,255,255,0.2);
+.nav__list a:hover::after {
+    transform: scaleX(1);
 }
 
 /* ---------- MOBILE NAV ---------- */

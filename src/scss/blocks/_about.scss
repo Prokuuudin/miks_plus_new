@@ -1,65 +1,74 @@
 .about {
+    margin-top: 50px;
+}
+
+.about__inner {
     background-image: url("../../img/backgrounds/main@2x.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+
+    min-height: 100vh; /* на весь экран */
     
-	min-height: 100vh; 
-    
-	display: flex;
+    display: flex;
     flex-direction: column;
-    justify-content: center; 
-    align-items: center; 
+    justify-content: center;
+    align-items: flex-end; 
     
-    padding: 0 20px; 
+    padding: 0 20px;
     color: #fff;
-    margin-top: 50px; 
 }
 
 .about .container {
-	max-width: 1200px;
-	margin: 0 auto;
-	padding: 0 20px;
-	text-align: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    text-align: center;
 }
 
-.about__inner {
-	display: flex;
-	flex-direction: column;
-	align-items: flex-end;
-	gap: 120px;
-}
-
-.about__content{
-	text-align: right;
+.about__wrapper {    
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 100px;
+       
+    margin-top: 20px;
 }
 
 .about__details {
-	text-align: right;
-	font-size: 1.2rem;
-	line-height: 1.5;
+    text-align: right;
+    font-size: 1.2rem;
+    line-height: 1.5;
 }
 
 .about__details li {
-	margin-bottom: 10px;
-	list-style: none;
+    margin-bottom: 10px;
+    list-style: none;
+}
+
+.about__content{
+    width: 50%;
+    text-align: right;
+    margin-top: auto;
 }
 
 .about .title-1 {
-	font-size: 58px;
-	margin-bottom: 10px;
-	font-weight: 700;
-	color: #fff;
+    font-size: 58px;
+    margin-bottom: 10px;
+    font-weight: 700;
+    color: #fff;
 }
 
-.about p {
-	font-size: 1.1rem;
-	margin-bottom: 20px;
+.about__footer {
+    background: #fff;
+    color: #000;
+    padding: 40px 20px;
+    text-align: center;
 }
 
 .about__text {
-	font-size: 1rem;
-	line-height: 1.6;
-	max-width: 800px;
-	margin: 0 auto;
+    font-size: 1rem;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
 }
