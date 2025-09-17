@@ -8,8 +8,8 @@
 
 .brand-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 50px;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 5px;
   margin-top: 30px;
 }
 
@@ -23,9 +23,10 @@
 }
 
 .brand__title {
-  font-size: 20px;
+  font-size: 17px;
   margin: 10px 0;
   color: #000;
+  font-weight: 700;
   text-transform: uppercase;
 }
 
@@ -45,8 +46,8 @@
 }
 
 .card-front {
-  background-color: #fcfcfc;
-  color: white;
+  background-color: #fff;
+  // color: white;
   font-size: 16px;
   cursor: pointer;
 }
@@ -55,7 +56,7 @@
   height: 100%;
   display: flex;
   flex-direction: column;
-  background-color: #f9f9f9;
+  background-color: #fff;
   transform: rotateY(180deg);
   text-align: center;
   justify-content: space-between; 
@@ -68,36 +69,31 @@
   align-items: center;
   text-decoration: none;
   color: inherit;
-  flex-grow: 1;       /* занимает верхнюю часть карточки */
-  overflow-y: auto;   /* вертикальный скролл при переполнении */
+  flex-grow: 1;       
+  overflow-y: auto;   
   justify-content: flex-start;
 }
 
 .card-back h3 {
-  margin: 0 0 10px 0; /* расстояние от верхнего края и до параграфа */
-  font-size: 16px;
-  flex-shrink: 0;     /* h3 не сжимается при скролле */
+  margin: 0 0 10px 0; 
+  flex-shrink: 0; 
 }
 
 .card-back p {
-  font-size: 14px;
+  font-size: 15px;
+  color: black;
+  font-family: "Oswald";
+  letter-spacing: 1px;
   margin: 0;
-  line-height: 1.4;
+  line-height: 1.15;
+  text-align:center ;
 }
 
 .card-buttons {
   display: flex;
   flex-direction: column;
-  gap: 10px;
-  margin-top: auto; /* прижимает кнопки к низу карточки */
-}
-
-.card-back img {
-  width: 100%;
-  height: 100px;
-  object-fit: cover;
-  border-radius: 8px;
-  margin: 10px 0;
+  gap: 5px;
+  margin-top: auto;
 }
 
 .card-back a.shop-link {
