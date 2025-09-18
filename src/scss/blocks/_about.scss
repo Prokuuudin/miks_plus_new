@@ -62,13 +62,15 @@
 .about__footer {
     background: #fff;
     color: #000;
-    padding: 40px 20px;
-    text-align: center;
+    margin-top: 40px;
 }
 
 .about__text {
-    font-size: 1rem;
+    border: 1px solid #000;    
+    font-size: 20px;    
     line-height: 1.6;
     max-width: 800px;
     margin: 0 auto;
+    padding: 40px 20px;
+    text-align: justify;    
 }
