@@ -1,5 +1,5 @@
 .form{
-    width: 100%;
+    width: 60%;
     margin: 0 auto;
     padding: 20px;
     padding-top: 30px;
@@ -9,15 +9,10 @@
     display: flex;
     flex-direction: column;
     gap: 15px;
-    // align-items: center;
-   
+    
     @small-mobile{
         padding: 10px;   
     }
-
-//    @include small-mobile{
-//         padding: 5px;
-//    }
 }
 
 .form::after{
@@ -47,10 +42,6 @@
     font-size: 16px;
     transition: border-color 0.3s ease-in-out;
     resize: none;
-
-    // @include small-mobile{
-    //     font-size: 14px;
-    // }
 }
 
 .form input:focus, textarea:focus {
@@ -136,6 +127,13 @@
     @include mobile {
         top: 3px;
     }
+}
+
+.form__resume {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: start;
 }
 
 .form__footer{

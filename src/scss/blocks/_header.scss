@@ -54,6 +54,11 @@
     font-size: 22px;
 }
 
+.header__socials {
+    margin-top: 5px;
+
+}
+
 /* ---------- Линия под ссылкой (только при ховере) ---------- */
 .nav__list a::after {
     content: "";

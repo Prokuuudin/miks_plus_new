@@ -14,13 +14,16 @@
 .icon--instagram {
 	width: 30px;
 	height: 30px;
+	background: #fff;
 	fill: rgb(45, 3, 136);
 	transition: all 0.2s ease-in;
 	margin-right: 10px;
 
 	&:hover{		
-		scale: 1.1;
+		scale: 1.05;
 		// rotate: -5deg;
+		fill: rgb(45, 3, 180);
+
 	}
 
 	@include mobile {
@@ -68,7 +71,14 @@
 .icon--16otools,
 .icon--17kashoki, 
 .icon--18niamh,
-.icon--19dandy {
+.icon--19dandy,
+.icon--20fudgeurban,
+.icon--21cera,
+.icon--22serical,
+.icon--23hairwell,
+.icon--24ceriotti,
+.icon--25maxus,
+.icon--26kieppe {
 	width: 100px;
 	height: 100px;
 	fill: var(--accent-2);

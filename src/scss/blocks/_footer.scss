@@ -1,7 +1,8 @@
 .footer {
   position: relative;
   border-top: 1px solid rgba(0,0,0,.08);
-  background: #f5b6b6;
+  background-color: rgb(242, 196, 196); 
+  background-color: #817878; 
   box-shadow: 0 -10px 30px rgba(0,0,0,.08);
 }
 
@@ -44,7 +45,7 @@
   flex-direction: column;
   gap: 15px;
   font-size: 15px;
-  color: #000;
+  color: #fff;
 }
 
 .footer__link {
@@ -53,14 +54,14 @@
   gap: 15px;
   text-decoration: none;
   font-weight: 600;
-  color: #000;
+  color: #fff;
   position: relative;
 }
 
 .footer__copyright {
   margin: 0;
   font-size: 14px;
-  color: #000;
+  color: #fff;
   text-align: right;
 }
 

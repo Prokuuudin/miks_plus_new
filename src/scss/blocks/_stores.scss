@@ -39,7 +39,7 @@
   box-shadow: 0 20px 40px rgba(0,0,0,0.3);
 }
 
-.card-front, .card-back {
+.store-card-front, .store-card-back {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -50,7 +50,7 @@
   justify-content: center;
 }
 
-.card-front {
+.store-card-front {
   background-size: cover;
   background-position: center;
   color: white;
@@ -58,29 +58,28 @@
   font-size: 16px;
 }
 
-.card-front span {
+.store-card-front span {
   background: rgba(0,0,0,0.4);
   padding: 6px 12px;
   border-radius: 6px;
   z-index: 2;
 }
 
-.card-back {
+.store-card-back {
   background: #fff;
   color: #333;
   flex-direction: column;
   text-align: left;
   padding: 15px;
-  font-size: 14px;
-  box-sizing: border-box;
+  font-size: 14px;  
   transform: rotateY(180deg);
 }
 
-.card-back p {
+.store-card-back p {
   margin-bottom: 10px;
 }
 
-.card-back a {
+.store-card-back a {
   color: #1976d2;
   font-weight: bold;
   text-decoration: none;
