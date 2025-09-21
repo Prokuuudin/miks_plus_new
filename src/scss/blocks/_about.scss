@@ -17,6 +17,23 @@
     
     padding: 0 20px;
     color: #fff;
+
+    @media (max-width: 1240px) {
+        background-size: contain; /* уменьшается пропорционально */
+        background-position: left top; /* или left center */
+    }
+
+      @media (max-width: 1240px) {
+        background-size: cover;
+        background-position: left top; /* или left center */
+    }
+
+    @include mobile {
+        position: relative;
+        background-position: left;       
+        
+    }
+ 
 }
 
 .about .container {
@@ -42,18 +59,21 @@
 }
 
 .about__details li {
-    margin-bottom: 10px;
-    list-style: none;
+    margin-bottom: 10px;    
 }
 
 .about__content{
     width: 50%;
     text-align: right;
     margin-top: auto;
+
+    @include tablet-small {
+        width: 100%;
+    }
 }
 
 .about .title-1 {
-    font-size: 58px;
+ 
     margin-bottom: 10px;
     font-weight: 700;
     color: #fff;
@@ -63,6 +83,7 @@
     background: #fff;
     color: #000;
     margin-top: 40px;
+    padding: 20px;
 }
 
 .about__text {
@@ -71,6 +92,12 @@
     line-height: 1.6;
     max-width: 800px;
     margin: 0 auto;
-    padding: 40px 20px;
-    text-align: justify;    
+    padding: 20px;
+    text-align: justify;
+    
+        @include mobile {
+            width: 100%;
+            font-size: 14px;
+            line-height: 1.4;
+        }
 }

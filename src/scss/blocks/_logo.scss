@@ -1,8 +1,12 @@
-.logo {
   .logo {
         width: 75px;
         height: 75px;
         transition: width 0.3s ease, height 0.3s ease;
+
+        @include mobile {
+            width: 45px;
+            height: 45px;
+        }
     }
-}
+
 

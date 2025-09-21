@@ -22,12 +22,6 @@
     align-items: center;
 }
 
-.logo {
-    width: 100px;
-    height: 100px;
-    transition: width 0.3s ease, height 0.3s ease;
-}
-
 .header.small .logo {
     width: 40px;
     height: 40px;
@@ -35,8 +29,11 @@
 
 .nav__list {
     display: flex;
-    gap: 20px;
-    list-style: none;
+    gap: 30px;
+
+    @include tablet {
+        display: none;
+    }
 }
 
 .nav__list a {
@@ -56,10 +53,8 @@
 
 .header__socials {
     margin-top: 5px;
-
 }
 
-/* ---------- Линия под ссылкой (только при ховере) ---------- */
 .nav__list a::after {
     content: "";
     position: absolute;
@@ -77,47 +72,47 @@
     transform: scaleX(1);
 }
 
-/* ---------- MOBILE NAV ---------- */
-.mobile-nav-btn {
-    display: none;
-    background: none;
-    border: none;
-    cursor: pointer;
-}
+// /* ---------- MOBILE NAV ---------- */
+// .mobile-nav-btn {
+//     display: none;
+//     background: none;
+//     border: none;
+//     cursor: pointer;
+// }
 
-.nav-icon {
-    width: 25px;
-    height: 2px;
-    background: white;
-    position: relative;
-}
+// .nav-icon {
+//     width: 25px;
+//     height: 2px;
+//     background: white;
+//     position: relative;
+// }
 
-.nav-icon::before,
-.nav-icon::after {
-    content: "";
-    position: absolute;
-    left: 0;
-    width: 25px;
-    height: 2px;
-    background: white;
-    transition: all 0.3s ease;
-}
+// .nav-icon::before,
+// .nav-icon::after {
+//     content: "";
+//     position: absolute;
+//     left: 0;
+//     width: 25px;
+//     height: 2px;
+//     background: white;
+//     transition: all 0.3s ease;
+// }
 
-.nav-icon::before {
-    top: -8px;
-}
+// .nav-icon::before {
+//     top: -8px;
+// }
 
-.nav-icon::after {
-    top: 8px;
-}
+// .nav-icon::after {
+//     top: 8px;
+// }
 
-/* ---------- RESPONSIVE ---------- */
-@media (max-width: 768px) {
-    .nav__list {
-        display: none;
-    }
+// /* ---------- RESPONSIVE ---------- */
+// @media (max-width: 768px) {
+//     .nav__list {
+//         display: none;
+//     }
 
-    .mobile-nav-btn {
-        display: block;
-    }
-}
+//     .mobile-nav-btn {
+//         display: block;
+//     }
+// }

@@ -88,11 +88,16 @@
 
 .mobile-nav-btn {
 	z-index: 999;
-	// display: none;
+	display: none;
+
+	@include tablet {
+		display: block;
+	}
+
+	@include mobile {
+		--width: 25px;
+		--line-height: 3px;
+		--spacing: 4px;
+	}
 }
 
-// @media (max-width: 1000px) {
-// 	.mobile-nav-btn {
-// 		display: block;
-// 	}
-// }
