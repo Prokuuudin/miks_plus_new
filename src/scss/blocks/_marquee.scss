@@ -1,20 +1,12 @@
 /* MARQUEE */
 .marquee1 {
-	margin-top: 170px;
-	@media (max-width: 1280px) {
-		margin-top: 136px;	
-	}
-	@media (max-width: 440px) {
-		margin-top: 84px;	
-	}
+
 }
 	.marquee-container {			
             width: 100%;
             overflow: hidden;
             white-space: nowrap;
-            // background-color: rgb(43, 43, 44, 0.23);
-			background: linear-gradient(90deg, #FF2D55, #FB3DFF, #9B23EA);
-						
+            background-color: rgb(240, 134, 146);						
             padding: 10px 0;
         }
 
@@ -22,22 +14,30 @@
 			display: flex;
 			width: max-content;
             align-items: center;
-            animation: marquee1 120s linear infinite;
+            animation: marquee1 100s linear infinite;
         }
         
 		.marquee-item img {
 			width: auto;
-			height: 400px;
+			height: 300px;
 			object-fit: cover;
 			margin: 0 10px;
+
+			@include mobile {
+				height: 180px;
+			}
 		}
 
         .marquee-item {
             display: inline-flex;
 			align-items: center;
             padding: 10px 20px;
-            margin: 0 30px;         
+            margin: 0 30px;       
           	
+			@include mobile {
+				margin: 0 10px;
+				padding: 5px 10px;    
+			}
         }
 	
 		@keyframes marquee1 {

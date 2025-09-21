@@ -3,7 +3,11 @@
   background: #e4b1b1;
   font-family: var(--font-titles);
   text-align: center;
-  font-size: 16px;    
+  font-size: 16px;
+  
+  @include mobile {
+    padding: 20px;   
+  }
 }
 
 .brand-grid {
@@ -11,6 +15,10 @@
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 30px;
   margin-top: 30px;
+
+  @include mobile {
+    grid-template-columns: 1fr;
+  }
 }
 
 .brand-card {
