@@ -31,6 +31,9 @@ headerScroll();
 import setLanguage from './modules/setLanguage.js';
 setLanguage();
 
+import openBrandCard from './modules/brand-cards.js';
+openBrandCard();
+
 import mobileNav from './modules/mobile-nav.js';
 mobileNav();
 
@@ -41,5 +44,4 @@ sendContactsForm();
 import getCookiesConsent from './modules/agreement-cookies.js';
 getCookiesConsent();
 
-import openBrandCard from './modules/brand-cards.js';
-openBrandCard();
+

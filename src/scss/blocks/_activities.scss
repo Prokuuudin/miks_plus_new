@@ -3,6 +3,7 @@
   background: #f9f9f9;
   font-family: sans-serif;
   text-align: center;
+  margin-bottom: 80px;
 }
 
 .activities__title {
@@ -69,15 +70,15 @@
 }
 
 .activities__card--seminars .activities__card-front {
-  background-image: url("./../../img/activities/seminars@2x.jpg");
+  background-image: url("./../../img/activities/seminars@2x.jpeg");
 }
 
 .activities__card--exhibitions .activities__card-front {
-  background-image: url("./../../img/activities/exibitions@2x.jpg");
+  background-image: url("./../../img/activities/exibitions@2x.jpeg");
 }
 
 .activities__card--sponsorship .activities__card-front {
-  background-image: url("./../../img/activities/supports@2x.jpg");
+  background-image: url("./../../img/activities/supports@2x.jpeg");
 }
 
 .activities__card-back {
