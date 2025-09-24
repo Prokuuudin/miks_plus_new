@@ -1,275 +1,687 @@
-const translations = {
-    ru: {
-      // meta-tags    
-      "desc-content":"профессиональные средства для ухода за волосами и ногтями, оптом и в розницу, частным и корпоративным клиентам, интернет-магазин с доставкой в Таллинне",
-      "keywords-content":"волосы, ногти, средства для ухода, доставка, Таллинн, профессиональным мастерам, предложение салонам",
-      "landing-title": "ILUXSIIR профессиональная косметика для волос и ногтей",
-      // nav-bar
-      "about-us": "О нас",
-      "brands": "Бренды",
-      "for-clients": "Для клиентов",
-      "online-store": "Интернет-магазин",
-      "contacts": "Контакты",
-      // about
-      "description": "Профессиональные средства для ухода за волосами и ногтями",
-    //   "info-btn": "Больше об Iluxsiir",
-      "info-btn-prefix": "Больше об Ilu",
-      "info-btn-suffix": "siir",
-    //   "shop-btn": "Магазин в Таллинне",
-      "shop-btn-prefix": "Магазин в ",
-      "shop-btn-suffix": "аллинне",
-      // cookies agreement
-      "agreement-header": "Мы ценим вашу приватность",
-      "agreement-text": "Мы используем файлы cookie, чтобы улучшить качество ваших просмотров, персонализируя для вас рекламу и контент на основе анализа трафика. Нажимая \"Принять\", вы соглашаетесь с использованием файлов cookie. ",
-      "agreement-link": "Политика сookie.",
-      "accept-btn": "Принять",
-      "reject-btn": "Отклонить",      
-      // modal-info
-      "info-title-prefix": "О компании Ilu",
-      "info-title-suffix": "siir",
-      "info-paragraph-1": "Компания Iluxsiir OÜ основана в 2023 году и занимается оптовой и розничной торговлей профессиональными средствами для ухода за волосами и ногтями. На рынке Эстонии мы представлены через услуги интернет-магазина shopforhair.ee. Также в октябре 2024 года в Таллине открылся наш первый розничный магазин — в торговом центре 'Мустакиви' (Mahtra tn 1, 13811 Tallinn, Mustakivi keskus).",
-        "info-paragraph-2": "Несмотря на молодость компании, её руководящий менеджмент обладает десятилетиями опыта работы на бьюти-рынке. Мы активно следим за тенденциями в индустрии красоты и регулярно обновляем ассортимент товаров, своевременно предлагая своим клиентам новинки рынка и связанные с ними специальные акции.",
-        "info-paragraph-3": "Ассортимент Iluxsiir включает в себя более чем 3500 товаров от ведущих мировых и европейских брендов. Мы сотрудничаем с такими производителями, как Black Professional (Италия), FUDGE (Великобритания), Kallos (ЕС), Stapiz (ЕС), LUSSONI (ЕС), NIAMH (Италия), Dikson (Италия), Feetcalm (Испания), Beauty Image (Испания), Andis (США) и многими другими.",
-        "info-paragraph-4": "Наша миссия — обеспечить профессионалов ухода за волосами и ногтями качественной продукцией по конкурентным ценам. А также оказать всестороннюю помощь обычным покупателям — в виде профессиональных консультаций по любому из товаров.",
-        "info-paragraph-5": "Наши приоритеты – удобная и быстрая доставка в течение 1-3 суток.",
-        "info-paragraph-6": "Компания Iluxsiir OÜ нацелена на решение вопросов своих клиентов. В предложении компании предусмотрены отдельные программы для обычных, профессиональных и корпоративных клиентов — у нас есть что предложить каждому, с учётом его персональных интересов.",
-        "info-paragraph-7": "Теперь вы знаете о нас больше. Компания Iluxsiir OÜ благодарит вас за то, что вы ознакомились с этой информацией. До скорой встречи!",
-      // modal-shop
-      "shop-title-prefix": "Ilu",
-      "shop-title-suffix": "siir",
-      "shop-text": "Мы рады приветствовать вас в первом магазине Iluxsiir OÜ в Эстонии - в торговом центре Мустакиви. С удовольствием предлагаем ознакомиться с нашими товарами, среди которых каждый найдет себе то, что ищет - как самостоятельно, так и с помощью наших опытных консультантов. Если какого-то из товаров нет на месте, вы можете оформить заказ с доставкой и получить товар в течение трех дней. Привозим заказанные вами товары буквально к вашим дверям, по любому адресу. По желанию можно воспользоваться и услугами пакоматов.",
-      "address": "aдрес: Mahtra 1, Tallinn, Estonia",
-      "office-telephone": `тeл. офиса:`,
-      "shop-telephone":`тeл. магазина:`,
-      "office-email": `почта:`,
-      "working-time": "Пн-Пт: 10.00 - 20.00 Сб-Вск: 10.00 - 18.00",
-      "find-inside":`Найти нас внутри торгового центра`,
+const translations = {  
 
-      // benefits
-      "card1-title":"Богатый ассортимент",
-      "card1-text": "Более 3500 товаров от десятков мировых и европейских брендов",
-      "card2-title":"Актуальные предложения",
-      "card2-text": "Новинки рынка и последние тренды всегда к вашим услугам",
-      "card3-title":"Открытость и доступность",
-      "card3-text": "Работаем без выходных - как в сети, так и в магазине",
-      "card4-title":"Быстрая доставка",
-      "card4-text": "Пакоматы Omniva/Venipak – 24 часа. Если товара нет на месте - в течение 3 суток",
-      "card5-title":"Профессиональные консультации",
-      "card5-text": "Помощь в выборе товаров от опытного персонала",
-      // brands
-      "brands-title": "Наши бренды",
-      // visuals
-      "visuals-text": "Магазин в торговом центре Mustakivi (Таллинн). Свыше 3 500 товаров на месте. Возможность дополнительных заказов по каталогу с доставкой.",
-      // proposals
-      "proposals-title": "Предложения для клиентов",
-      "for-customers-title":"частным клиентам",
-      "for-customers-text": "Частным клиентам мы предлагаем широкий ассортимент товаров от известных европейских брендов. В магазине в торговом центре Мустакиви (Mahtra 1, Tallinn)  вы получите исчерпывающие консультации по любой из позиций. Ознакомиться со всеми предложениями можно, пройдя по ссылке на интернет-магазин.",
-      "to-eshop-btn":"Перейти в интернет-магазин",
-      "to-shop-btn":"Перейти в магазин в Таллине",
-      "for-corporates-title":"корпоративным клиентам",
-      "for-corporates-text":"Для корпоративных клиентов предусмотрены специальные, особенно выгодные условия, акции и предложения. Чтобы получить более подробную информацию, вы можете связаться с нами по телефону, электронной почте или заполнив форму с интересующим вас вопросом. Наши менеджеры ответят на ваше письмо в течение самого ближайшего времени.",
-      "connect-with-btn":"Связаться с менеджером",
-      // Contacts
-      "contacts-title":"Контакты",
-      "office": "офис",
-      "shop": "магазин",
-      "connect-form-title-prefix": "Связаться c Ilu",
-      "connect-form-title-suffix": "siir через форму:",
-      "fill-form-btn": "Заполнить форму",
-      // form
-      "form-title-prefix": "Связаться c Ilu",
-      "form-title-suffix": "siir",
-      "placeholder-name": "Ваше имя*",
-      "placeholder-email": "Ваша почта*",
-      "placeholder-phone": "Ваш телефон*",
-      "placeholder-textarea": "Ваше сообщение",
-      "users-agreement-1":"Я принимаю условия ", 
-      "policy-link":"политики конфиденциальности",
-      "users-agreement-2":" компании и даю согласие на обработку своих персональных данных.",
-      "submit-btn": "Отправить",      
-      // footer
-      "all-rights":"Все правa защищены",
-    },
-   
-    ee: {      
-      "desc-content":"professionaalsed juukse- ja küünehooldustooted, hulgi- ja jaemüük, era- ja ärikliendid, veebipood koos kohaletoimetamisega Tallinnas",
-      "keywords-content":"juuste, küüned, hooldustooted, tarne, Tallinn, professionaalsed meistrid, pakkumine salongidele",
-      "landing-title": "ILUXSIIR professionaalne juuste- ja küünekosmeetika",
+  "ru": {
+    // NAVIGATION
+    "nav-about": "о нас",
+    "nav-distribution": "дистрибуция",
+    "nav-shop": "интернет-магазин",
+    "nav-stores": "магазины",
+    "nav-vacancies": "вакансии",
+    "nav-contacts": "контакты",
 
-      "about-us": "Meie kohta",
-      "brands": "Kaubamärgid",
-      "for-clients": "Klientide jaoks",
-      "online-store": "Veebipood",
-      "contacts": "Kontaktid",
-      "description": "Professionaalsed juuste ja küünte hooldustooted",
-      "info-btn-prefix": "Lisateave Ilu",
-      "info-btn-suffix": "siir kohta",
-      "shop-btn-prefix": "Kauplus ",
-      "shop-btn-suffix": "allinnas",
-            
-      // cookies agreement
-      "agreement-header": "Me hindame teie privaatsust",
-      "agreement-text": "Me kasutame küpsiseid, et parandada teie sirvimiskogemust, personaliseerides teile reklaame ja sisu liiklusanalüüsi põhjal. Vajutades \"Accept\", nõustute küpsiste kasutamisega. ",
-      "agreement-link": "Sookiepoliitika.",
-      "accept-btn": "Aktsepteeri",
-      "reject-btn": "Lükake tagasi",
-      // modal-info
-      "info-title-prefix": "Ettevõtte kohta Ilu",
-      "info-title-suffix": "siir",
-      "info-paragraph-1": "Iluxsiir OÜ asutati 2023. aastal ning tegeleb professionaalsete juuste- ja küünehooldustoodete hulgi- ja jaekaubandusega. Oleme Eesti turul esindatud veebipoe teenuste kaudu shopforhair.ee. Samuti avati oktoobris 2024 meie esimene jaemüügipood Tallinnas -Mustakivikaubanduskeskuses(Mahtratn1, 13811Tallinn,Mustakivikeskus).",
-      "info-paragraph-2":"Hoolimata ettevõtte noorusest on selle juhtkonnal aastakümnete pikkune kogemus iluturul. Jälgime aktiivselt ilutööstuse suundumusi ja uuendame regulaarselt oma tootevalikut, pakkudes oma klientidele õigeaegselt uusi tooteid ja nendega seotud eripakkumisi.",
-      "info-paragraph-3":"Iluxsiiri tootevalikus on üle 3500 toote maailma ja Euroopa juhtivatelt tootjatelt.Teeme koostööd selliste tootjatega nagu Black Professional (Itaalia), FUDGE (Ühendkuningriik), Kallos (EL), Stapiz (EL), LUSSONI (EL), NIAMH (Itaalia), Dikson (Itaalia), Feetcalm (Hispaania), Beauty Image (Hispaania), Andis (USA) ja paljud teised.",
-      "info-paragraph-4":"Meie eesmärk on pakkuda juuste- ja küünehooldajatele kvaliteetseid tooteid konkurentsivõimeliste hindadega. Ja samuti pakkuda tavaklientidele igakülgset abi - professionaalse nõustamise näol mis tahes toodete kohta.",
-      "info-paragraph-5":"Meie prioriteedid on mugav ja kiire tarne 1-3 päeva jooksul.",
-      "info-paragraph-6":"Iluxsiir OÜ on pühendunud oma klientide probleemide lahendamisele. Ettevõtte pakkumises on eraldi programmid tavaklientidele, kutselistele ja äriklientidele - meil on igaühele midagi pakkuda, arvestades tema isiklikke huvisid.",
-    "info-paragraph-7": "Nüüd teate meist rohkem. Iluxsiir OÜ tänab teid selle teabe lugemise eest. Varsti kohtumiseni!",
-      // modal-shop
-    "shop-title-prefix": "Ilu",
-    "shop-title-suffix": "siir",
-      "shop-text": "Meil on hea meel tervitada teid Eesti esimeses Iluxsiir OÜ kaupluses - Mustakivi kaubanduskeskuses. Meil on hea meel pakkuda teile võimalust tutvuda meie toodetega, mille hulgast igaüks leiab endale meelepärase kas iseseisvalt või meie kogenud konsultantide abiga. Kui mõni toode ei ole saadaval, saate teha tellimuse koos kohaletoimetamisega ja saate kauba kätte kolme päeva jooksul. Toome teie tellitud kaubad sõna otseses mõttes teie uksele, mis tahes aadressile. Soovi korral saate kasutada ka sularahaautomaadi teenuseid",
-      "address": "aadress: Mahtra 1, Tallinn, Estonia",
-      "office-telephone": `kontoritelefon:`,
-      "shop-telephone":`poe telefon: `,
-      "office-email": `mail: `,
-      "working-time": "E-R: 10.00 - 20.00  Sat-Wk: 10.00 - 18.00",
-      "find-inside":`Leidke meid kaubanduskeskuse sees.`,
+    // ABOUT SECTION
+    "about-detail1": "Лучшие бренды",
+    "about-detail2": "Гарантия качества",
+    "about-detail3": "Надежная доставка",
+    "about-title": "Профессиональные средства для ухода за волосами",
+    "about-text": "Miks Plus — компания с 15-летним опытом работы в бьюти-индустрии Латвии. Сеть наших магазинов предлагает широкий ассортимент профессиональной косметики для волос, ногтей, лица и тела. Мы являемся официальным дистрибьютором более 25 мировых брендов, благодаря чему предлагаем своим клиентам лучшие условия и ассортимент. Мы предлагаем продукцию, помогающую не только ухаживать за волосами в домашних условиях, но и обеспечивающую результат салонного уровня. У нас вы найдёте шампуни, бальзамы, маски, сыворотки, масла, а также краски для волос от лучших производителей. Кроме средств для волос, в нашем ассортименте представлены инструменты и аксессуары для стайлинга: фены, плойки, утюжки, машинки для стрижки, щипцы и многое другое. Для мастеров-профессионалов действуют эксклюзивные условия: специальные цены на продукцию, обучающие программы, семинары и тестирование новинок мировых брендов.",
 
-      // benefits
-      "card1-title":"Rikkalik valik",
-      "card1-text": "Rohkem kui 3500 kaupa kümnetelt maailma ja Euroopa kaubamärkidelt",
-      "card2-title":"Praegused pakkumised",
-      "card2-text": "Turu uuendused ja viimased trendid on alati teie teenistuses.",
-      "card3-title":"Avatus ja ligipääsetavus",
-      "card3-text": "Töötame ilma nädalavahetusteta - nii veebis kui ka kaupluses",
-      "card4-title":"Kiire tarne",
-      "card4-text": "Pacomats Omniva/Venipak – 24 tundi . Kui kaup ei ole kohapeal - 3 päeva jooksul",
-      "card5-title":"Professionaalne nõustamine",
-      "card5-text": "Kogemustega töötajate abi toodete valikul",
-      // brands
-      "brands-title": "Meie kaubamärgid",
-      // visuals
-      "visuals-text": "Kauplus kaubanduskeskuses Mustakivi (Tallinn). Kohapeal üle 3 500 kauba. Võimalus teha täiendavaid kataloogitellimusi koos kohaletoimetamisega",
-      // proposals
-      "proposals-title": "Ettepanekud klientidele",
-      "for-customers-title":"erakliendid",
-      "for-customers-text": "Eraklientidele pakume laias valikus tuntud Euroopa kaubamärkide tooteid. Mustakivi kaubanduskeskuses(Mahtra1,Tallinn) asuvas kaupluses saate igakülgset nõustamist iga toote kohta. Kõigi pakkumistega saate tutvuda veebipoe lingi kaudu.",
-      "to-eshop-btn":"Mine veebipoodi",
-      "to-shop-btn":"Mine Tallinnas poodi",
-      "for-corporates-title":"ärikliendid",
-      "for-corporates-text":"Erilised, eriti soodsad tingimused, kampaaniad ja pakkumised on saadaval äriklientidele. Täpsema teabe saamiseks võite meiega ühendust võtta telefoni teel, e-posti teel või täites vormi, kuhu on märgitud teid huvipakkuv küsimus. Meie juhid vastavad teie kirjale võimalikult lühikese aja jooksul.",
-      "connect-with-btn":"Võtke ühendust juhiga",
-      // Contacts
-      "contacts-title":"Kontaktid",
-      "office": "kontor",
-      "shop": "kauplus",
-    //   "connect-form-title": "Võtke Iluxsiiriga ühendust vormi kaudu:",
-      "connect-form-title-prefix": "Võtke Ilu",
-      "connect-form-title-suffix": "siiriga ühendust vormi kaudu:",
-      "fill-form-btn": "Täitke vorm",
-      // form
-    //   "form-title":"Kontakt ILUXSIIR",
-      "form-title-prefix": "Võta ühendust ILU",
-      "form-title-suffix": "SIIR",          
-      "placeholder-name": "Teie nimi*",
-      "placeholder-email": "Teie posti*",
-      "placeholder-phone": "Teie telefon*",
-      "placeholder-textarea": "Teie sõnum",
-      "users-agreement-1":"Nõustun tingimustega  ", 
-      "policy-link":"privaatsuspoliitika",
-      "users-agreement-2":" ja annan nõusoleku oma isikuandmete töötlemiseks.",      
-      "submit-btn": "Saada",
-      // footer
-      "all-rights":"Kõikõigusedkaitstud",    
-    },
-             
-    en: {
-      "desc-content": "professional hair and nail care products, available wholesale and retail, for private and corporate clients, with an online store offering delivery in Tallinn",
-      "keywords-content":"hair, nails, care products, delivery, Tallinn, professional masters, offer to salons",
-      "landing-title": "ILUXSIIR professional cosmetics for hair and nails",
-      // nav-bar
-      "about-us": "About us",
-      "brands": "Brands",
-      "for-clients": "For customers",
-      "online-store": "Online shop",
-      "contacts": "Contacts",
-      // about
-      "description": "Professional hair and nail care products and tools",
-      "info-btn-prefix": "More about  Ilu",
-      "info-btn-suffix": "siir",       
-      "shop-btn-prefix": "Shop in ",
-      "shop-btn-suffix": "allinn",
-      // cookies agreement
-      "agreement-header": "We value your privacy",
-      "agreement-text": "We use cookies to improve your browsing experience by personalising ads and content for you based on traffic analysis. By clicking \"Accept\", you agree to the use of cookies. ",
-      "agreement-link": "Policy сookie.",
-      "accept-btn": "Accept",
-      "reject-btn": "Reject",
-      // modal-info
-      "info-title-prefix": "About the company Ilu",
-      "info-title-suffix": "siir",      
-      "info-paragraph-1": "Iluxsiir OÜ was founded in 2023 and is a wholesaler and retailer of professional hair and nail care products. We are represented on the Estonian market through online shop services shopforhair.ee. Also in October 2024, our first retail shop was opened in Tallinn - in Mustakivi shopping centre(Mahtra tn 1, 13811 Tallinn, Mustakivi keskus).",
-      "info-paragraph-2":"Despite the company's youth, its management team has decades of experience in the beauty market. We actively follow trends in the beauty industry and regularly update our product range, offering our customers new products and related special promotions in a timely manner.",
-      "info-paragraph-3": "Iluxsiir 's range includes more than 3,500 products from the world's leading international and European brands. We co-operate with such manufacturers as Black Professional (Italy), FUDGE (UK), Kallos (EU), Stapiz (EU), LUSSONI (EU), NIAMH (Italy), Dikson (Italy), Feetcalm (Spain), Beauty Image (Spain), Andis (USA) and many others.",
-      "info-paragraph-4":"Our mission is to provide hair and nail care professionals with quality products at competitive prices. And, to provide comprehensive assistance to ordinary customers - in the form of professional advice on any of the products.",
-      "info-paragraph-5": "Our priorities are convenient and fast delivery within 1-3 days.",
-      "info-paragraph-6": "Iluxsiir OÜ is committed to solving its customers' problems. The company's offer includes separate programs for ordinary, professional and corporate clients - we have something to offer everyone, considering their personal interests.",
-      "info-paragraph-7": "Now you know more about us. Iluxsiir OÜ would like to thank you for reading this information. See you soon!",
-      // modal-shop
-      "shop-title":`Ilu<span class="colored">X</span>siir`,
-      "shop-text": "We are pleased to welcome you to the first Iluxsiir OÜ shop in Estonia - in Mustakivi shopping Centre. We are pleased to introduce you to our products, among which everyone will find what they are looking for, either on their own or with the help of our experienced consultants. If any of the products are not available, you can place an order with delivery and receive the goods within three days. We bring your ordered goods literally to your door, to any address. If you wish, you can also use the services of cash dispensers",
-      "address": "address: Mahtra 1, Tallinn, Estonia",
-      "office-telephone": `office phone: `,
-      "shop-telephone":`store phone: `,
-      "office-email": `mail: `,
-      "working-time": "Mon-Fr: 10.00 - 20.00  Sat-Sun: 10.00 - 18.00",
-      "find-inside":`Find us inside the shopping center`,
-      // benefits
-      "card1-title":"Rich assortment",
-      "card1-text": "More than 3500 goods from dozens of world and European brands",
-      "card2-title":"Current Offerings",
-      "card2-text": "Market innovations and the latest trends are always at your service",
-      "card3-title":"Openness and accessibility",
-      "card3-text": "We work without weekends - both online and in-store",
-      "card4-title":"Fast delivery",
-      "card4-text": "Pacomats Omniva/Venipak – 24 hours. If the goods are not in place - within 3 days",
-      "card5-title":"Professional counselling",
-      "card5-text": "Assistance with product selection from experienced staff",
-      // brands
-      "brands-title": "Our brands",
-      // visuals
-      "visuals-text": "Shop in shopping centre Mustakivi (Tallinn). Over 3 500 goods on site. Possibility of additional catalogue orders with delivery.",
-      // proposals
-      "proposals-title": "Suggestions for customers",
-      "for-customers-title":"private clients",
-      "for-customers-text": "For private customers, we offer a wide range of products from well-known European brands. In the shop in Mustakivi shopping center (Mahtra1,Tallinn) you will receive comprehensive advice on any of the items. You can familiarize yourself with all the offers by following the link to the online shop.",
-      "to-eshop-btn":"Go to online shop",
-      "to-shop-btn":"Go to shop in Tallinn",
-      "for-corporates-title":"corporate clients",
-      "for-corporates-text":"Special, particularly favourable conditions, promotions and offers are available for corporate clients. To get more detailed information, you can contact us by phone, e-mail or by filling in the form with the question you are interested in. Our managers will reply to your letter within the shortest possible time.",
-      "connect-with-btn":"Contact the manager",
-      // Contacts
-      "contacts-title":"Contacts",
-      "office": "office",
-      "shop": "shop",
-      // "connect-form-title": "Contact Iluxsiir via the form:",
-      "connect-form-title-prefix": "Contact Ilu",
-      "connect-form-title-suffix": "siir via the form:",
-      "fill-form-btn": "Fill in the form",
-      // form
-      "form-title-prefix": "Contact ILU",
-      "form-title-suffix": "SIIR", 
-      "placeholder-name": "Your name*",
-      "placeholder-email": "Your mail*",
-      "placeholder-phone": "Your phone number*",
-      "placeholder-textarea": "Your message",
-      "users-agreement-1":"I accept the terms and conditions  ", 
-      "policy-link":"privacy policy",
-      "users-agreement-2":" company and I give consent to the processing of my personal data.",  
-      "submit-btn": "Send",
-      // footer
-      "all-rights":"All rights reserved",
-    },    
+
+    // DISTRIBUTION SECTION
+       // Заголовок секции
+    'distribution.title': 'дистрибуция',
     
-  };
+    // Бренд 1: Andis
+    'brand.1.title': 'andis',
+    'brand.1.description': 'Мировой лидер в производстве профессиональных машинок и триммеров для стрижки волос и уходу за бородами. США.',
+    'brand.1.close': 'Закрыть',
+    'brand.1.shop': 'Перейти в магазин',
+    
+    // Бренд 2: Black Professional
+    'brand.2.title': 'Black Professional',
+    'brand.2.description': 'Итальянский бренд по уходу за волосами. Огромный ассортимент красок для волос, продукции для ухода за волосами и стайлинга.',
+    'brand.2.close': 'Закрыть',
+    'brand.2.shop': 'Перейти в магазин',
+    
+    // Бренд 3: Charles W
+    'brand.3.title': 'Charles W',
+    'brand.3.description': 'Английский бренд с широким ассортиментом продукции для любого типа волос. Простой и эффективный уход за волосами в домашних условиях.',
+    'brand.3.close': 'Закрыть',
+    'brand.3.shop': 'Перейти в магазин',
+    
+    // Бренд 4: dikson
+    'brand.4.title': 'dikson',
+    'brand.4.description': 'Итальянская компания с 60-летней историей. Один из крупнейших производителей профессиональной косметики и косметологического оборудования в мире.',
+    'brand.4.close': 'Закрыть',
+    'brand.4.shop': 'Перейти в магазин',
+    
+    // Бренд 5: feetcalm
+    'brand.5.title': 'feetcalm',
+    'brand.5.description': 'Революционный бренд из Испании. Обеспечивает полный уход за вашими ногами и ступнями. Широкий спектр профессиональных процедур и товаров для салона и дома.',
+    'brand.5.close': 'Закрыть',
+    'brand.5.shop': 'Перейти в магазин',
+    
+    // Бренд 6: Frutti Professional
+    'brand.6.title': 'Frutti Professional',
+    'brand.6.description': 'Польский профессиональный косметический бренд по уходу за волосами. Широкая линейка продуктов стайлинга.',
+    'brand.6.close': 'Закрыть',
+    'brand.6.shop': 'Перейти в магазин',
+    
+    // Бренд 7: Fudge Professioanal
+    'brand.7.title': 'Fudge Professioanal',
+    'brand.7.description': 'Культовый бренд по уходу за волосами. Первоклассные продукты с технологией Opti-PLEX™ - для восстановления волос и восстановления цвета окрашенных волос.',
+    'brand.7.close': 'Закрыть',
+    'brand.7.shop': 'Перейти в магазин',
+    
+    // Бренд 8: ilu
+    'brand.8.title': 'ilu',
+    'brand.8.description': 'Модный, стильный и яркий южнокорейский бренд аксессуаров по уходу за волосами.',
+    'brand.8.close': 'Закрыть',
+    'brand.8.shop': 'Перейти в магазин',
+    
+    // Бренд 9: kallos
+    'brand.9.title': 'kallos',
+    'brand.9.description': 'Венгерский косметический бренд. На рыке с 1978 года. Широкий ассортимент профессиональной косметики для волос.',
+    'brand.9.close': 'Закрыть',
+    'brand.9.shop': 'Перейти в магазин',
+    
+    // Бренд 10: lussoni
+    'brand.10.title': 'lussoni',
+    'brand.10.description': 'Бренд, отлично зарекомендовавший себя у парикмахеров. Предоставляет широкий ассортимент профессиональных расчесок и брашингов из Южной Кореи.',
+    'brand.10.close': 'Закрыть',
+    'brand.10.shop': 'Перейти в магазин',
+    
+    // Бренд 11: luxina
+    'brand.11.title': 'luxina',
+    'brand.11.description': 'Премиальный итальянский косметический бренд с натуральными продуктами для мужчин. На рынке уже второе столетие!.',
+    'brand.11.close': 'Закрыть',
+    'brand.11.shop': 'Перейти в магазин',
+    
+    // Бренд 12: sanctuary spa
+    'brand.12.title': 'sanctuary spa',
+    'brand.12.description': 'Уникальный СПА бренд - продукты со стойкими ароматами, привлекательными текстурами и натуральными ингредиентами для вашей кожи.',
+    'brand.12.close': 'Закрыть',
+    'brand.12.shop': 'Перейти в магазин',
+    
+    // Бренд 13: stapiz
+    'brand.13.title': 'stapiz',
+    'brand.13.description': 'Профессиональная косметика для волос из Польши. Широкий ассортимент красок и уникальных продуктов по уходу и стайлингу из собственной лаборатории.',
+    'brand.13.close': 'Закрыть',
+    'brand.13.shop': 'Перейти в магазин',
+    
+    // Бренд 14: st. tropez
+    'brand.14.title': 'st. tropez',
+    'brand.14.description': 'ST Tropez Премиальный бренд автозагаров. Новые стандарты ухода за кожей – легкое сияния кожи без участия солнца.',
+    'brand.14.close': 'Закрыть',
+    'brand.14.shop': 'Перейти в магазин',
+    
+    // Бренд 15: beauty image
+    'brand.15.title': 'beauty image',
+    'brand.15.description': 'Ведущий инновационный бренд восков для депиляции и аксессуаров к ним (Испания). На рынке с 1980 года.',
+    'brand.15.close': 'Закрыть',
+    'brand.15.shop': 'Перейти в магазин',
+    
+    // Бренд 16: otools
+    'brand.16.title': 'otools',
+    'brand.16.description': 'Креативный и модный бренд аксессуаров для парикмахеров и салонов красоты.',
+    'brand.16.close': 'Закрыть',
+    'brand.16.shop': 'Перейти в магазин',
+    
+    // Бренд 17: kashoki
+    'brand.17.title': 'kashoki',
+    'brand.17.description': 'Эксклюзивный бренд расчесок для волос. Задает новые стандарты в создании безупречных причёсок.',
+    'brand.17.close': 'Закрыть',
+    'brand.17.shop': 'Перейти в магазин',
+    
+    // Бренд 18: Niamh
+    'brand.18.title': 'Niamh',
+    'brand.18.description': 'Итальянский концепт ухода за волосами – на основе натуральных ингредиентов. Для клиентов с проблемами кожи головы и волосами.',
+    'brand.18.close': 'Закрыть',
+    'brand.18.shop': 'Перейти в магазин',
+    
+    // Бренд 19: Dandy
+    'brand.19.title': 'Dandy',
+    'brand.19.description': 'Мужская линейка продуктов по уходу за волосами и бородой. Ассортимент тонирующих красок для мужчин. Профессиональный и домашний уход. Италия.',
+    'brand.19.close': 'Закрыть',
+    'brand.19.shop': 'Перейти в магазин',
+    
+    // Бренд 20: Fudge Urban
+    'brand.20.title': 'Fudge Urban',
+    'brand.20.description': 'Британский бренд стайлинговых средств для волос. Продукция отличается ярким дизайном, доступностью и акцентом на смелые, креативные решения.',
+    'brand.20.close': 'Закрыть',
+    'brand.20.shop': 'Перейти в магазин',
+    
+    // Бренд 21: Cera
+    'brand.21.title': 'Cera',
+    'brand.21.description': 'Скандинавский бренд с широкой линейкой электроинструментов по уходу за волосами – как для профессионалов, так и для домашного использования.',
+    'brand.21.close': 'Закрыть',
+    'brand.21.shop': 'Перейти в магазин',
+    
+    // Бренд 22: Serical
+    'brand.22.title': 'Serical',
+    'brand.22.description': 'Итальянский бренд средств по восстановлению поврежденных волос.',
+    'brand.22.close': 'Закрыть',
+    'brand.22.shop': 'Перейти в магазин',
+    
+    // Бренд 23: Hairwell
+    'brand.23.title': 'Hairwell',
+    'brand.23.description': 'Немецкий производитель продуктов по уходу за бровями. Инновационные решения в покраске и уходе за бровями.',
+    'brand.23.close': 'Закрыть',
+    'brand.23.shop': 'Перейти в магазин',
+    
+    // Бренд 24: Ceriotti
+    'brand.24.title': 'Ceriotti',
+    'brand.24.description': 'Итальянский производитель мебели для салонов красоты и барбершопов. Широкий ассортимент профессиональных электротоваров для бьюти-индустрии.',
+    'brand.24.close': 'Закрыть',
+    'brand.24.shop': 'Перейти в магазин',
+    
+    // Бренд 25: MAXUS
+    'brand.25.title': 'MAXUS',
+    'brand.25.description': 'Инновационный бренд по уходу, восстановлению и укреплению поврежденных ногтей (США).',
+    'brand.25.close': 'Закрыть',
+    'brand.25.shop': 'Перейти в магазин',
+    
+    // Бренд 26: KIEPE
+    'brand.26.title': 'KIEPE',
+    'brand.26.description': 'Итальянский производитель профессиональных ножниц и инструментов для ухода за ногтями.',
+    'brand.26.close': 'Закрыть',
+    'brand.26.shop': 'Перейти в магазин',
+
+    // STORES SECTION
+    "stores-title": "Наши магазины",
+    "store-map": "📍 Карта",
+    "store-vacancies": "💼 Вакансии",
+    "store-phone-label": "Тел:",
+
+    "store-riga-office-title": "Рига (офис)",
+    "store-riga-office-address": "Рига, ул. Ренцену 10a",
+    "store-riga-office-hours": "Пн-Пт: с 09:00 до 17:00<br>Сб-Вск: выходной",
+
+    "store-riga-imanta-title": "Рига (Иманта)",
+    "store-riga-imanta-address": "Рига, бул. Анниньмуйжас 82",
+    "store-riga-imanta-hours": "Пн-Пт: с 09:00 до 19:00<br>Сб-Вск: с 10:00 до 16:00",
+
+    "store-riga-plavnieki-title": "Рига (Плявниеки)",
+    "store-riga-plavnieki-address": "Рига, ул. Бралю Каудзишу 13",
+    "store-riga-plavnieki-hours": "Пн-Пт: с 09:00 до 19:00<br>Сб-Вск: с 10:00 до 16:00",
+
+    "store-riga-yugla-title": "Рига (Югла)",
+    "store-riga-yugla-address": "Рига, ул. Бривибас 412, k-2",
+    "store-riga-yugla-hours": "Пн-Пт: с 09:00 до 19:00<br>Сб: с 10:00 до 16:00<br>Вск: выходной",
+
+    "store-daugavpils-title": "Даугавпилс",
+    "store-daugavpils-address": "Даугавпилс, ул. Виестура 68",
+    "store-daugavpils-hours": "Пн-Пт: с 09:00 до 19:00<br>Сб-Вск: с 10:00 до 16:00",
+
+    "store-liepaja-title": "Лиепая",
+    "store-liepaja-address": "Лиепая, ул. Грауду 43N",
+    "store-liepaja-hours": "Пн-Пт: с 09:00 до 19:00<br>Сб: с 10:00 до 16:00<br>Вск: выходной",
+
+    "store-valmiera-title": "Валмиера",
+    "store-valmiera-address": "Валмиера, ул. Стацияс 17",
+    "store-valmiera-hours": "Пн-Пт: с 09:00 до 19:00<br>Сб: с 10:00 до 16:00<br>Вск: выходной",
+
+    "store-rezekne-title": "Резекне",
+    "store-rezekne-address": "Резекне, ал. Атбривошанас 128",
+    "store-rezekne-hours": "Пн-Пт: с 09:00 до 19:00<br>Сб-Вск: с 10:00 до 16:00",
+
+    "store-jelgava-title": "Елгава",
+    "store-jelgava-address": "Елгава, ул. Католю 1A",
+    "store-jelgava-hours": "Пн-Пт: с 09:00 до 19:00<br>Сб-Вск: с 10:00 до 16:00",
+
+    // ACTIVITIES SECTION
+    "activities.intro": "<strong>Miks Plus</strong> — это надёжность, качество и внимание к деталям. Наша цель — чтобы каждый клиент был уверен в том, что выбрал лучшее для себя и своих волос. Мы не только торгуем отличными товарами, мы занимаемся просвещением и обучением.",
+    "activities.title": "Наша деятельность",
+
+    "activities.seminars.title": "Семинары",
+    "activities.seminars.heading": "Семинары",
+    "activities.seminars.text": "Углублённые образовательные мероприятия для профессионалов.",
+    "activities.seminars.link": "Узнать больше",
+
+    "activities.exhibitions.title": "Выставки",
+    "activities.exhibitions.heading": "Выставки",
+    "activities.exhibitions.text": "Наше участие и организация тематических выставок.",
+    "activities.exhibitions.link": "Подробнее",
+
+    "activities.sponsorship.title": "Спонсорство",
+    "activities.sponsorship.heading": "Спонсорство",
+    "activities.sponsorship.text": "Поддержка ключевых мероприятий и инициатив.",
+    "activities.sponsorship.link": "Открыть",
+
+    // CONTACTS
+    "contacts-title": "контакты",
+
+    // FORM placeholders
+    "form-name": "Ваше имя",
+    "form-email": "Ваш email",
+    "form-phone": "Ваш телефон",
+    "form-message": "Ваше сообщение",
+
+    // FORM labels / texts
+    "form-resume": "Резюме",
+    "form-agreement": "Я принимаю условия",
+    "users-agreement-1": "Я принимаю условия ",
+    "policy-link": "политики конфиденциальности ",
+    "users-agreement-2": "компании и даю согласие на обработку своих персональных данных.",
+    "form-submit": "Оставить заявку",
+
+    // FOOTER
+    "footer-company-name": "\"Miks Plus\", SIA",
+    "footer-company-registration": "Рег. номер: 40203287886",
+    "footer-company-address": "Адрес: Рига, ул. Русес 26-135, LV-1029, Латвия",
+    "footer-rights": "Все права защищены",  
+  },
+
+  "en": {
+
+    // NAVIGATION
+    "nav-about": "About us",
+    "nav-distribution": "Distribution",
+    "nav-shop": "Online shop",
+    "nav-stores": "Stores",
+    "nav-vacancies": "Vacancies",
+    "nav-contacts": "Contacts",
+
+    // ABOUT SECTION
+    "about-detail1": "Top brands",
+    "about-detail2": "Quality guarantee",
+    "about-detail3": "Reliable delivery",
+    "about-title": "Professional hair care products",
+    "about-text": "Miks Plus is a company with 15 years of experience in the beauty industry in Latvia. Our network of stores offers a wide range of professional cosmetics for hair, nails, face, and body. We are the official distributor of more than 25 global brands, which allows us to offer our clients the best conditions and assortment. We provide products that help not only to care for hair at home but also to achieve salon-level results. With us, you will find shampoos, conditioners, masks, serums, oils, and hair dyes from the best manufacturers. In addition to hair care products, our assortment includes styling tools and accessories: hair dryers, curling irons, straighteners, clippers, tongs, and much more. For professional stylists, we offer exclusive conditions: special product prices, training programs, seminars, and testing of new products from global brands.",
+
+    // DISTRIBUTION SECTION
+        'distribution.title': 'Distribution',
+    'brand.1.title': 'andis',
+    'brand.1.description': 'World leader in manufacturing professional hair clippers and beard trimmers. USA.',
+    'brand.1.close': 'Close',
+    'brand.1.shop': 'Go to shop',
+    'brand.2.title': 'Black Professional',
+    'brand.2.description': 'Italian hair care brand. Huge assortment of hair dyes, hair care products and styling products.',
+    'brand.2.close': 'Close',
+    'brand.2.shop': 'Go to shop',
+    'brand.3.title': 'Charles W',
+    'brand.3.description': 'English brand with a wide range of products for all hair types. Simple and effective hair care at home.',
+    'brand.3.close': 'Close',
+    'brand.3.shop': 'Go to shop',
+    'brand.4.title': 'dikson',
+    'brand.4.description': 'Italian company with 60 years of history. One of the largest manufacturers of professional cosmetics and cosmetology equipment in the world.',
+    'brand.4.close': 'Close',
+    'brand.4.shop': 'Go to shop',
+    'brand.5.title': 'feetcalm',
+    'brand.5.description': 'Revolutionary brand from Spain. Provides complete care for your legs and feet. Wide range of professional treatments and products for salon and home.',
+    'brand.5.close': 'Close',
+    'brand.5.shop': 'Go to shop',
+    'brand.6.title': 'Frutti Professional',
+    'brand.6.description': 'Polish professional hair care cosmetic brand. Wide range of styling products.',
+    'brand.6.close': 'Close',
+    'brand.6.shop': 'Go to shop',
+    'brand.7.title': 'Fudge Professional',
+    'brand.7.description': 'Cult hair care brand. Premium products with Opti-PLEX™ technology - for hair restoration and color recovery of dyed hair.',
+    'brand.7.close': 'Close',
+    'brand.7.shop': 'Go to shop',
+    'brand.8.title': 'ilu',
+    'brand.8.description': 'Fashionable, stylish and vibrant South Korean brand of hair care accessories.',
+    'brand.8.close': 'Close',
+    'brand.8.shop': 'Go to shop',
+    'brand.9.title': 'kallos',
+    'brand.9.description': 'Hungarian cosmetic brand. On the market since 1978. Wide range of professional hair cosmetics.',
+    'brand.9.close': 'Close',
+    'brand.9.shop': 'Go to shop',
+    'brand.10.title': 'lussoni',
+    'brand.10.description': 'Brand well-established among hairdressers. Provides a wide range of professional combs and brushes from South Korea.',
+    'brand.10.close': 'Close',
+    'brand.10.shop': 'Go to shop',
+    'brand.11.title': 'luxina',
+    'brand.11.description': 'Premium Italian cosmetic brand with natural products for men. On the market for the second century!',
+    'brand.11.close': 'Close',
+    'brand.11.shop': 'Go to shop',
+    'brand.12.title': 'sanctuary spa',
+    'brand.12.description': 'Unique SPA brand - products with lasting fragrances, attractive textures and natural ingredients for your skin.',
+    'brand.12.close': 'Close',
+    'brand.12.shop': 'Go to shop',
+    'brand.13.title': 'stapiz',
+    'brand.13.description': 'Professional hair cosmetics from Poland. Wide range of dyes and unique care and styling products from their own laboratory.',
+    'brand.13.close': 'Close',
+    'brand.13.shop': 'Go to shop',
+    'brand.14.title': 'st. tropez',
+    'brand.14.description': 'ST Tropez Premium self-tanning brand. New skincare standards - easy skin glow without sun.',
+    'brand.14.close': 'Close',
+    'brand.14.shop': 'Go to shop',
+    'brand.15.title': 'beauty image',
+    'brand.15.description': 'Leading innovative brand of depilatory waxes and accessories (Spain). On the market since 1980.',
+    'brand.15.close': 'Close',
+    'brand.15.shop': 'Go to shop',
+    'brand.16.title': 'otools',
+    'brand.16.description': 'Creative and fashionable brand of accessories for hairdressers and beauty salons.',
+    'brand.16.close': 'Close',
+    'brand.16.shop': 'Go to shop',
+    'brand.17.title': 'kashoki',
+    'brand.17.description': 'Exclusive brand of hair combs. Sets new standards in creating flawless hairstyles.',
+    'brand.17.close': 'Close',
+    'brand.17.shop': 'Go to shop',
+    'brand.18.title': 'Niamh',
+    'brand.18.description': 'Italian hair care concept - based on natural ingredients. For clients with scalp problems and hair issues.',
+    'brand.18.close': 'Close',
+    'brand.18.shop': 'Go to shop',
+    'brand.19.title': 'Dandy',
+    'brand.19.description': 'Men\'s line of hair and beard care products. Range of tinting dyes for men. Professional and home care. Italy.',
+    'brand.19.close': 'Close',
+    'brand.19.shop': 'Go to shop',
+    'brand.20.title': 'Fudge Urban',
+    'brand.20.description': 'British brand of hair styling products. Products feature bright design, affordability and focus on bold, creative solutions.',
+    'brand.20.close': 'Close',
+    'brand.20.shop': 'Go to shop',
+    'brand.21.title': 'Cera',
+    'brand.21.description': 'Scandinavian brand with a wide line of electrical hair care tools - for both professionals and home use.',
+    'brand.21.close': 'Close',
+    'brand.21.shop': 'Go to shop',
+    'brand.22.title': 'Serical',
+    'brand.22.description': 'Italian brand of damaged hair restoration products.',
+    'brand.22.close': 'Close',
+    'brand.22.shop': 'Go to shop',
+    'brand.23.title': 'Hairwell',
+    'brand.23.description': 'German manufacturer of eyebrow care products. Innovative solutions in eyebrow coloring and care.',
+    'brand.23.close': 'Close',
+    'brand.23.shop': 'Go to shop',
+    'brand.24.title': 'Ceriotti',
+    'brand.24.description': 'Italian manufacturer of furniture for beauty salons and barbershops. Wide range of professional electrical goods for the beauty industry.',
+    'brand.24.close': 'Close',
+    'brand.24.shop': 'Go to shop',
+    'brand.25.title': 'MAXUS',
+    'brand.25.description': 'Innovative brand for care, restoration and strengthening of damaged nails (USA).',
+    'brand.25.close': 'Close',
+    'brand.25.shop': 'Go to shop',
+    'brand.26.title': 'KIEPE',
+    'brand.26.description': 'Italian manufacturer of professional scissors and nail care tools.',
+    'brand.26.close': 'Close',
+    'brand.26.shop': 'Go to shop',
+    // STORES SECTION    
+    "stores-title": "Our Stores",
+    "store-map": "📍 Map",
+    "store-vacancies": "💼 Vacancies",
+    "store-phone-label": "Tel:",
+
+    "store-riga-office-title": "Riga (Office)",
+    "store-riga-office-address": "Riga, Rencenu Street 10a",
+    "store-riga-office-hours": "Mon-Fri: 09:00 - 17:00<br>Sat-Sun: Closed",
+
+    "store-riga-imanta-title": "Riga (Imanta)",
+    "store-riga-imanta-address": "Riga, Anninmuizas Blvd. 82",
+    "store-riga-imanta-hours": "Mon-Fri: 09:00 - 19:00<br>Sat-Sun: 10:00 - 16:00",
+
+    "store-riga-plavnieki-title": "Riga (Plavnieki)",
+    "store-riga-plavnieki-address": "Riga, Bralu Kaudzisu Street 13",
+    "store-riga-plavnieki-hours": "Mon-Fri: 09:00 - 19:00<br>Sat-Sun: 10:00 - 16:00",
+
+    "store-riga-yugla-title": "Riga (Jugla)",
+    "store-riga-yugla-address": "Riga, Brivibas Street 412, k-2",
+    "store-riga-yugla-hours": "Mon-Fri: 09:00 - 19:00<br>Sat: 10:00 - 16:00<br>Sun: Closed",
+
+    "store-daugavpils-title": "Daugavpils",
+    "store-daugavpils-address": "Daugavpils, Viestura Street 68",
+    "store-daugavpils-hours": "Mon-Fri: 09:00 - 19:00<br>Sat-Sun: 10:00 - 16:00",
+
+    "store-liepaja-title": "Liepaja",
+    "store-liepaja-address": "Liepaja, Graadu Street 43N",
+    "store-liepaja-hours": "Mon-Fri: 09:00 - 19:00<br>Sat: 10:00 - 16:00<br>Sun: Closed",
+
+    "store-valmiera-title": "Valmiera",
+    "store-valmiera-address": "Valmiera, Stacijas Street 17",
+    "store-valmiera-hours": "Mon-Fri: 09:00 - 19:00<br>Sat: 10:00 - 16:00<br>Sun: Closed",
+
+    "store-rezekne-title": "Rezekne",
+    "store-rezekne-address": "Rezekne, Atbrivosanas Alley 128",
+    "store-rezekne-hours": "Mon-Fri: 09:00 - 19:00<br>Sat-Sun: 10:00 - 16:00",
+
+    "store-jelgava-title": "Jelgava",
+    "store-jelgava-address": "Jelgava, Katolu Street 1A",
+    "store-jelgava-hours": "Mon-Fri: 09:00 - 19:00<br>Sat-Sun: 10:00 - 16:00",
+
+    // ACTIVITIES SECTION
+     "activities.intro": "<strong>Miks Plus</strong> stands for reliability, quality, and attention to detail. Our goal is to ensure that every client feels confident they have chosen the best for themselves and their hair. We not only sell excellent products but also provide education and training.",
+    "activities.title": "Our Activities",
+
+    "activities.seminars.title": "Seminars",
+    "activities.seminars.heading": "Seminars",
+    "activities.seminars.text": "In-depth educational events for professionals.",
+    "activities.seminars.link": "Learn more",
+
+    "activities.exhibitions.title": "Exhibitions",
+    "activities.exhibitions.heading": "Exhibitions",
+    "activities.exhibitions.text": "Our participation in and organization of industry exhibitions.",
+    "activities.exhibitions.link": "More details",
+
+    "activities.sponsorship.title": "Sponsorship",
+    "activities.sponsorship.heading": "Sponsorship",
+    "activities.sponsorship.text": "Supporting key events and initiatives.",
+    "activities.sponsorship.link": "Open",
+
+    // CONTACTS
+    "contacts-title": "Contacts",
+
+    // FORM placeholders
+    "form-name": "Your name",
+    "form-email": "Your email",
+    "form-phone": "Your phone",
+    "form-message": "Your message",
+
+    // FORM labels / texts
+    "form-resume": "Resume",
+    "form-agreement": "I accept the terms",
+    "users-agreement-1": "I accept the terms of the ",
+    "policy-link": "privacy policy ",
+    "users-agreement-2": "and consent to the processing of my personal data.",
+    "form-submit": "Submit request",
+
+    // FOOTER   
+    "footer-company-name": "\"Miks Plus\", Ltd.",
+    "footer-company-registration": "Reg. No.: 40203287886",
+    "footer-company-address": "Address: Riga, Ruses Street 26-135, LV-1029, Latvia",
+    "footer-rights": "All rights reserved",
+    
+  },
+
+  "lv": {
+    
+    // NAVIGATION
+    "nav-about": "Par mums",
+    "nav-distribution": "Distribūcija",
+    "nav-shop": "Interneta veikals",
+    "nav-stores": "Veikali",
+    "nav-vacancies": "Vakances",
+    "nav-contacts": "Kontakti",
+
+    // ABOUT SECTION
+    "about-detail1": "Labākie zīmoli",
+    "about-detail2": "Kvalitātes garantija",
+    "about-detail3": "Uzticama piegāde",
+    "about-title": "Profesionāli matu kopšanas līdzekļi",
+    "about-text": "Miks Plus ir uzņēmums ar 15 gadu pieredzi skaistumkopšanas nozarē Latvijā. Mūsu veikalu tīkls piedāvā plašu profesionālās kosmētikas klāstu matiem, nagiem, sejai un ķermenim. Mēs esam vairāk nekā 25 pasaules zīmolu oficiālais izplatītājs, tāpēc saviem klientiem piedāvājam vislabākos nosacījumus un sortimentu. Mēs piedāvājam produktus, kas palīdz ne tikai rūpēties par matiem mājas apstākļos, bet arī nodrošina salona līmeņa rezultātu. Pie mums atradīsiet šampūnus, balzamus, maskas, serumus, eļļas, kā arī matu krāsas no labākajiem ražotājiem. Papildus matu kopšanas līdzekļiem mūsu sortimentā ir iekļauti arī veidošanas instrumenti un aksesuāri: fēni, lokšķēres, taisnotāji, matu griešanas mašīnas, knaibles un daudz kas cits. Profesionālajiem meistariem tiek piedāvāti ekskluzīvi nosacījumi: īpašas cenas produktiem, apmācību programmas, semināri un pasaules zīmolu jauninājumu testēšana.",
+
+    // DISTRIBUTION SECTION
+    'distribution.title': 'Distribūcija',
+    'brand.1.title': 'andis',
+    'brand.1.description': 'Pasaules līderis profesionālo matu un bārdu apgriešanas mašīnu ražošanā. ASV.',
+    'brand.1.close': 'Aizvērt',
+    'brand.1.shop': 'Uz veikalu',
+    'brand.2.title': 'Black Professional',
+    'brand.2.description': 'Itāļu matu kopšanas zīmols. Milzīgs matu krāsvielu, matu kopšanas un stila līdzekļu sortiments.',
+    'brand.2.close': 'Aizvērt',
+    'brand.2.shop': 'Uz veikalu',
+    'brand.3.title': 'Charles W',
+    'brand.3.description': 'Angļu zīmols ar plašu produktu klāstu visiem matu tipiem. Vienkārša un efektīva matu kopšana mājās.',
+    'brand.3.close': 'Aizvērt',
+    'brand.3.shop': 'Uz veikalu',
+    'brand.4.title': 'dikson',
+    'brand.4.description': 'Itāļu uzņēmums ar 60 gadu vēsturi. Viens no lielākajiem profesionālas kosmētikas un kosmetoloģijas iekārtu ražotājiem pasaulē.',
+    'brand.4.close': 'Aizvērt',
+    'brand.4.shop': 'Uz veikalu',
+    'brand.5.title': 'feetcalm',
+    'brand.5.description': 'Revolucionārs zīmols no Spānijas. Nodrošina pilnīgu jūsu kāju un pēdu kopšanu. Plašs profesionālu procedūru un produktu klāsts salonam un mājām.',
+    'brand.5.close': 'Aizvērt',
+    'brand.5.shop': 'Uz veikalu',
+    'brand.6.title': 'Frutti Professional',
+    'brand.6.description': 'Poļu profesionāls matu kopšanas kosmētikas zīmols. Plaša stila līdzekļu produktu līnija.',
+    'brand.6.close': 'Aizvērt',
+    'brand.6.shop': 'Uz veikalu',
+    'brand.7.title': 'Fudge Professional',
+    'brand.7.description': 'Kulta matu kopšanas zīmols. Pirmās klases produkti ar Opti-PLEX™ tehnoloģiju - matu atjaunošanai un krāsas atgūšanai krāsotiem matiem.',
+    'brand.7.close': 'Aizvērt',
+    'brand.7.shop': 'Uz veikalu',
+    'brand.8.title': 'ilu',
+    'brand.8.description': 'Modīgs, stilīgs un spilgts Dienvidkorejas matu kopšanas aksesuāru zīmols.',
+    'brand.8.close': 'Aizvērt',
+    'brand.8.shop': 'Uz veikalu',
+    'brand.9.title': 'kallos',
+    'brand.9.description': 'Ungāru kosmētikas zīmols. Tirgū kopš 1978. gada. Plašs profesionālas matu kosmētikas sortiments.',
+    'brand.9.close': 'Aizvērt',
+    'brand.9.shop': 'Uz veikalu',
+    'brand.10.title': 'lussoni',
+    'brand.10.description': 'Zīmols, kas ir labi ieteicams frizieriem. Piedāvā plašu profesionālu suku un otašu sortimentu no Dienvidkorejas.',
+    'brand.10.close': 'Aizvērt',
+    'brand.10.shop': 'Uz veikalu',
+    'brand.11.title': 'luxina',
+    'brand.11.description': 'Premium itāļu kosmētikas zīmols ar dabīgiem produktiem vīriešiem. Tirgū jau otro gadsimtu!',
+    'brand.11.close': 'Aizvērt',
+    'brand.11.shop': 'Uz veikalu',
+    'brand.12.title': 'sanctuary spa',
+    'brand.12.description': 'Unikāls SPA zīmols - produkti ar ilgtspējīgām aromātām, pievilcīgām tekstūrām un dabīgām sastāvdaļām jūsu ādai.',
+    'brand.12.close': 'Aizvērt',
+    'brand.12.shop': 'Uz veikalu',
+    'brand.13.title': 'stapiz',
+    'brand.13.description': 'Profesionāla matu kosmētika no Polijas. Plašs krāsvielu un unikālu kopšanas un stila produktu sortiments no pašu laboratorijas.',
+    'brand.13.close': 'Aizvērt',
+    'brand.13.shop': 'Uz veikalu',
+    'brand.14.title': 'st. tropez',
+    'brand.14.description': 'ST Tropez Premium pašapsedzošo līdzekļu zīmols. Jauni ādas kopšanas standarti - viegla ādas spīduma bez saules līdzdalības.',
+    'brand.14.close': 'Aizvērt',
+    'brand.14.shop': 'Uz veikalu',
+    'brand.15.title': 'beauty image',
+    'brand.15.description': 'Vadošs inovatīvs vasku depilācijai un to aksesuāru zīmols (Spānija). Tirgū kopš 1980. gada.',
+    'brand.15.close': 'Aizvērt',
+    'brand.15.shop': 'Uz veikalu',
+    'brand.16.title': 'otools',
+    'brand.16.description': 'Radīgs un modīgs aksesuāru zīmols frizieriem un skaistumkopšanas saloniem.',
+    'brand.16.close': 'Aizvērt',
+    'brand.16.shop': 'Uz veikalu',
+    'brand.17.title': 'kashoki',
+    'brand.17.description': 'Ekskluzīvs matu suku zīmols. Nosaka jaunus standarus nevainojamu frizūru veidošanā.',
+    'brand.17.close': 'Aizvērt',
+    'brand.17.shop': 'Uz veikalu',
+    'brand.18.title': 'Niamh',
+    'brand.18.description': 'Itāļu matu kopšanas koncepts - balstīts uz dabīgām sastāvdaļām. Klientiem ar galvas ādas problēmām un matu problēmām.',
+    'brand.18.close': 'Aizvērt',
+    'brand.18.shop': 'Uz veikalu',
+    'brand.19.title': 'Dandy',
+    'brand.19.description': 'Vīriešu matu un bārdu kopšanas produktu līnija. Toņu krāsvielu sortiments vīriešiem. Profesionāla un mājas kopšana. Itālija.',
+    'brand.19.close': 'Aizvērt',
+    'brand.19.shop': 'Uz veikalu',
+    'brand.20.title': 'Fudge Urban',
+    'brand.20.description': 'Britu matu stila līdzekļu zīmols. Produkti izceļas ar spilgtu dizainu, pieejamību un uzsvaru uz drosmīgiem, radošiem risinājumiem.',
+    'brand.20.close': 'Aizvērt',
+    'brand.20.shop': 'Uz veikalu',
+    'brand.21.title': 'Cera',
+    'brand.21.description': 'Skandināvu zīmols ar plašu elektrisko matu kopšanas instrumentu līniju - gan profesionāļiem, gan mājas lietošanai.',
+    'brand.21.close': 'Aizvērt',
+    'brand.21.shop': 'Uz veikalu',
+    'brand.22.title': 'Serical',
+    'brand.22.description': 'Itāļu zīmols bojātu matu atjaunošanas līdzekļiem.',
+    'brand.22.close': 'Aizvērt',
+    'brand.22.shop': 'Uz veikalu',
+    'brand.23.title': 'Hairwell',
+    'brand.23.description': 'Vācu uzacju kopšanas produktu ražotājs. Inovatīvi risinājumi uzacju krāsošanā un kopšanā.',
+    'brand.23.close': 'Aizvērt',
+    'brand.23.shop': 'Uz veikalu',
+    'brand.24.title': 'Ceriotti',
+    'brand.24.description': 'Itāļu ražotājs skaistumkopšanas salonu un bārdasvīru salonu mēbelēm. Plašs profesionālu elektropreču klāsts skaistumindustrijai.',
+    'brand.24.close': 'Aizvērt',
+    'brand.24.shop': 'Uz veikalu',
+    'brand.25.title': 'MAXUS',
+    'brand.25.description': 'Inovatīvs zīmols bojātu nagu kopšanai, atjaunošanai un stiprināšanai (ASV).',
+    'brand.25.close': 'Aizvērt',
+    'brand.25.shop': 'Uz veikalu',
+    'brand.26.title': 'KIEPE',
+    'brand.26.description': 'Itāļu ražotājs profesionālu šķēru un nagu kopšanas instrumentu.',
+    'brand.26.close': 'Aizvērt',
+    'brand.26.shop': 'Uz veikalu',
+    
+    // STORES SECTION  
+    "stores-title": "Mūsu veikali",
+    "store-map": "📍 Karte",
+    "store-vacancies": "💼 Vakances",
+    "store-phone-label": "Tāl.:",
+
+    "store-riga-office-title": "Rīga (ofiss)",
+    "store-riga-office-address": "Rīga, Rencēnu iela 10a",
+    "store-riga-office-hours": "Pirmd.-Piektd.: 09:00 - 17:00<br>Sestd.-Sv.: Slēgts",
+
+    "store-riga-imanta-title": "Rīga (Imanta)",
+    "store-riga-imanta-address": "Rīga, Anniņmuižas bulv. 82",
+    "store-riga-imanta-hours": "Pirmd.-Piektd.: 09:00 - 19:00<br>Sestd.-Sv.: 10:00 - 16:00",
+
+    "store-riga-plavnieki-title": "Rīga (Pļavnieki)",
+    "store-riga-plavnieki-address": "Rīga, Brāļu Kaudzīšu iela 13",
+    "store-riga-plavnieki-hours": "Pirmd.-Piektd.: 09:00 - 19:00<br>Sestd.-Sv.: 10:00 - 16:00",
+
+    "store-riga-yugla-title": "Rīga (Jugla)",
+    "store-riga-yugla-address": "Rīga, Brīvības iela 412, k-2",
+    "store-riga-yugla-hours": "Pirmd.-Piektd.: 09:00 - 19:00<br>Sestd.: 10:00 - 16:00<br>Svētd.: Slēgts",
+
+    "store-daugavpils-title": "Daugavpils",
+    "store-daugavpils-address": "Daugavpils, Viestura iela 68",
+    "store-daugavpils-hours": "Pirmd.-Piektd.: 09:00 - 19:00<br>Sestd.-Sv.: 10:00 - 16:00",
+
+    "store-liepaja-title": "Liepāja",
+    "store-liepaja-address": "Liepāja, Graudu iela 43N",
+    "store-liepaja-hours": "Pirmd.-Piektd.: 09:00 - 19:00<br>Sestd.: 10:00 - 16:00<br>Svētd.: Slēgts",
+
+    "store-valmiera-title": "Valmiera",
+    "store-valmiera-address": "Valmiera, Stacijas iela 17",
+    "store-valmiera-hours": "Pirmd.-Piektd.: 09:00 - 19:00<br>Sestd.: 10:00 - 16:00<br>Svētd.: Slēgts",
+
+    "store-rezekne-title": "Rēzekne",
+    "store-rezekne-address": "Rēzekne, Atbrīvošanas aleja 128",
+    "store-rezekne-hours": "Pirmd.-Piektd.: 09:00 - 19:00<br>Sestd.-Sv.: 10:00 - 16:00",
+
+    "store-jelgava-title": "Jelgava",
+    "store-jelgava-address": "Jelgava, Katolu iela 1A",
+    "store-jelgava-hours": "Pirmd.-Piektd.: 09:00 - 19:00<br>Sestd.-Sv.: 10:00 - 16:00",
+
+    // ACTIVITIES SECTION
+       "activities.intro": "<strong>Miks Plus</strong> nozīmē uzticamību, kvalitāti un uzmanību detaļām. Mūsu mērķis ir, lai katrs klients justos pārliecināts, ka izvēlējies labāko sev un saviem matiem. Mēs ne tikai tirgojam lieliskus produktus, bet arī nodarbojamies ar izglītošanu un apmācību.",
+    "activities.title": "Mūsu darbība",
+
+    "activities.seminars.title": "Semināri",
+    "activities.seminars.heading": "Semināri",
+    "activities.seminars.text": "Padziļināti izglītojoši pasākumi profesionāļiem.",
+    "activities.seminars.link": "Uzzināt vairāk",
+
+    "activities.exhibitions.title": "Izstādes",
+    "activities.exhibitions.heading": "Izstādes",
+    "activities.exhibitions.text": "Mūsu dalība un tematisko izstāžu organizēšana.",
+    "activities.exhibitions.link": "Sīkāk",
+
+    "activities.sponsorship.title": "Sponsoring",
+    "activities.sponsorship.heading": "Sponsoring",
+    "activities.sponsorship.text": "Svarīgu pasākumu un iniciatīvu atbalstīšana.",
+    "activities.sponsorship.link": "Atvērt",
+
+    // CONTACTS
+    "contacts-title": "Kontakti",
+
+    // FORM placeholders
+    "form-name": "Jūsu vārds",
+    "form-email": "Jūsu e-pasts",
+    "form-phone": "Jūsu tālrunis",
+    "form-message": "Jūsu ziņojums",
+
+    // FORM labels / texts
+    "form-resume-label": "CV",
+    "form-agreement": "Es piekrītu noteikumiem",
+    "users-agreement-1": "Es piekrītu ",
+    "policy-link": "privātuma politikas ",
+    "users-agreement-2": "nosacījumiem un piekrītu manu personas datu apstrādei.",
+    "form-submit": "Nosūtīt pieteikumu",
+
+    // FOOTER    
+    "footer-company-name": "\"Miks Plus\", SIA",
+    "footer-company-registration": "Reģ. nr.: 40203287886",
+    "footer-company-address": "Adrese: Rīga, Ruses iela 26-135, LV-1029, Latvija",
+    "footer-rights": "Visas tiesības aizsargātas" 
+    
+  }
+
+
+};
 
   export default translations
