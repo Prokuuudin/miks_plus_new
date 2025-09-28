@@ -13,9 +13,6 @@
 // import sendContactsForm from './modules/form-validation.js';
 // sendContactsForm();
 
-// import getCookiesConsent from './modules/agreement-cookies.js';
-// getCookiesConsent();
-
 // import openBrandCard from './modules/brand-cards.js';
 // openBrandCard()
 
@@ -27,7 +24,6 @@ setLanguage();
 
 import headerScroll from './modules/header-scroll.js';
 headerScroll();
-
 
 import scrollReveal from './modules/scrollReveal.js';
 scrollReveal();
@@ -44,5 +40,5 @@ sendContactsForm();
 import getCookiesConsent from './modules/agreement-cookies.js';
 getCookiesConsent();
 
-
-
+import addFiles from './modules/addfiles.js';
+addFiles();

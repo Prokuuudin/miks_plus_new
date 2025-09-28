@@ -1,6 +1,13 @@
 const translations = {  
 
   "ru": {
+    // AGREEMENT
+        "agreement-header": "Мы ценим вашу приватность",
+        "agreement-text": "Мы используем файлы cookie, чтобы улучшить качество ваших просмотров, персонализируя для вас рекламу и контент на основе анализа трафика. Нажимая \"Принять\", вы соглашаетесь с использованием файлов cookie. ",
+        "agreement-link": "Политика сookie.",
+        "accept-btn": "Принять",
+        "reject-btn": "Отклонить",
+        
     // NAVIGATION
     "nav-about": "о нас",
     "nav-distribution": "дистрибуция",
@@ -220,7 +227,7 @@ const translations = {
     "store-jelgava-hours": "Пн-Пт: с 09:00 до 19:00<br>Сб-Вск: с 10:00 до 16:00",
 
     // ACTIVITIES SECTION
-    "activities.intro": "<strong>Miks Plus</strong> — это надёжность, качество и внимание к деталям. Наша цель — чтобы каждый клиент был уверен в том, что выбрал лучшее для себя и своих волос. Мы не только торгуем отличными товарами, мы занимаемся просвещением и обучением.",
+    "activities.intro": "Miks Plus — это надёжность, качество и внимание к деталям. Наша цель — чтобы каждый клиент был уверен в том, что выбрал лучшее для себя и своих волос. Мы не только торгуем отличными товарами, мы занимаемся просвещением и обучением.",
     "activities.title": "Наша деятельность",
 
     "activities.seminars.title": "Семинары",
@@ -263,6 +270,13 @@ const translations = {
   },
 
   "en": {
+
+     // AGREEMENT
+    "agreement-header": "We respect your privacy",
+    "agreement-text": "We use cookies to improve your browsing experience by personalizing ads and content based on traffic analysis. By clicking 'Accept', you agree to our use of cookies. ",
+    "agreement-link": "Cookie policy.",
+    "accept-btn": "Accept",
+    "reject-btn": "Reject",
 
     // NAVIGATION
     "nav-about": "About us",
@@ -428,7 +442,7 @@ const translations = {
     "store-jelgava-hours": "Mon-Fri: 09:00 - 19:00<br>Sat-Sun: 10:00 - 16:00",
 
     // ACTIVITIES SECTION
-     "activities.intro": "<strong>Miks Plus</strong> stands for reliability, quality, and attention to detail. Our goal is to ensure that every client feels confident they have chosen the best for themselves and their hair. We not only sell excellent products but also provide education and training.",
+     "activities.intro": "Miks Plus stands for reliability, quality, and attention to detail. Our goal is to ensure that every client feels confident they have chosen the best for themselves and their hair. We not only sell excellent products but also provide education and training.",
     "activities.title": "Our Activities",
 
     "activities.seminars.title": "Seminars",
@@ -472,6 +486,12 @@ const translations = {
   },
 
   "lv": {
+    // AGREEMENT
+    "agreement-header": "Mēs cienām jūsu privātumu",
+    "agreement-text": "Mēs izmantojam sīkfailus, lai uzlabotu jūsu pārlūkošanas pieredzi, personalizējot reklāmas un saturu, pamatojoties uz datplūsmas analīzi. Noklikšķinot uz 'Pieņemt', jūs piekrītat sīkfailu izmantošanai. ",
+    "agreement-link": "Sīkfailu politika.",
+    "accept-btn": "Pieņemt",
+    "reject-btn": "Noraidīt",
     
     // NAVIGATION
     "nav-about": "Par mums",
@@ -638,7 +658,7 @@ const translations = {
     "store-jelgava-hours": "Pirmd.-Piektd.: 09:00 - 19:00<br>Sestd.-Sv.: 10:00 - 16:00",
 
     // ACTIVITIES SECTION
-       "activities.intro": "<strong>Miks Plus</strong> nozīmē uzticamību, kvalitāti un uzmanību detaļām. Mūsu mērķis ir, lai katrs klients justos pārliecināts, ka izvēlējies labāko sev un saviem matiem. Mēs ne tikai tirgojam lieliskus produktus, bet arī nodarbojamies ar izglītošanu un apmācību.",
+       "activities.intro": "Miks Plus nozīmē uzticamību, kvalitāti un uzmanību detaļām. Mūsu mērķis ir, lai katrs klients justos pārliecināts, ka izvēlējies labāko sev un saviem matiem. Mēs ne tikai tirgojam lieliskus produktus, bet arī nodarbojamies ar izglītošanu un apmācību.",
     "activities.title": "Mūsu darbība",
 
     "activities.seminars.title": "Semināri",

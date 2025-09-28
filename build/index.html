@@ -26,11 +26,11 @@
 					<nav class="header__nav nav">
 						<ul class="nav__list">
 							<li><a href="index.html" class="active" data-key="nav-about">о&#160;нас</a></li>
-							<li><a href="#distribution" data-key="nav-distribution">дистрибуция</a></li>
+							<li><a href="index.html#distribution" data-key="nav-distribution">дистрибуция</a></li>
 							<li><a href="https://www.hairshop.lv" target="_blank" data-key="nav-shop">интернет-магазин</a></li>
-							<li><a href="#stores" target="_blank" data-key="nav-stores">магазины</a></li>
+							<li><a href="index.html#stores" target="_blank" data-key="nav-stores">магазины</a></li>
 							<li><a href="vacancies.html" target="_blank" data-key="nav-vacancies">вакансии</a></li>
-							<li><a href="#contacts" data-key="nav-contacts">контакты</a></li>
+							<li><a href="index.html#contacts" data-key="nav-contacts">контакты</a></li>
 						</ul>
 					</nav>
 
@@ -78,6 +78,26 @@
 			</ul>
 		</div>
 
+		<div class="cookiebg" id="consent-popup">
+			<div class="hd">
+				<picture>
+					<source srcset="./img/cookie-fill.webp 1x, ./img/cookie-fill@2x.webp 2x" type="image/webp" />
+					<source srcset="./img/cookie-fill.png 1x, ./img/cookie-fill@2x.png 2x" type="image/png" />
+					<img src="./img/cookie-fill.png" alt="cookie-img" />
+				</picture>
+				<span data-key="agreement-header">Мы&#160;ценим вашу приватность</span>
+			</div>
+
+			<p>
+				<span data-key="agreement-text"
+					>Мы&#160;используем файлы cookie, чтобы улучшить качество ваших просмотров, персонализируя для вас рекламу и&#160;контент на&#160;основе анализа трафика. Нажимая
+					&#171;Принять&#187;, вы&#160;соглашаетесь с&#160;использованием файлов cookie.</span
+				><a data-key="agreement-link" href="./files/agreement-nservice_lv_en_ru.pdf" target="_blank">Политика сookie.</a>
+			</p>
+
+			<button data-key="accept-btn" class="accept-btn" id="accept">Принять</button>
+			<button data-key="reject-btn" class="reject-btn">Отклонить</button>
+		</div>
 		<main>
 			<section class="about" id="about">
 				<div class="about__inner">
@@ -790,148 +810,150 @@
 				</div>
 			</section>
 			<section class="stores" id="stores">
-				<h2 class="stores__title title-2" data-key="stores-title">Наши магазины</h2>
-				<div class="store-grid">
-					<!-- Рига (офис) -->
-					<div class="store-card">
-						<div class="store-card__inner">
-							<div class="store-card-front" style="background-image: url('./../../img/cities/riga1.jpg');">
-								<span data-key="store-riga-office-title">Рига (офис)</span>
-							</div>
-							<div class="store-card-back">
-								<p data-key="store-riga-office-address">Рига, ул.&#160;Ренцену 10a</p>
-								<p data-key="store-riga-office-hours">Пн-Пт: с&#160;09:00 до&#160;17:00<br />Сб-Вск: выходной</p>
-								<p><strong data-key="store-phone-label">Тел:</strong> +37127067730</p>
-								<a href="#" data-key="store-map">📍 Карта</a> |
-								<a href="#" data-key="store-vacancies">💼 Вакансии</a>
-							</div>
-						</div>
-					</div>
-
-					<!-- Рига (Иманта) -->
-					<div class="store-card">
-						<div class="store-card__inner">
-							<div class="store-card-front" style="background-image: url('./../../img/cities/riga2@2x.jpg');">
-								<span data-key="store-riga-imanta-title">Рига (Иманта)</span>
-							</div>
-							<div class="store-card-back">
-								<p data-key="store-riga-imanta-address">Рига, бул.&#160;Анниньмуйжас 82</p>
-								<p data-key="store-riga-imanta-hours">Пн-Пт: с&#160;09:00 до&#160;19:00<br />Сб-Вск: с&#160;10:00 до&#160;16:00</p>
-								<p><strong data-key="store-phone-label">Тел:</strong> +371 22015204</p>
-								<a href="#" data-key="store-map">📍 Карта</a> |
-								<a href="#" data-key="store-vacancies">💼 Вакансии</a>
+				<div class="container">
+					<h2 class="stores__title title-2" data-key="stores-title">Наши магазины</h2>
+					<div class="store-grid">
+						<!-- Рига (офис) -->
+						<div class="store-card">
+							<div class="store-card__inner">
+								<div class="store-card-front" style="background-image: url('./../../img/cities/riga1.jpg');">
+									<span data-key="store-riga-office-title">Рига (офис)</span>
+								</div>
+								<div class="store-card-back">
+									<p data-key="store-riga-office-address">Рига, ул.&#160;Ренцену 10a</p>
+									<p data-key="store-riga-office-hours">Пн-Пт: с&#160;09:00 до&#160;17:00<br />Сб-Вск: выходной</p>
+									<p><strong data-key="store-phone-label">Тел:</strong> +37127067730</p>
+									<a href="#" data-key="store-map">📍 Карта</a> |
+									<a href="#" data-key="store-vacancies">💼 Вакансии</a>
+								</div>
 							</div>
 						</div>
-					</div>
 
-					<!-- Рига (Плявниеки) -->
-					<div class="store-card">
-						<div class="store-card__inner">
-							<div class="store-card-front" style="background-image: url('./../../img/cities/riga3@2x.jpg');">
-								<span data-key="store-riga-plavnieki-title">Рига (Плявниеки)</span>
-							</div>
-							<div class="store-card-back">
-								<p data-key="store-riga-plavnieki-address">Рига, ул.&#160;Бралю Каудзишу 13</p>
-								<p data-key="store-riga-plavnieki-hours">Пн-Пт: с&#160;09:00 до&#160;19:00<br />Сб-Вск: с&#160;10:00 до&#160;16:00</p>
-								<p><strong data-key="store-phone-label">Тел:</strong> +371 27091811</p>
-								<a href="#" data-key="store-map">📍 Карта</a> |
-								<a href="#" data-key="store-vacancies">💼 Вакансии</a>
+						<!-- Рига (Иманта) -->
+						<div class="store-card">
+							<div class="store-card__inner">
+								<div class="store-card-front" style="background-image: url('./../../img/cities/riga2@2x.jpg');">
+									<span data-key="store-riga-imanta-title">Рига (Иманта)</span>
+								</div>
+								<div class="store-card-back">
+									<p data-key="store-riga-imanta-address">Рига, бул.&#160;Анниньмуйжас 82</p>
+									<p data-key="store-riga-imanta-hours">Пн-Пт: с&#160;09:00 до&#160;19:00<br />Сб-Вск: с&#160;10:00 до&#160;16:00</p>
+									<p><strong data-key="store-phone-label">Тел:</strong> +371 22015204</p>
+									<a href="#" data-key="store-map">📍 Карта</a> |
+									<a href="#" data-key="store-vacancies">💼 Вакансии</a>
+								</div>
 							</div>
 						</div>
-					</div>
 
-					<!-- Рига (Югла) -->
-					<div class="store-card">
-						<div class="store-card__inner">
-							<div class="store-card-front" style="background-image: url('./../../img/cities/riga4@2x.jpg');">
-								<span data-key="store-riga-yugla-title">Рига (Югла)</span>
-							</div>
-							<div class="store-card-back">
-								<p data-key="store-riga-yugla-address">Рига, ул.&#160;Бривибас 412, k-2</p>
-								<p data-key="store-riga-yugla-hours">Пн-Пт: с&#160;09:00 до&#160;19:00<br />Сб: с&#160;10:00 до&#160;16:00<br />Вск: выходной</p>
-								<p><strong data-key="store-phone-label">Тел:</strong> +371 27801149</p>
-								<a href="#" data-key="store-map">📍 Карта</a> |
-								<a href="#" data-key="store-vacancies">💼 Вакансии</a>
+						<!-- Рига (Плявниеки) -->
+						<div class="store-card">
+							<div class="store-card__inner">
+								<div class="store-card-front" style="background-image: url('./../../img/cities/riga3@2x.jpg');">
+									<span data-key="store-riga-plavnieki-title">Рига (Плявниеки)</span>
+								</div>
+								<div class="store-card-back">
+									<p data-key="store-riga-plavnieki-address">Рига, ул.&#160;Бралю Каудзишу 13</p>
+									<p data-key="store-riga-plavnieki-hours">Пн-Пт: с&#160;09:00 до&#160;19:00<br />Сб-Вск: с&#160;10:00 до&#160;16:00</p>
+									<p><strong data-key="store-phone-label">Тел:</strong> +371 27091811</p>
+									<a href="#" data-key="store-map">📍 Карта</a> |
+									<a href="#" data-key="store-vacancies">💼 Вакансии</a>
+								</div>
 							</div>
 						</div>
-					</div>
 
-					<!-- Даугавпилс -->
-					<div class="store-card">
-						<div class="store-card__inner">
-							<div class="store-card-front" style="background-image: url('./../../img/cities/daugavpils@2x.jpg');">
-								<span data-key="store-daugavpils-title">Даугавпилс</span>
-							</div>
-							<div class="store-card-back">
-								<p data-key="store-daugavpils-address">Даугавпилс, ул.&#160;Виестура 68</p>
-								<p data-key="store-daugavpils-hours">Пн-Пт: с&#160;09:00 до&#160;19:00<br />Сб-Вск: с&#160;10:00 до&#160;16:00</p>
-								<p><strong data-key="store-phone-label">Тел:</strong> +371 25151630</p>
-								<a href="#" data-key="store-map">📍 Карта</a> |
-								<a href="#" data-key="store-vacancies">💼 Вакансии</a>
+						<!-- Рига (Югла) -->
+						<div class="store-card">
+							<div class="store-card__inner">
+								<div class="store-card-front" style="background-image: url('./../../img/cities/riga4@2x.jpg');">
+									<span data-key="store-riga-yugla-title">Рига (Югла)</span>
+								</div>
+								<div class="store-card-back">
+									<p data-key="store-riga-yugla-address">Рига, ул.&#160;Бривибас 412, k-2</p>
+									<p data-key="store-riga-yugla-hours">Пн-Пт: с&#160;09:00 до&#160;19:00<br />Сб: с&#160;10:00 до&#160;16:00<br />Вск: выходной</p>
+									<p><strong data-key="store-phone-label">Тел:</strong> +371 27801149</p>
+									<a href="#" data-key="store-map">📍 Карта</a> |
+									<a href="#" data-key="store-vacancies">💼 Вакансии</a>
+								</div>
 							</div>
 						</div>
-					</div>
 
-					<!-- Лиепая -->
-					<div class="store-card">
-						<div class="store-card__inner">
-							<div class="store-card-front" style="background-image: url('./../../img/cities/liepaja1@2x.jpg');">
-								<span data-key="store-liepaja-title">Лиепая</span>
-							</div>
-							<div class="store-card-back">
-								<p data-key="store-liepaja-address">Лиепая, ул.&#160;Грауду 43N</p>
-								<p data-key="store-liepaja-hours">Пн-Пт: с&#160;09:00 до&#160;19:00<br />Сб: с&#160;10:00 до&#160;16:00<br />Вск: выходной</p>
-								<p><strong data-key="store-phone-label">Тел:</strong> +37120043999</p>
-								<a href="#" data-key="store-map">📍 Карта</a> |
-								<a href="#" data-key="store-vacancies">💼 Вакансии</a>
+						<!-- Даугавпилс -->
+						<div class="store-card">
+							<div class="store-card__inner">
+								<div class="store-card-front" style="background-image: url('./../../img/cities/daugavpils@2x.jpg');">
+									<span data-key="store-daugavpils-title">Даугавпилс</span>
+								</div>
+								<div class="store-card-back">
+									<p data-key="store-daugavpils-address">Даугавпилс, ул.&#160;Виестура 68</p>
+									<p data-key="store-daugavpils-hours">Пн-Пт: с&#160;09:00 до&#160;19:00<br />Сб-Вск: с&#160;10:00 до&#160;16:00</p>
+									<p><strong data-key="store-phone-label">Тел:</strong> +371 25151630</p>
+									<a href="#" data-key="store-map">📍 Карта</a> |
+									<a href="#" data-key="store-vacancies">💼 Вакансии</a>
+								</div>
 							</div>
 						</div>
-					</div>
 
-					<!-- Валмиера -->
-					<div class="store-card">
-						<div class="store-card__inner">
-							<div class="store-card-front" style="background-image: url('./../../img/cities/valmiera@2x.jpg');">
-								<span data-key="store-valmiera-title">Валмиера</span>
-							</div>
-							<div class="store-card-back">
-								<p data-key="store-valmiera-address">Валмиера, ул.&#160;Стацияс 17</p>
-								<p data-key="store-valmiera-hours">Пн-Пт: с&#160;09:00 до&#160;19:00<br />Сб: с&#160;10:00 до&#160;16:00<br />Вск: выходной</p>
-								<p><strong data-key="store-phone-label">Тел:</strong> +371 25151629</p>
-								<a href="#" data-key="store-map">📍 Карта</a> |
-								<a href="#" data-key="store-vacancies">💼 Вакансии</a>
+						<!-- Лиепая -->
+						<div class="store-card">
+							<div class="store-card__inner">
+								<div class="store-card-front" style="background-image: url('./../../img/cities/liepaja1@2x.jpg');">
+									<span data-key="store-liepaja-title">Лиепая</span>
+								</div>
+								<div class="store-card-back">
+									<p data-key="store-liepaja-address">Лиепая, ул.&#160;Грауду 43N</p>
+									<p data-key="store-liepaja-hours">Пн-Пт: с&#160;09:00 до&#160;19:00<br />Сб: с&#160;10:00 до&#160;16:00<br />Вск: выходной</p>
+									<p><strong data-key="store-phone-label">Тел:</strong> +37120043999</p>
+									<a href="#" data-key="store-map">📍 Карта</a> |
+									<a href="#" data-key="store-vacancies">💼 Вакансии</a>
+								</div>
 							</div>
 						</div>
-					</div>
 
-					<!-- Резекне -->
-					<div class="store-card">
-						<div class="store-card__inner">
-							<div class="store-card-front" style="background-image: url('./../../img/cities/rezekne@2x.jpg');">
-								<span data-key="store-rezekne-title">Резекне</span>
-							</div>
-							<div class="store-card-back">
-								<p data-key="store-rezekne-address">Резекне, ал. Атбривошанас 128</p>
-								<p data-key="store-rezekne-hours">Пн-Пт: с&#160;09:00 до&#160;19:00<br />Сб-Вск: с&#160;10:00 до&#160;16:00</p>
-								<p><strong data-key="store-phone-label">Тел:</strong> +371 20125353</p>
-								<a href="#" data-key="store-map">📍 Карта</a> |
-								<a href="#" data-key="store-vacancies">💼 Вакансии</a>
+						<!-- Валмиера -->
+						<div class="store-card">
+							<div class="store-card__inner">
+								<div class="store-card-front" style="background-image: url('./../../img/cities/valmiera@2x.jpg');">
+									<span data-key="store-valmiera-title">Валмиера</span>
+								</div>
+								<div class="store-card-back">
+									<p data-key="store-valmiera-address">Валмиера, ул.&#160;Стацияс 17</p>
+									<p data-key="store-valmiera-hours">Пн-Пт: с&#160;09:00 до&#160;19:00<br />Сб: с&#160;10:00 до&#160;16:00<br />Вск: выходной</p>
+									<p><strong data-key="store-phone-label">Тел:</strong> +371 25151629</p>
+									<a href="#" data-key="store-map">📍 Карта</a> |
+									<a href="#" data-key="store-vacancies">💼 Вакансии</a>
+								</div>
 							</div>
 						</div>
-					</div>
 
-					<!-- Елгава -->
-					<div class="store-card">
-						<div class="store-card__inner">
-							<div class="store-card-front" style="background-image: url('./../../img/cities/jelgava@2x.jpg');">
-								<span data-key="store-jelgava-title">Елгава</span>
+						<!-- Резекне -->
+						<div class="store-card">
+							<div class="store-card__inner">
+								<div class="store-card-front" style="background-image: url('./../../img/cities/rezekne@2x.jpg');">
+									<span data-key="store-rezekne-title">Резекне</span>
+								</div>
+								<div class="store-card-back">
+									<p data-key="store-rezekne-address">Резекне, ал. Атбривошанас 128</p>
+									<p data-key="store-rezekne-hours">Пн-Пт: с&#160;09:00 до&#160;19:00<br />Сб-Вск: с&#160;10:00 до&#160;16:00</p>
+									<p><strong data-key="store-phone-label">Тел:</strong> +371 20125353</p>
+									<a href="#" data-key="store-map">📍 Карта</a> |
+									<a href="#" data-key="store-vacancies">💼 Вакансии</a>
+								</div>
 							</div>
-							<div class="store-card-back">
-								<p data-key="store-jelgava-address">Елгава, ул.&#160;Католю 1A</p>
-								<p data-key="store-jelgava-hours">Пн-Пт: с&#160;09:00 до&#160;19:00<br />Сб-Вск: с&#160;10:00 до&#160;16:00</p>
-								<p><strong data-key="store-phone-label">Тел:</strong> +371 20125353</p>
-								<a href="#" data-key="store-map">📍 Карта</a> |
-								<a href="#" data-key="store-vacancies">💼 Вакансии</a>
+						</div>
+
+						<!-- Елгава -->
+						<div class="store-card">
+							<div class="store-card__inner">
+								<div class="store-card-front" style="background-image: url('./../../img/cities/jelgava@2x.jpg');">
+									<span data-key="store-jelgava-title">Елгава</span>
+								</div>
+								<div class="store-card-back">
+									<p data-key="store-jelgava-address">Елгава, ул.&#160;Католю 1A</p>
+									<p data-key="store-jelgava-hours">Пн-Пт: с&#160;09:00 до&#160;19:00<br />Сб-Вск: с&#160;10:00 до&#160;16:00</p>
+									<p><strong data-key="store-phone-label">Тел:</strong> +371 20125353</p>
+									<a href="#" data-key="store-map">📍 Карта</a> |
+									<a href="#" data-key="store-vacancies">💼 Вакансии</a>
+								</div>
 							</div>
 						</div>
 					</div>
@@ -940,8 +962,8 @@
 
 			<section class="activities">
 				<p class="about__text about__text--activities" data-key="activities.intro">
-					<strong>Miks Plus</strong>&#160;&#8212; это надёжность, качество и&#160;внимание к&#160;деталям. Наша цель&#160;&#8212; чтобы каждый клиент был уверен в&#160;том,
-					что выбрал лучшее для себя и&#160;своих волос. Мы&#160;не&#160;только торгуем отличными товарами, мы&#160;занимаемся просвещением и&#160;обучением.
+					Miks Plus&#160;&#8212; это надёжность, качество и&#160;внимание к&#160;деталям. Наша цель&#160;&#8212; чтобы каждый клиент был уверен в&#160;том, что выбрал
+					лучшее для себя и&#160;своих волос. Мы&#160;не&#160;только торгуем отличными товарами, мы&#160;занимаемся просвещением и&#160;обучением.
 				</p>
 
 				<h2 class="activities__title title-2" data-key="activities.title">Наша деятельность</h2>
@@ -1099,8 +1121,10 @@
 						<textarea name="message" data-placeholder-key="form-message" wrap="hard"></textarea>
 
 						<div class="form__resume">
-							<label data-key="form-resume" for="cv">Резюме</label>
-							<input type="file" id="cv" name="cv" accept=".pdf,.doc,.docx" />
+							<label for="cv" class="custom-file-label" data-key="form-resume">Выбрать файл</label>
+							<input type="file" id="cv" name="cv[]" accept=".pdf,.doc,.docx,.png,.jpg,.jpeg,.gif" />
+							<div class="form__resume-info"></div>
+							<ul class="form__resume-list"></ul>
 						</div>
 
 						<div class="form-group">
@@ -1109,13 +1133,15 @@
 								<span class="checkbox__box-span">
 									<span data-key="users-agreement-1">Я&#160;принимаю условия </span
 									><a data-key="policy-link" href="./files/agreement-nservice_lv_en_ru.pdf" target="_blank">политики конфиденциальности </a
-									><span data-key="users-agreement-2">компании и&#160;даю согласие на&#160;обработку своих персональных данных. </span>
+									><span data-key="users-agreement-2">компании и&#160;даю согласие на обработку своих персональных данных. </span>
 								</span>
 							</label>
 						</div>
 						<div class="form__footer">
 							<div class="g-recaptcha" data-sitekey="6LfAtjIrAAAAAMhoGprYdYPcXdDGQIHl4esyNJFC"></div>
-							<button type="submit" class="btn form__button" data-key="form-submit">Оставить заявку</button>
+							<button type="submit" class="btn form__button" data-key="form-submit">
+								Оставить заявку
+							</button>
 						</div>
 					</form>
 				</div>
