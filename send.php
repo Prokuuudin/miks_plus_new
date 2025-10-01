@@ -43,8 +43,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $errors[] = 'Email is required.';
     } elseif (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
         $errors[] = 'Invalid email format.';
-    } elseif (!preg_match("/^[^\s@]+@[^\s@]+\.[^\s@]+$/", $email)) {
-        $errors[] = 'Invalid email structure.';
     } else {
         $domain = substr(strrchr($email, "@"), 1);
         if (!checkdnsrr($domain, "MX")) {
@@ -55,7 +53,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     // Validate phone
     if (empty($tel)) {
         $errors[] = 'Phone number is required.';
-    } elseif (!preg_match("/^\\+?[0-9]{10,15}$/", $tel)) {
+    } elseif (!preg_match("/^\+?[0-9]{10,15}$/", $tel)) {
         $errors[] = 'Invalid phone number format.';
     }
 
@@ -69,11 +67,25 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $errors[] = 'Please confirm that you are not a robot.';
     } else {
         $recaptchaVerifyUrl = 'https://www.google.com/recaptcha/api/siteverify';
-        $recaptchaResponseData = file_get_contents("$recaptchaVerifyUrl?secret=$recaptchaSecret&response=$recaptchaResponse");
+
+        $ch = curl_init();
+        curl_setopt($ch, CURLOPT_URL, $recaptchaVerifyUrl);
+        curl_setopt($ch, CURLOPT_POST, true);
+        curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+        curl_setopt($ch, CURLOPT_POSTFIELDS, http_build_query([
+            'secret' => $recaptchaSecret,
+            'response' => $recaptchaResponse,
+            'remoteip' => $_SERVER['REMOTE_ADDR'] ?? null
+        ]));
+        $recaptchaResponseData = curl_exec($ch);
+        curl_close($ch);
+
         $recaptchaResult = json_decode($recaptchaResponseData, true);
 
         if (!$recaptchaResult['success']) {
             $errors[] = 'reCAPTCHA verification failed. Please try again.';
+        } elseif (isset($recaptchaResult['hostname']) && $recaptchaResult['hostname'] !== $_SERVER['SERVER_NAME']) {
+            $errors[] = 'Invalid reCAPTCHA hostname.';
         }
     }
 
@@ -93,8 +105,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
         $mail->Port = 587;
         
-        $mail->CharSet = 'UTF-8'; // Устанавливаем кодировку письма
-        $mail->Encoding = 'base64'; // Кодируем тело письма в base64
+        $mail->CharSet = 'UTF-8';
+        $mail->Encoding = 'base64';
 
         $mail->setFrom($email, '=?UTF-8?B?'.base64_encode($name).'?=');
         $mail->addAddress('service@nservice.lv');
@@ -111,4 +123,3 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 } else {
     echo json_encode(['success' => false, 'errors' => ['Request method is not allowed.']]);
 }
-?>

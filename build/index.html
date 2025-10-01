@@ -8,7 +8,16 @@
 		<link rel="stylesheet" href="./css/main.css" />
 		<link rel="icon" type="image/x-icon" href="./img/favicons/favicon.ico" />
 		<link rel="apple-touch-icon" sizes="180x180" href="./img/favicons/apple-touch-icon.png" />
-		<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.min.css" />
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
+		<script>
+			const pageLang = (document.documentElement.lang || "en").split("-")[0];
+			const script = document.createElement("script");
+			script.src = "https://www.google.com/recaptcha/api.js?hl=" + pageLang;
+			script.async = true;
+			script.defer = true;
+			document.head.appendChild(script);
+		</script>
 	</head>
 
 	<body>
@@ -1138,7 +1147,7 @@
 							</label>
 						</div>
 						<div class="form__footer">
-							<div class="g-recaptcha" data-sitekey="6LfAtjIrAAAAAMhoGprYdYPcXdDGQIHl4esyNJFC"></div>
+							<div class="g-recaptcha" data-sitekey="6LeoENkrAAAAALitgL37b4M9MhLA_KBsPcS00L7T"></div>
 							<button type="submit" class="btn form__button" data-key="form-submit">
 								Оставить заявку
 							</button>

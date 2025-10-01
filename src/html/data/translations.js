@@ -255,7 +255,7 @@ const translations = {
     "form-message": "Ваше сообщение",
 
     // FORM labels / texts
-    "form-resume": "Резюме",
+    "form-resume": "Добавить резюме или другие документы",
     "form-agreement": "Я принимаю условия",
     "users-agreement-1": "Я принимаю условия ",
     "policy-link": "политики конфиденциальности ",
@@ -470,7 +470,7 @@ const translations = {
     "form-message": "Your message",
 
     // FORM labels / texts
-    "form-resume": "Resume",
+    "form-resume": "Add resume or other documents",
     "form-agreement": "I accept the terms",
     "users-agreement-1": "I accept the terms of the ",
     "policy-link": "privacy policy ",
@@ -686,7 +686,7 @@ const translations = {
     "form-message": "Jūsu ziņojums",
 
     // FORM labels / texts
-    "form-resume-label": "CV",
+    "form-resume-label": "Pievienot CV vai citus dokumentus",
     "form-agreement": "Es piekrītu noteikumiem",
     "users-agreement-1": "Es piekrītu ",
     "policy-link": "privātuma politikas ",

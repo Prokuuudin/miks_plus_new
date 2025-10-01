@@ -8,6 +8,8 @@
 		<link rel="stylesheet" href="./css/main.css" />
 		<link rel="icon" type="image/x-icon" href="./img/favicons/favicon.ico" />
 		<link rel="apple-touch-icon" sizes="180x180" href="./img/favicons/apple-touch-icon.png" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.min.css" />
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
 		<script src="https://www.google.com/recaptcha/api.js" async defer></script>
 	</head>
 
@@ -110,9 +112,15 @@
 							<input type="text" placeholder="Ваш email" name="email" id="formEmail" class="form__input _req _email" data-placeholder-key="form-email" />
 
 							<input type="tel" id="formTel" class="form__input _req" name="tel" placeholder="Ваш телефон" data-placeholder-key="form-phone" />
+
 							<textarea name="message" data-placeholder-key="form-message" wrap="hard"></textarea>
-							<label for="cv">Резюме</label>
-							<input type="file" id="cv" name="cv" accept=".pdf,.doc,.docx" required />
+
+							<div class="form__resume">
+								<label for="cv" class="custom-file-label" data-key="form-resume">Выбрать файл</label>
+								<input type="file" id="cv" name="cv[]" accept=".pdf,.doc,.docx,.png,.jpg,.jpeg,.gif" />
+								<div class="form__resume-info"></div>
+								<ul class="form__resume-list"></ul>
+							</div>
 
 							<div class="form-group">
 								<input id="formAgreement" type="checkbox" name="agreement" class="checkbox__input _req " data-key="form-agreement" />
@@ -120,14 +128,15 @@
 									<span class="checkbox__box-span">
 										<span data-key="users-agreement-1">Я&#160;принимаю условия </span
 										><a data-key="policy-link" href="./files/agreement-nservice_lv_en_ru.pdf" target="_blank">политики конфиденциальности </a
-										><span data-key="users-agreement-2">компании и&#160;даю согласие на&#160;обработку своих персональных данных. </span>
+										><span data-key="users-agreement-2">компании и&#160;даю согласие на обработку своих персональных данных. </span>
 									</span>
 								</label>
 							</div>
-
 							<div class="form__footer">
 								<div class="g-recaptcha" data-sitekey="6LfAtjIrAAAAAMhoGprYdYPcXdDGQIHl4esyNJFC"></div>
-								<button type="submit" class="btn form__button" data-key="form-submit">Оставить заявку</button>
+								<button type="submit" class="btn form__button" data-key="form-submit">
+									Оставить заявку
+								</button>
 							</div>
 						</form>
 					</div>

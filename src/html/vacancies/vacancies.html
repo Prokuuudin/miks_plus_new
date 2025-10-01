@@ -27,34 +27,46 @@
 			<p>Заполните анкету, чтобы мы могли с вами связаться</p>			
 			<div class="vacancy__form">
 				
-				<form action="/send.php" method="post" id="form" class="form" name="form"
-				enctype="multipart/form-data" autocomplete="on">
-				
-                <input type="text" placeholder="Ваше имя" name="name" id="formName" class="form__input _req" data-placeholder-key="form-name">
-				
-                <input type="text" placeholder="Ваш email" name="email" id="formEmail" class="form__input _req _email" data-placeholder-key="form-email">                
-				
-                <input type="tel" id="formTel" class="form__input _req" name="tel" placeholder="Ваш телефон" data-placeholder-key="form-phone">                
-                <textarea name="message" data-placeholder-key="form-message" wrap="hard"></textarea>
-				<label for="cv">Резюме</label>
-				<input type="file" id="cv" name="cv" accept=".pdf,.doc,.docx" required />
-				
-                <div class="form-group">
-					<input id="formAgreement" type="checkbox" name="agreement" class="checkbox__input _req " data-key="form-agreement">
-                    <label for="formAgreement" class="checkbox__label" >
-						<span class="checkbox__box-span">
-							<span data-key="users-agreement-1">Я принимаю условия </span><a data-key="policy-link" href="./../../files/agreement-nservice_lv_en_ru.pdf" target="_blank">политики конфиденциальности </a><span data-key="users-agreement-2">компании и даю согласие на обработку своих персональных данных.
-							</span>
-                        </span>                                                           
-                    </label>
-					
-				</div>
-                
-				<div class="form__footer">
-					<div class="g-recaptcha" data-sitekey="6LfAtjIrAAAAAMhoGprYdYPcXdDGQIHl4esyNJFC"></div>
-                    <button type="submit" class="btn form__button" data-key="form-submit">Оставить заявку</button>
-                </div>
-            </form>
+				 <form action="/send.php" method="post" id="form" class="form" name="form" enctype="multipart/form-data"
+            autocomplete="on">
+            <input type="text" placeholder="Ваше имя" name="name" id="formName" class="form__input _req"
+                data-placeholder-key="form-name" />
+
+            <input type="text" placeholder="Ваш email" name="email" id="formEmail" class="form__input _req _email"
+                data-placeholder-key="form-email" />
+
+            <input type="tel" id="formTel" class="form__input _req" name="tel" placeholder="Ваш телефон"
+                data-placeholder-key="form-phone" />
+
+            <textarea name="message" data-placeholder-key="form-message" wrap="hard"></textarea>
+
+            <div class="form__resume">
+                <label for="cv" class="custom-file-label" data-key="form-resume">Выбрать файл</label>
+                <input type="file" id="cv" name="cv[]" accept=".pdf,.doc,.docx,.png,.jpg,.jpeg,.gif" />
+                <div class="form__resume-info"></div>
+                <ul class="form__resume-list"></ul>
+            </div>
+
+            <div class="form-group">
+                <input id="formAgreement" type="checkbox" name="agreement" class="checkbox__input _req "
+                    data-key="form-agreement" />
+                <label for="formAgreement" class="checkbox__label">
+                    <span class="checkbox__box-span">
+                        <span data-key="users-agreement-1">Я принимаю условия </span><a data-key="policy-link"
+                            href="./../../files/agreement-nservice_lv_en_ru.pdf" target="_blank">политики
+                            конфиденциальности </a><span data-key="users-agreement-2">компании и даю согласие на
+                            обработку своих персональных данных.
+                        </span>
+                    </span>
+                </label>
+            </div>
+            <div class="form__footer">
+                <div class="g-recaptcha" data-sitekey="6LfAtjIrAAAAAMhoGprYdYPcXdDGQIHl4esyNJFC"></div>
+                <button type="submit" class="btn form__button" data-key="form-submit">
+                    Оставить заявку
+                </button>
+            </div>
+        </form>
 		</div>			
 	</section>
 </div>
