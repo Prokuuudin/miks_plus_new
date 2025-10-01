@@ -232,17 +232,17 @@ const translations = {
 
     "activities.seminars.title": "Семинары",
     "activities.seminars.heading": "Семинары",
-    "activities.seminars.text": "Углублённые образовательные мероприятия для профессионалов.",
+    "activities.seminars.text": "Miks Plus является дистрибьютером 25+ брендов. Мы тесно сотрудничаем с нашими производителями и регулярно проводим тренинги и семинары для лучшего ознакомления клиентов с новинками и технологиями предоставляемых продуктов.",
     "activities.seminars.link": "Узнать больше",
 
     "activities.exhibitions.title": "Выставки",
     "activities.exhibitions.heading": "Выставки",
-    "activities.exhibitions.text": "Наше участие и организация тематических выставок.",
+    "activities.exhibitions.text": "Miks Plus регулярно участвует в выставках бьюти-индустрии. На наших стендах вы всегда найдете необходимую косметику, получите профессиональную консультацию и отличную цену на выбранный товар.",
     "activities.exhibitions.link": "Подробнее",
 
     "activities.sponsorship.title": "Спонсорство",
     "activities.sponsorship.heading": "Спонсорство",
-    "activities.sponsorship.text": "Поддержка ключевых мероприятий и инициатив.",
+    "activities.sponsorship.text": "Miks Plus с радостью принимает участие в благотворительных, спортивных и обучающих мероприятиях как спонсор. Мы с удовольствием поддерживаем открытия новых салонов, барбер-шопов и любые другие начинания в бьюти-бизнесе.",
     "activities.sponsorship.link": "Открыть",
 
     // CONTACTS
@@ -447,17 +447,17 @@ const translations = {
 
     "activities.seminars.title": "Seminars",
     "activities.seminars.heading": "Seminars",
-    "activities.seminars.text": "In-depth educational events for professionals.",
+    "activities.seminars.text": "Miks Plus is a distributor of 25+ brands. We work closely with our manufacturers and regularly conduct trainings and seminars to better acquaint clients with the innovations and technologies of the products we offer.",
     "activities.seminars.link": "Learn more",
 
     "activities.exhibitions.title": "Exhibitions",
     "activities.exhibitions.heading": "Exhibitions",
-    "activities.exhibitions.text": "Our participation in and organization of industry exhibitions.",
+    "activities.exhibitions.text": "Miks Plus regularly participates in beauty industry exhibitions. At our booths, you will always find the necessary cosmetics, receive professional advice, and get a great price on the selected product.",
     "activities.exhibitions.link": "More details",
 
     "activities.sponsorship.title": "Sponsorship",
     "activities.sponsorship.heading": "Sponsorship",
-    "activities.sponsorship.text": "Supporting key events and initiatives.",
+    "activities.sponsorship.text": "Miks Plus is happy to participate in charitable, sports, and educational events as a sponsor. We gladly support the opening of new salons, barbershops, and any other ventures in the beauty business.",
     "activities.sponsorship.link": "Open",
 
     // CONTACTS
@@ -663,17 +663,17 @@ const translations = {
 
     "activities.seminars.title": "Semināri",
     "activities.seminars.heading": "Semināri",
-    "activities.seminars.text": "Padziļināti izglītojoši pasākumi profesionāļiem.",
+    "activities.seminars.text": "Miks Plus ir 25+ zīmolu izplatītājs. Mēs cieši sadarbojamies ar mūsu ražotājiem un regulāri rīkojam apmācības un seminārus, lai labāk iepazīstinātu klientus ar inovācijām un tehnoloģijām produktos, kurus piedāvājam.",
     "activities.seminars.link": "Uzzināt vairāk",
 
     "activities.exhibitions.title": "Izstādes",
     "activities.exhibitions.heading": "Izstādes",
-    "activities.exhibitions.text": "Mūsu dalība un tematisko izstāžu organizēšana.",
+    "activities.exhibitions.text": "Miks Plus regulāri piedalās skaistumkopšanas nozares izstādēs. Mūsu stendos vienmēr atradīsiet nepieciešamo kosmētiku, saņemsiet profesionālu konsultāciju un iegūsiet lielisku cenu izvēlētajam produktam.",
     "activities.exhibitions.link": "Sīkāk",
 
     "activities.sponsorship.title": "Sponsoring",
     "activities.sponsorship.heading": "Sponsoring",
-    "activities.sponsorship.text": "Svarīgu pasākumu un iniciatīvu atbalstīšana.",
+    "activities.sponsorship.text": "Miks Plus ar prieku piedalās labdarības, sporta un izglītības pasākumos kā sponsors. Mēs labprāt atbalstām jaunu salonu, bārdasvīru salonu un jebkuru citu skaistumkopšanas biznesa uzsākšanu.",
     "activities.sponsorship.link": "Atvērt",
 
     // CONTACTS

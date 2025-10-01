@@ -53,14 +53,14 @@
   color: #fff;
   font-weight: bold;
   font-size: 20px;
-  position: relative;
+  position: relative;  
 }
 
 .activities__card-front::after {
   content: "";
   position: absolute;
   inset: 0;
-  background: linear-gradient(to top, rgba(0,0,0,0.6), rgba(0,0,0,0.2));
+  background: linear-gradient(to top, rgba(0,0,0,0.3), rgba(0,0,0,0.1));
   border-radius: 12px;
 }
 
@@ -78,7 +78,7 @@
 }
 
 .activities__card--sponsorship .activities__card-front {
-  background-image: url("./../../img/activities/supports@2x.jpeg");
+  background-image: url("./../../img/activities/supports@2x.jpg");
 }
 
 .activities__card-back {
