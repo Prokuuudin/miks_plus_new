@@ -56,6 +56,11 @@
   font-weight: 600;
   color: #fff;
   position: relative;
+  transition: all 0.2s ease-in;  
+
+  &:hover {
+    color: var(--accent);
+  }
 }
 
 .footer__copyright {
@@ -63,6 +68,7 @@
   font-size: 14px;
   color: #fff;
   text-align: right;
+  align-self: end;
 }
 
 @media (max-width: 720px) {

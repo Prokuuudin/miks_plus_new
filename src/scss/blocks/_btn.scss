@@ -6,6 +6,7 @@ a.btn {
 	height: auto;
 	border-radius: 5px;
 	background-color: #fff;
+	border: 1px solid #000;
 	font-family: var(--font-family);
 	font-weight: 700;
 	font-size: 20px;
@@ -16,12 +17,10 @@ a.btn {
 	letter-spacing: 0.3px;
 	transition: all 0.2s ease-in;
 	
-	border: 1px solid var(--accent-2);
-	
 	&:hover {
 		box-shadow: 0 2px 8px rgba(0, 0, 0, 0.9);
 		scale: 1.05;
-		background-color: var(--accent-2);
+		background-color: green;
 		color: #fff;
 	}
 

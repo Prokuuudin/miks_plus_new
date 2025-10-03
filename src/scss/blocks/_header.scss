@@ -3,13 +3,12 @@
     top: 0;
     left: 0;
     width: 100%;
-    background-color: rgb(45, 3, 136);  
-    background-color: #67d5dc;  
     background-color: rgb(242, 196, 196);  
+    background-color: rgb(241, 166, 166);  
     padding: 10px 0;
     transition: all 0.3s ease;
     z-index: 1000;
-    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 10px rgba(240, 208, 208, 0.1);
 }
 
 .header.small {
@@ -36,19 +35,30 @@
     }
 }
 
+.eshop-link {
+    padding: 2px 10px 5px 10px;
+    background-color: var(--accent);
+    border-radius: 25px;
+    transition: all 0.3s ease;
+
+    &:hover {
+        background-color: red;
+    }   
+} 
+
 .nav__list a {
     position: relative; /* для линии */
     color: white;
     font-family: var(--font-accent);
     text-decoration: none;
     text-transform: lowercase;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 400;
     transition: font-size 0.3s ease;
 }
 
 .header.small .nav__list a {
-    font-size: 22px;
+    font-size: 14px;
 }
 
 .header__socials {

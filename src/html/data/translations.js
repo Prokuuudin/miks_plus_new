@@ -232,7 +232,7 @@ const translations = {
 
     "activities.seminars.title": "Семинары",
     "activities.seminars.heading": "Семинары",
-    "activities.seminars.text": "Miks Plus является дистрибьютером 25+ брендов. Мы тесно сотрудничаем с нашими производителями и регулярно проводим тренинги и семинары для лучшего ознакомления клиентов с новинками и технологиями предоставляемых продуктов.",
+    "activities.seminars.text": "Miks Plus является дистрибьютером 25+ брендов. Мы тесно сотрудничаем с нашими производителями и регулярно проводим тренинги и семинары по ознакомлению клиентов с новинками и технологиями предоставляемых продуктов.",
     "activities.seminars.link": "Узнать больше",
 
     "activities.exhibitions.title": "Выставки",
@@ -267,6 +267,10 @@ const translations = {
     "footer-company-registration": "Рег. номер: 40203287886",
     "footer-company-address": "Адрес: Рига, ул. Русес 26-135, LV-1029, Латвия",
     "footer-rights": "Все права защищены",  
+    
+    // VACANCIES PAGE
+    "vacancies-title": "Вакансии Miks Plus",
+    "vacancies-outro": "Уважаемые коллеги! Если на данный момент у нас нет подходящей вам вакансии, это не значит, что ее не появится в будущем. Пришлите нам своё резюме, чтобы мы могли с вами связаться.",
   },
 
   "en": {
@@ -482,6 +486,10 @@ const translations = {
     "footer-company-registration": "Reg. No.: 40203287886",
     "footer-company-address": "Address: Riga, Ruses Street 26-135, LV-1029, Latvia",
     "footer-rights": "All rights reserved",
+
+    // VACANCIES PAGE
+    "vacancies-title": "Miks Plus Vacancies",
+    "vacancies-outro": " Dear colleagues! If we do not have a suitable vacancy for you at the moment, it does not mean that it will not appear in the future. Send us your resume so that we can contact you.",
     
   },
 
@@ -697,7 +705,11 @@ const translations = {
     "footer-company-name": "\"Miks Plus\", SIA",
     "footer-company-registration": "Reģ. nr.: 40203287886",
     "footer-company-address": "Adrese: Rīga, Ruses iela 26-135, LV-1029, Latvija",
-    "footer-rights": "Visas tiesības aizsargātas" 
+    "footer-rights": "Visas tiesības aizsargātas" ,
+
+    // VACANCIES PAGE
+    "vacancies-title": "Miks Plus vakances",
+    "vacancies-outro": " Cienījamie kolēģi! Ja šobrīd mums nav piemērotas vakances jums, tas nenozīmē, ka tā neparādīsies nākotnē. Nosūtiet mums savu CV, lai mēs varētu ar jums sazināties.",
     
   }
 
