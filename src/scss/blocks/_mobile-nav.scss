@@ -13,7 +13,7 @@
     padding-top: 40px;
     padding-bottom: 40px;
     // background: linear-gradient(209deg, #4287b3 -17.38%, #133f6b 78.4%), #276195;
-	background: #8ccae6;
+	background: var(--accent);
 	transition: all 0.2s ease-in;
 }
 
@@ -23,6 +23,10 @@
 
 .mobile-nav a {
 	color: #fff;
+
+	&:hover {
+		opacity: 0.8;
+	}	
 }
 
 .mobile-nav__list {

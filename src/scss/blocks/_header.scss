@@ -52,13 +52,19 @@
     font-family: var(--font-accent);
     text-decoration: none;
     text-transform: lowercase;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 400;
     transition: font-size 0.3s ease;
 }
 
 .header.small .nav__list a {
-    font-size: 14px;
+    font-size: 18px;
+}
+
+.header__right-side{
+    display: flex;
+    align-items: center;
+    gap: 20px;
 }
 
 .header__socials {

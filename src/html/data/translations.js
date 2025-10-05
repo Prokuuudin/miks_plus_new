@@ -192,39 +192,51 @@ const translations = {
 
     "store-riga-office-title": "Рига (офис)",
     "store-riga-office-address": "Рига, ул. Ренцену 10a",
-    "store-riga-office-hours": "Пн-Пт: с 09:00 до 17:00<br>Сб-Вск: выходной",
-
+    "store-riga-office-hours1": "Пн-Пт: с 09:00 до 17:00",
+    "store-riga-office-hours2": "Сб-Вск: выходной",
+    
     "store-riga-imanta-title": "Рига (Иманта)",
     "store-riga-imanta-address": "Рига, бул. Анниньмуйжас 82",
-    "store-riga-imanta-hours": "Пн-Пт: с 09:00 до 19:00<br>Сб-Вск: с 10:00 до 16:00",
+    "store-riga-imanta-hours1": "Пн-Пт: с 09:00 до 19:00",
+    "store-riga-imanta-hours2": "Сб-Вск: с 10:00 до 16:00",
 
     "store-riga-plavnieki-title": "Рига (Плявниеки)",
     "store-riga-plavnieki-address": "Рига, ул. Бралю Каудзишу 13",
-    "store-riga-plavnieki-hours": "Пн-Пт: с 09:00 до 19:00<br>Сб-Вск: с 10:00 до 16:00",
+    "store-riga-plavnieki-hours1": "Пн-Пт: с 09:00 до 19:00",
+    "store-riga-plavnieki-hours2": "Сб-Вск: с 10:00 до 16:00",
 
     "store-riga-yugla-title": "Рига (Югла)",
     "store-riga-yugla-address": "Рига, ул. Бривибас 412, k-2",
-    "store-riga-yugla-hours": "Пн-Пт: с 09:00 до 19:00<br>Сб: с 10:00 до 16:00<br>Вск: выходной",
+    "store-riga-yugla-hours1": "Пн-Пт: с 09:00 до 19:00",
+    "store-riga-yugla-hours2": "Сб: с 10:00 до 16:00",
+    "store-riga-yugla-hours3": "Вск: выходной",
 
     "store-daugavpils-title": "Даугавпилс",
     "store-daugavpils-address": "Даугавпилс, ул. Виестура 68",
-    "store-daugavpils-hours": "Пн-Пт: с 09:00 до 19:00<br>Сб-Вск: с 10:00 до 16:00",
+    "store-daugavpils-hours1": "Пн-Пт: с 09:00 до 19:00",
+    "store-daugavpils-hours2": "Сб-Вск: с 10:00 до 16:00",
 
     "store-liepaja-title": "Лиепая",
     "store-liepaja-address": "Лиепая, ул. Грауду 43N",
-    "store-liepaja-hours": "Пн-Пт: с 09:00 до 19:00<br>Сб: с 10:00 до 16:00<br>Вск: выходной",
+    "store-liepaja-hours1": "Пн-Пт: с 09:00 до 19:00",
+    "store-liepaja-hours2": "Сб: с 10:00 до 16:00",
+    "store-liepaja-hours3": "Вск: выходной",
 
     "store-valmiera-title": "Валмиера",
     "store-valmiera-address": "Валмиера, ул. Стацияс 17",
-    "store-valmiera-hours": "Пн-Пт: с 09:00 до 19:00<br>Сб: с 10:00 до 16:00<br>Вск: выходной",
+    "store-valmiera-hours1": "Пн-Пт: с 09:00 до 19:00",
+    "store-valmiera-hours2": "Сб: с 10:00 до 16:00",
+    "store-valmiera-hours3": "Вск: выходной",
 
     "store-rezekne-title": "Резекне",
     "store-rezekne-address": "Резекне, ал. Атбривошанас 128",
-    "store-rezekne-hours": "Пн-Пт: с 09:00 до 19:00<br>Сб-Вск: с 10:00 до 16:00",
+    "store-rezekne-hours1": "Пн-Пт: с 09:00 до 19:00",
+    "store-rezekne-hours2": "Сб-Вск: с 10:00 до 16:00",
 
     "store-jelgava-title": "Елгава",
     "store-jelgava-address": "Елгава, ул. Католю 1A",
-    "store-jelgava-hours": "Пн-Пт: с 09:00 до 19:00<br>Сб-Вск: с 10:00 до 16:00",
+    "store-jelgava-hours1": "Пн-Пт: с 09:00 до 19:00",
+    "store-jelgava-hours2": "Сб-Вск: с 10:00 до 16:00",
 
     // ACTIVITIES SECTION
     "activities.intro": "Miks Plus — это надёжность, качество и внимание к деталям. Наша цель — чтобы каждый клиент был уверен в том, что выбрал лучшее для себя и своих волос. Мы не только торгуем отличными товарами, мы занимаемся просвещением и обучением.",
@@ -403,6 +415,7 @@ const translations = {
     'brand.26.description': 'Italian manufacturer of professional scissors and nail care tools.',
     'brand.26.close': 'Close',
     'brand.26.shop': 'Go to shop',
+
     // STORES SECTION    
     "stores-title": "Our Stores",
     "store-map": "📍 Map",
@@ -411,39 +424,51 @@ const translations = {
 
     "store-riga-office-title": "Riga (Office)",
     "store-riga-office-address": "Riga, Rencenu Street 10a",
-    "store-riga-office-hours": "Mon-Fri: 09:00 - 17:00<br>Sat-Sun: Closed",
+    "store-riga-office-hours1": "Mon-Fri: 09:00 - 17:00",
+    "store-riga-office-hours2": "Sat-Sun: Closed",
 
     "store-riga-imanta-title": "Riga (Imanta)",
     "store-riga-imanta-address": "Riga, Anninmuizas Blvd. 82",
-    "store-riga-imanta-hours": "Mon-Fri: 09:00 - 19:00<br>Sat-Sun: 10:00 - 16:00",
+    "store-riga-imanta-hours1": "Mon-Fri: 09:00 - 19:00",
+    "store-riga-imanta-hours2": "Sat-Sun: 10:00 - 16:00",
 
     "store-riga-plavnieki-title": "Riga (Plavnieki)",
     "store-riga-plavnieki-address": "Riga, Bralu Kaudzisu Street 13",
-    "store-riga-plavnieki-hours": "Mon-Fri: 09:00 - 19:00<br>Sat-Sun: 10:00 - 16:00",
+    "store-riga-plavnieki-hours1": "Mon-Fri: 09:00 - 19:00",
+    "store-riga-plavnieki-hours2": "Sat-Sun: 10:00 - 16:00",
 
     "store-riga-yugla-title": "Riga (Jugla)",
     "store-riga-yugla-address": "Riga, Brivibas Street 412, k-2",
-    "store-riga-yugla-hours": "Mon-Fri: 09:00 - 19:00<br>Sat: 10:00 - 16:00<br>Sun: Closed",
+    "store-riga-yugla-hours1": "Mon-Fri: 09:00 - 19:00",
+    "store-riga-yugla-hours2": "Sat: 10:00 - 16:00",
+    "store-riga-yugla-hours3": "Sun: Closed",
 
     "store-daugavpils-title": "Daugavpils",
     "store-daugavpils-address": "Daugavpils, Viestura Street 68",
-    "store-daugavpils-hours": "Mon-Fri: 09:00 - 19:00<br>Sat-Sun: 10:00 - 16:00",
+    "store-daugavpils-hours1": "Mon-Fri: 09:00 - 19:00",
+    "store-daugavpils-hours2": "Sat-Sun: 10:00 - 16:00",
 
     "store-liepaja-title": "Liepaja",
     "store-liepaja-address": "Liepaja, Graadu Street 43N",
-    "store-liepaja-hours": "Mon-Fri: 09:00 - 19:00<br>Sat: 10:00 - 16:00<br>Sun: Closed",
+    "store-liepaja-hours1": "Mon-Fri: 09:00 - 19:00",
+    "store-liepaja-hours2": "Sat: 10:00 - 16:00",
+    "store-liepaja-hours3": "Sun: Closed",
 
     "store-valmiera-title": "Valmiera",
     "store-valmiera-address": "Valmiera, Stacijas Street 17",
-    "store-valmiera-hours": "Mon-Fri: 09:00 - 19:00<br>Sat: 10:00 - 16:00<br>Sun: Closed",
+    "store-valmiera-hours1": "Mon-Fri: 09:00 - 19:00",
+    "store-valmiera-hours2": "Sat: 10:00 - 16:00",
+    "store-valmiera-hours3": "Sun: Closed",
 
     "store-rezekne-title": "Rezekne",
     "store-rezekne-address": "Rezekne, Atbrivosanas Alley 128",
-    "store-rezekne-hours": "Mon-Fri: 09:00 - 19:00<br>Sat-Sun: 10:00 - 16:00",
+    "store-rezekne-hours1": "Mon-Fri: 09:00 - 19:00",
+    "store-rezekne-hours2": "Sat-Sun: 10:00 - 16:00",
 
     "store-jelgava-title": "Jelgava",
     "store-jelgava-address": "Jelgava, Katolu Street 1A",
-    "store-jelgava-hours": "Mon-Fri: 09:00 - 19:00<br>Sat-Sun: 10:00 - 16:00",
+    "store-jelgava-hours1": "Mon-Fri: 09:00 - 19:00",
+    "store-jelgava-hours2": "Sat-Sun: 10:00 - 16:00",
 
     // ACTIVITIES SECTION
      "activities.intro": "Miks Plus stands for reliability, quality, and attention to detail. Our goal is to ensure that every client feels confident they have chosen the best for themselves and their hair. We not only sell excellent products but also provide education and training.",
@@ -631,42 +656,55 @@ const translations = {
 
     "store-riga-office-title": "Rīga (ofiss)",
     "store-riga-office-address": "Rīga, Rencēnu iela 10a",
-    "store-riga-office-hours": "Pirmd.-Piektd.: 09:00 - 17:00<br>Sestd.-Sv.: Slēgts",
+    "store-riga-office-hours1": "Pirmd.-Piektd.: 09:00 - 17:00",
+    "store-riga-office-hours2": "Sestd.-Sv.: Slēgts",
 
     "store-riga-imanta-title": "Rīga (Imanta)",
     "store-riga-imanta-address": "Rīga, Anniņmuižas bulv. 82",
-    "store-riga-imanta-hours": "Pirmd.-Piektd.: 09:00 - 19:00<br>Sestd.-Sv.: 10:00 - 16:00",
+    "store-riga-imanta-hours1": "Pirmd.-Piektd.: 09:00 - 19:00",
+    "store-riga-imanta-hours2": "Sestd.-Sv.: 10:00 - 16:00",
 
     "store-riga-plavnieki-title": "Rīga (Pļavnieki)",
     "store-riga-plavnieki-address": "Rīga, Brāļu Kaudzīšu iela 13",
-    "store-riga-plavnieki-hours": "Pirmd.-Piektd.: 09:00 - 19:00<br>Sestd.-Sv.: 10:00 - 16:00",
+    "store-riga-plavnieki-hours1": "Pirmd.-Piektd.: 09:00 - 19:00",
+    "store-riga-plavnieki-hours2": "Sestd.-Sv.: 10:00 - 16:00",
 
     "store-riga-yugla-title": "Rīga (Jugla)",
     "store-riga-yugla-address": "Rīga, Brīvības iela 412, k-2",
-    "store-riga-yugla-hours": "Pirmd.-Piektd.: 09:00 - 19:00<br>Sestd.: 10:00 - 16:00<br>Svētd.: Slēgts",
+    "store-riga-yugla-hours1": "Pirmd.-Piektd.: 09:00 - 19:00",
+    "store-riga-yugla-hours2": "Sestd.: 10:00 - 16:00",
+    "store-riga-yugla-hours3": "Svētd.: Slēgts",
 
     "store-daugavpils-title": "Daugavpils",
     "store-daugavpils-address": "Daugavpils, Viestura iela 68",
-    "store-daugavpils-hours": "Pirmd.-Piektd.: 09:00 - 19:00<br>Sestd.-Sv.: 10:00 - 16:00",
+    "store-daugavpils-hours1": "Pirmd.-Piektd.: 09:00 - 19:00",
+    "store-daugavpils-hours2": "Sestd.-Sv.: 10:00 - 16:00",
 
     "store-liepaja-title": "Liepāja",
     "store-liepaja-address": "Liepāja, Graudu iela 43N",
-    "store-liepaja-hours": "Pirmd.-Piektd.: 09:00 - 19:00<br>Sestd.: 10:00 - 16:00<br>Svētd.: Slēgts",
+    "store-liepaja-hours1": "Pirmd.-Piektd.: 09:00 - 19:00",
+    "store-liepaja-hours2": "Sestd.: 10:00 - 16:00",
+    "store-liepaja-hours3": "Svētd.: Slēgts",
 
     "store-valmiera-title": "Valmiera",
     "store-valmiera-address": "Valmiera, Stacijas iela 17",
-    "store-valmiera-hours": "Pirmd.-Piektd.: 09:00 - 19:00<br>Sestd.: 10:00 - 16:00<br>Svētd.: Slēgts",
+    "store-valmiera-hours1": "Pirmd.-Piektd.: 09:00 - 19:00",
+    "store-valmiera-hours2": "Sestd.: 10:00 - 16:00",
+    "store-valmiera-hours3": "Svētd.: Slēgts",
 
     "store-rezekne-title": "Rēzekne",
     "store-rezekne-address": "Rēzekne, Atbrīvošanas aleja 128",
-    "store-rezekne-hours": "Pirmd.-Piektd.: 09:00 - 19:00<br>Sestd.-Sv.: 10:00 - 16:00",
+    "store-rezekne-hours1": "Pirmd.-Piektd.: 09:00 - 19:00",
+    "store-rezekne-hours2": "Sestd.-Sv.: 10:00 - 16:00",
 
     "store-jelgava-title": "Jelgava",
     "store-jelgava-address": "Jelgava, Katolu iela 1A",
-    "store-jelgava-hours": "Pirmd.-Piektd.: 09:00 - 19:00<br>Sestd.-Sv.: 10:00 - 16:00",
+    "store-jelgava-hours1": "Pirmd.-Piektd.: 09:00 - 19:00",
+    "store-jelgava-hours2": "Sestd.-Sv.: 10:00 - 16:00",
 
     // ACTIVITIES SECTION
-       "activities.intro": "Miks Plus nozīmē uzticamību, kvalitāti un uzmanību detaļām. Mūsu mērķis ir, lai katrs klients justos pārliecināts, ka izvēlējies labāko sev un saviem matiem. Mēs ne tikai tirgojam lieliskus produktus, bet arī nodarbojamies ar izglītošanu un apmācību.",
+    "activities.intro": "Miks Plus nozīmē uzticamību, kvalitāti un uzmanību detaļām. Mūsu mērķis ir, lai katrs klients justos pārliecināts, ka izvēlējies labāko sev un saviem matiem. Mēs ne tikai tirgojam lieliskus produktus, bet arī nodarbojamies ar izglītošanu un apmācību.",
+    
     "activities.title": "Mūsu darbība",
 
     "activities.seminars.title": "Semināri",
@@ -694,7 +732,7 @@ const translations = {
     "form-message": "Jūsu ziņojums",
 
     // FORM labels / texts
-    "form-resume-label": "Pievienot CV vai citus dokumentus",
+    "form-resume": "Pievienot CV vai citus dokumentus",
     "form-agreement": "Es piekrītu noteikumiem",
     "users-agreement-1": "Es piekrītu ",
     "policy-link": "privātuma politikas ",

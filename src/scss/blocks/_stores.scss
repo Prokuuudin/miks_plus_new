@@ -1,7 +1,7 @@
 .stores {
   padding: 40px;
   background: #f0f0f0;
-  font-family: sans-serif;
+  font-family: var(--font-main);
   text-align: center;
 
   @include mobile {
@@ -18,12 +18,13 @@
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 20px;
   justify-items: center;
+  position: relative;
+  z-index: 0;
 
   @include mobile {
     grid-template-columns: 1fr;
     gap: 35px;
   }
-  
 }
 
 .store-card {
@@ -34,11 +35,14 @@
   z-index: 1;
 
   @media (max-width: 480px) {
-    width: 90%;       // почти вся ширина контейнера
-    max-width: 280px; // чтобы не было слишком большого размера
-    height: auto;
-    aspect-ratio: 1 / 1; // сохраняем квадратную форму
+    width: 90%;       
+    max-width: 280px; 
+    height: 280px; /* фикс вместо auto для стабильности 3D */
   }
+}
+
+.store-card:hover {
+  z-index: 20; /* поднимаем карточку выше соседей */
 }
 
 .store-card__inner {
@@ -51,16 +55,18 @@
 }
 
 .store-card:hover .store-card__inner {
-  transform: rotateY(180deg) scale(1.25) translateY(-10px);
+  transform: rotateY(180deg);
   z-index: 10;
   box-shadow: 0 20px 40px rgba(0,0,0,0.3);
 
   @media (max-width: 480px) {
-    transform: rotateY(180deg); // отключаем масштаб на маленьких экранах
+    transform: rotateY(180deg); /* без масштаба на мобильных */
     box-shadow: 0 10px 20px rgba(0,0,0,0.2);
   }
 }
-.store-card-front, .store-card-back {
+
+.store-card-front,
+.store-card-back {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -68,17 +74,16 @@
   backface-visibility: hidden;
   display: flex;
   align-items: center;
-  justify-content: center;     
+  justify-content: center;
 }
-
-
 
 .store-card-front {
   background-size: cover;
   background-position: center;
   color: white;
   font-weight: bold;
-  font-size: 16px;
+  font-size: 22px;
+  z-index: 1;
 }
 
 .store-card-front span {
@@ -96,16 +101,34 @@
   padding: 15px;
   font-size: 14px;  
   transform: rotateY(180deg);
+  z-index: 2;
+}
+
+.store-title {
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 8px;
+  text-align: center;
 }
 
 .store-card-back p {
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
 
 .store-card-back a {
   color: #1976d2;
   font-weight: bold;
   text-decoration: none;
+  pointer-events: auto;
+  position: relative;
+  z-index: 10;
 }
 
-
+.card-links {
+  margin-top: auto;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 5px;
+}
