@@ -244,7 +244,7 @@ const translations = {
 
     "activities.seminars.title": "Семинары",
     "activities.seminars.heading": "Семинары",
-    "activities.seminars.text": "Miks Plus является дистрибьютером 25+ брендов. Мы тесно сотрудничаем с нашими производителями и регулярно проводим тренинги и семинары по ознакомлению клиентов с новинками и технологиями предоставляемых продуктов.",
+    "activities.seminars.text": "Miks Plus является дистрибьютером 25+ брендов. Мы регулярно проводим тренинги и семинары по ознакомлению клиентов с новинками наших производителей и технологиями их применения.",
     "activities.seminars.link": "Узнать больше",
 
     "activities.exhibitions.title": "Выставки",
@@ -476,7 +476,7 @@ const translations = {
 
     "activities.seminars.title": "Seminars",
     "activities.seminars.heading": "Seminars",
-    "activities.seminars.text": "Miks Plus is a distributor of 25+ brands. We work closely with our manufacturers and regularly conduct trainings and seminars to better acquaint clients with the innovations and technologies of the products we offer.",
+    "activities.seminars.text": "Miks Plus is a distributor of 25+ brands. We regularly conduct training sessions and seminars to familiarize clients with the latest products from our manufacturers and the technologies for their application.",
     "activities.seminars.link": "Learn more",
 
     "activities.exhibitions.title": "Exhibitions",
@@ -709,7 +709,7 @@ const translations = {
 
     "activities.seminars.title": "Semināri",
     "activities.seminars.heading": "Semināri",
-    "activities.seminars.text": "Miks Plus ir 25+ zīmolu izplatītājs. Mēs cieši sadarbojamies ar mūsu ražotājiem un regulāri rīkojam apmācības un seminārus, lai labāk iepazīstinātu klientus ar inovācijām un tehnoloģijām produktos, kurus piedāvājam.",
+    "activities.seminars.text": "Miks Plus ir 25+ zīmolu izplatītājs. Mēs regulāri rīkojam apmācības un seminārus, lai iepazīstinātu klientus ar mūsu ražotāju jaunākajiem produktiem un to lietošanas tehnoloģijām.",
     "activities.seminars.link": "Uzzināt vairāk",
 
     "activities.exhibitions.title": "Izstādes",

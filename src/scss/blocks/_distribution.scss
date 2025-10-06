@@ -109,6 +109,10 @@
   text-decoration: none;
   color: #1e88e5;
   font-weight: bold;
+
+  &:hover {
+    color: var(--accent);
+  }
 }
 
 .card-back button.close-btn {
@@ -122,10 +126,9 @@
 
   &:hover {
     background: #bbb;
-  } 
+    color: var(--accent);
+  }
   
-
-
 }
 
 .brand-card.flipped .card-front {
