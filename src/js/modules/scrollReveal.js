@@ -24,12 +24,13 @@ function scrollRevealFunc () {
 		origin: 'top',
 	});
 	
-	ScrollReveal().reveal( {
+	ScrollReveal().reveal( '.title-2, .vacancies-title ', {
 		delay: 400,
 		origin: 'top',
 	});
 
-	ScrollReveal().reveal( `.title-2`, {
+	ScrollReveal().reveal( `.about__text, .contacts, .card-front, .store-card-front, .activities__card-front, .footer__company, .activities__title, .swiper, .activities__image, .vacancies-outro`, {
+		
 		origin: 'left',
 	});
 
@@ -39,7 +40,8 @@ function scrollRevealFunc () {
 		}
 	);
 
-	ScrollReveal().reveal(`.about__content, .about__footer`,  {
+	ScrollReveal().reveal(`.about__content, .footer__copyright, .activities__info, .vacancy__form`,  {
+		// delay: 600,
 		origin: 'bottom',
 	});
 	

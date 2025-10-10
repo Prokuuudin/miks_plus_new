@@ -1,12 +1,14 @@
 .activities {
   padding: 40px;
-  background: #f9f9f9;
-  font-family: sans-serif;
+  background: #fff;
+  // background-color: rgb(241, 166, 166);  
+  font-family: var(--font-main);  
   text-align: center;
   margin-bottom: 80px;
 }
 
-.activities__title {
+.activities__card-title{
+  font-size: 28px;  
  }
 
 .activities__list {

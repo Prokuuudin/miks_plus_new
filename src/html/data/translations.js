@@ -254,7 +254,7 @@ const translations = {
 
     "activities.sponsorship.title": "Спонсорство",
     "activities.sponsorship.heading": "Спонсорство",
-    "activities.sponsorship.text": "Miks Plus с радостью принимает участие в благотворительных, спортивных и обучающих мероприятиях как спонсор. Мы с удовольствием поддерживаем открытия новых салонов, барбер-шопов и любые другие начинания в бьюти-бизнесе.",
+    "activities.sponsorship.text": "Miks Plus с радостью принимает участие в благотворительных, спортивных и обучающих мероприятиях как спонсор. Поддерживает открытие новых салонов, барбер-шопов и другие начинания в бьюти-бизнесе.",
     "activities.sponsorship.link": "Открыть",
 
     // CONTACTS
@@ -282,8 +282,43 @@ const translations = {
     
     // VACANCIES PAGE
     "vacancies-title": "Вакансии Miks Plus",
-    "vacancies-outro": "Уважаемые коллеги! Если на данный момент у нас нет подходящей вам вакансии, это не значит, что ее не появится в будущем. Пришлите нам своё резюме, чтобы мы могли с вами связаться.",
-  },
+    "vacancies-outro": "Уважаемые коллеги! Если на данный момент у нас нет подходящей вам вакансии, это не значит, что её не появится в будущем. Пришлите нам своё резюме, чтобы мы могли с вами связаться.",
+
+    // ACTIVITIES PAGE
+    
+    "activities-title": "Наша деятельность",
+    "activities-seminars-title": "Семинары",
+    "activities-seminars-text-1": "Мы регулярно проводим семинары и тренинги совместно с представителями брендов, доверившим нам дистрибуцию своих товаров на балтийском рынке. Среди постоянных партнеров Miks Plus такие известные компании как:",
+    "activities-seminars-text-2": "STAPIZ Professional (Польша) и Black Professional (Италия)",
+    "activities-seminars-text-3": "Мы приглашаем известных мастеров, которые проводят с нашими клиентами обучающие практические занятия. За последнее время Ригу, Даугавпилc и Валмиеру посетили лучшие мастера-парикмахеры представляемых нами брендов:",
+    "activities-seminars-text-4": "Silvia Limetti (Stapiz Professional)   Angela Cannito (Black Professional)   Enrico Delorenzi (Black Professional)",
+    "activities-seminars-text-5": "Следите за нашей рекламой и посещайте семинары и тренинги, организуемые нашей командой. Ждем вас в гости!",
+    
+    "activities-exhibitions-title": "Выставки",
+    "activities-exhibitions-text-1": "Наша компания SIA MIKS PLUS вот уже более 10 ти лет является участником самой посещаемой выставки в станах Балтии – BALTIC BEAUTY, проходящей каждый год осенью в Риге.",
+    "activities-exhibitions-text-2": "- Более 350 компаний из 20 стран мира;",
+    "activities-exhibitions-text-3": "- Более 30 000 посетителей ежегодно.",
+    "activities-exhibitions-text-4": "На наших стендах вы всегда найдете самые модные и популярные решения по уходу за волосами, ногтями и телом. Получите полную информацию от профессиональных консультантов, а также приобретёте товары по специальной ПРОМО цене!",
+    
+    "activities-sponsorship-title": "Спонсорство и участие",
+    "activities-sponsorship-text-1": "Компания SIA MIKS PLUS всегда старается поддержать проекты, где принимают участие молодые специалисты бьюти-индустрии, спортсмены и учащиеся. В числе наших постоянных проектов:",
+    "activities-sponsorship-text-2": "- спонсорство соревнований по бальным и спортивным танцам;",
+    "activities-sponsorship-text-3": "- поддержка салонов и барбер-шопов начинающих мастеров;",
+    "activities-sponsorship-text-4": "- спонсорство мероприятий авто и мото-спорта.",
+    "activities-sponsorship-text-5": "Мы всегда открыты для новых предложений и инициатив. Свяжитесь с нами, если вы хотите предложить сотрудничество или вам нужна помощь в реализации ваших идей!",
+    
+    "activities-events-title": "Ближайшие мероприятия",
+    "activities-events-text-1": "Следите за рекламой на этом сайте и в наших соцсетях. Мы обещаем своевременно информировать вас обо всех мероприятиях, в которых принимаем участие.",
+    "activities-events-text-2": "Ближайшее событие:",
+    "activities-events-text-3": "выставка BALTIC BEAUTY 2025;",
+    "activities-events-text-4": "место проведения:",
+    "activities-events-text-5": "Латвия, Рига, выставочный центр Kipsala;",
+    "activities-events-text-6": "дата:",
+    "activities-events-text-7": "с 31 октября по 2 ноября 2025 года.",
+    "activities-events-text-8": "Ищите нас на BALTIC BEAUTY 2025! Получите полную информацию от профессиональных консультантов, а также приобретёте товары по специальной ПРОМО цене!",
+    "activities-events-text-9": "Ваши SIA Miks Plus!" 
+
+},
 
   "en": {
 
@@ -516,6 +551,40 @@ const translations = {
     "vacancies-title": "Miks Plus Vacancies",
     "vacancies-outro": " Dear colleagues! If we do not have a suitable vacancy for you at the moment, it does not mean that it will not appear in the future. Send us your resume so that we can contact you.",
     
+    // ACTIVITIES PAGE 
+  
+    "activities-title": "Our Activities",
+    "activities-seminars-title": "Seminars",
+    "activities-seminars-text-1": "We regularly hold seminars and training sessions together with brand representatives who have entrusted us with the distribution of their products in the Baltic market. Among Miks Plus' long-term partners are well-known companies such as:",
+    "activities-seminars-text-2": "STAPIZ Professional (Poland) and Black Professional (Italy)",
+    "activities-seminars-text-3": "We invite well-known professionals who conduct practical training sessions with our clients. Recently, the best stylists representing our brands have visited Riga, Daugavpils, and Valmiera:",
+    "activities-seminars-text-4": "Silvia Limetti (Stapiz Professional)   Angela Cannito (Black Professional)   Enrico Delorenzi (Black Professional)",
+    "activities-seminars-text-5": "Follow our ads and attend seminars and training sessions organized by our team. We look forward to seeing you!",
+    
+    "activities-exhibitions-title": "Exhibitions",
+    "activities-exhibitions-text-1": "For more than 10 years, SIA MIKS PLUS has been participating in the most visited beauty exhibition in the Baltics – BALTIC BEAUTY, held every autumn in Riga.",
+    "activities-exhibitions-text-2": "- Over 350 companies from 20 countries;",
+    "activities-exhibitions-text-3": "- More than 30,000 visitors annually.",
+    "activities-exhibitions-text-4": "At our stands, you will always find the trendiest and most popular hair, nail, and body care solutions. Get complete information from professional consultants and purchase products at special PROMO prices!",
+    
+    "activities-sponsorship-title": "Sponsorship and Participation",
+    "activities-sponsorship-text-1": "SIA MIKS PLUS always strives to support projects involving young beauty industry professionals, athletes, and students. Among our ongoing initiatives:",
+    "activities-sponsorship-text-2": "- Sponsorship of ballroom and sports dance competitions;",
+    "activities-sponsorship-text-3": "- Support for salons and barbershops of beginner masters;",
+    "activities-sponsorship-text-4": "- Sponsorship of auto and motorsport events.",
+    "activities-sponsorship-text-5": "We are always open to new ideas and initiatives. Contact us if you would like to propose cooperation or need help bringing your ideas to life!",
+    
+    "activities-events-title": "Upcoming Events",
+    "activities-events-text-1": "Follow our promotions on this website and on our social networks. We promise to keep you informed about all events we participate in.",
+    "activities-events-text-2": "Next event:",
+    "activities-events-text-3": "BALTIC BEAUTY 2025 exhibition;",
+    "activities-events-text-4": "Location:",
+    "activities-events-text-5": "Latvia, Riga, Kipsala Exhibition Center;",
+    "activities-events-text-6": "Date:",
+    "activities-events-text-7": "From October 31 to November 2, 2025.",
+    "activities-events-text-8": "Find us at BALTIC BEAUTY 2025! Get full information from professional consultants and purchase products at special PROMO prices!",
+    "activities-events-text-9": "Yours truly, SIA Miks Plus!"
+  
   },
 
   "lv": {
@@ -717,8 +786,8 @@ const translations = {
     "activities.exhibitions.text": "Miks Plus regulāri piedalās skaistumkopšanas nozares izstādēs. Mūsu stendos vienmēr atradīsiet nepieciešamo kosmētiku, saņemsiet profesionālu konsultāciju un iegūsiet lielisku cenu izvēlētajam produktam.",
     "activities.exhibitions.link": "Sīkāk",
 
-    "activities.sponsorship.title": "Sponsoring",
-    "activities.sponsorship.heading": "Sponsoring",
+    "activities.sponsorship.title": "Sponsorēšana",
+    "activities.sponsorship.heading": "Sponsorēšana",
     "activities.sponsorship.text": "Miks Plus ar prieku piedalās labdarības, sporta un izglītības pasākumos kā sponsors. Mēs labprāt atbalstām jaunu salonu, bārdasvīru salonu un jebkuru citu skaistumkopšanas biznesa uzsākšanu.",
     "activities.sponsorship.link": "Atvērt",
 
@@ -748,8 +817,43 @@ const translations = {
     // VACANCIES PAGE
     "vacancies-title": "Miks Plus vakances",
     "vacancies-outro": " Cienījamie kolēģi! Ja šobrīd mums nav piemērotas vakances jums, tas nenozīmē, ka tā neparādīsies nākotnē. Nosūtiet mums savu CV, lai mēs varētu ar jums sazināties.",
+  
+  // ACTIVITIES PAGE
     
-  }
+  "activities-title": "Mūsu darbība",
+
+  "activities-seminars-title": "Semināri",
+  "activities-seminars-text-1": "Mēs regulāri rīkojam seminārus un apmācības kopā ar zīmolu pārstāvjiem, kuri mums uzticējuši savu produktu izplatīšanu Baltijas tirgū. Starp mūsu pastāvīgajiem partneriem ir tādi labi zināmi uzņēmumi kā:",
+  "activities-seminars-text-2": "STAPIZ Professional (Polija) un Black Professional (Itālija)",
+  "activities-seminars-text-3": "Mēs aicinām pazīstamus meistarus, kuri vada praktiskas nodarbības mūsu klientiem. Pēdējā laikā Rīgu, Daugavpili un Valmieru ir apmeklējuši labākie mūsu pārstāvēto zīmolu frizieri:",
+  "activities-seminars-text-4": "Silvia Limetti (Stapiz Professional)   Angela Cannito (Black Professional)   Enrico Delorenzi (Black Professional)",
+  "activities-seminars-text-5": "Sekojiet mūsu reklāmām un apmeklējiet seminārus un apmācības, ko organizē mūsu komanda. Gaidām jūs ciemos!",
+
+  "activities-exhibitions-title": "Izstādes",
+  "activities-exhibitions-text-1": "Uzņēmums SIA MIKS PLUS jau vairāk nekā 10 gadus piedalās apmeklētākajā skaistumkopšanas izstādē Baltijā – BALTIC BEAUTY, kas katru rudeni notiek Rīgā.",
+  "activities-exhibitions-text-2": "- Vairāk nekā 350 uzņēmumu no 20 pasaules valstīm;",
+  "activities-exhibitions-text-3": "- Vairāk nekā 30 000 apmeklētāju ik gadu.",
+  "activities-exhibitions-text-4": "Mūsu stendos vienmēr atradīsiet modernākos un populārākos risinājumus matu, nagu un ķermeņa kopšanai. Saņemiet pilnīgu informāciju no profesionāliem konsultantiem un iegādājieties produktus par īpašām PROMO cenām!",
+
+  "activities-sponsorship-title": "Sponsorships un līdzdalība",
+  "activities-sponsorship-text-1": "SIA MIKS PLUS vienmēr cenšas atbalstīt projektus, kuros piedalās jaunie skaistumkopšanas nozares speciālisti, sportisti un studenti. Starp mūsu pastāvīgajiem projektiem:",
+  "activities-sponsorship-text-2": "- sporta un deju sacensību sponsorēšana;",
+  "activities-sponsorship-text-3": "- atbalsts jauno meistaru saloniem un barbershopiem;",
+  "activities-sponsorship-text-4": "- auto un motosporta pasākumu sponsorēšana.",
+  "activities-sponsorship-text-5": "Mēs vienmēr esam atvērti jaunām idejām un iniciatīvām. Sazinieties ar mums, ja vēlaties piedāvāt sadarbību vai jums nepieciešama palīdzība savu ideju īstenošanā!",
+
+  "activities-events-title": "Tuvākie pasākumi",
+  "activities-events-text-1": "Sekojiet reklāmām šajā vietnē un mūsu sociālajos tīklos. Mēs solām jūs savlaicīgi informēt par visiem pasākumiem, kuros piedalāmies.",
+  "activities-events-text-2": "Nākamais pasākums:",
+  "activities-events-text-3": "izstāde BALTIC BEAUTY 2025;",
+  "activities-events-text-4": "Norises vieta:",
+  "activities-events-text-5": "Latvija, Rīga, izstāžu centrs Ķīpsala;",
+  "activities-events-text-6": "Datums:",
+  "activities-events-text-7": "no 2025. gada 31. oktobra līdz 2. novembrim.",
+  "activities-events-text-8": "Meklējiet mūs BALTIC BEAUTY 2025 izstādē! Saņemiet pilnīgu informāciju no profesionāliem konsultantiem un iegādājieties produktus par īpašām PROMO cenām!",
+  "activities-events-text-9": "Jūsu SIA Miks Plus!"
+}
+
 
 
 };

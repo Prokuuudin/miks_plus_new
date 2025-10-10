@@ -4,6 +4,10 @@
   background-color: rgb(242, 196, 196); 
   background-color: #141212; 
   box-shadow: 0 -10px 30px rgba(0,0,0,.08);
+
+  @include mobile {
+      padding: 0;
+  }
 }
 
 .footer__container {
@@ -31,7 +35,11 @@
 .footer__company { 
 	display: flex;
 	flex-direction: column;
-	gap: 15px; 
+	gap: 15px;
+  
+  @include mobile {
+      gap: 0;
+  }
 }
 
 .footer__title {
