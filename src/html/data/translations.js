@@ -1,6 +1,11 @@
 const translations = {  
 
   "ru": {
+    // SEO
+    "desc-content": "Miks Plus — профессиональная косметика для волос, средства для ухода за волосами. Официальный дистрибьютор более 25 брендов в Латвии. Лучшие цены и условия для профессионалов и частных клиентов.",
+		"keywords-content": "микс плюс, miks plus, miksplus, miksplus.lv, miksplus.eu, miksplus.com, miksplus интернет магазин, miks plus интернет магазин, miks plus интернет магазин латвия, профессиональная косметика для волос, профессиональная косметика для волос купить, профессиональная косметика для волос интернет магазин, профессиональная косметика для волос интернет магазин латвия",
+		"landing-title": 'Miks Plus - профессиональные средства для ухода за волосами',
+
     // AGREEMENT
         "agreement-header": "Мы ценим вашу приватность",
         "agreement-text": "Мы используем файлы cookie, чтобы улучшить качество ваших просмотров, персонализируя для вас рекламу и контент на основе анализа трафика. Нажимая \"Принять\", вы соглашаетесь с использованием файлов cookie. ",
@@ -321,6 +326,10 @@ const translations = {
 },
 
   "en": {
+    // SEO
+    "desc-content": "Miks Plus - professional hair care products, hair care products. Official distributor of more than 25 brands in Latvia. The best prices and conditions for professionals and private clients.",
+    "keywords-content": "miks plus, miksplus, miksplus.lv, miksplus.eu, miksplus.com, miksplus online shop, miks plus online shop, miks plus online shop latvia, professional hair care products, professional hair care products buy, professional hair care products online shop, professional hair care products online shop latvia",
+    "landing-title": 'Miks Plus - professional hair care products',
 
      // AGREEMENT
     "agreement-header": "We respect your privacy",
@@ -588,6 +597,11 @@ const translations = {
   },
 
   "lv": {
+    // SEO
+    "desc-content": "Miks Plus - profesionālie matu kopšanas līdzekļi, matu kopšanas līdzekļi. Vairāk nekā 25 zīmolu oficiālais izplatītājs Latvijā. Labākās cenas un nosacījumi profesionāļiem un privātajiem klientiem.",
+    "keywords-content": "miks plus, miksplus, miksplus.lv, miksplus.eu, miksplus.com, miksplus interneta veikals, miks plus interneta veikals, miks plus interneta veikals latvija, profesionālie matu kopšanas līdzekļi, profesionālie matu kopšanas līdzekļi pirkšana, profesionālie matu kopšanas līdzekļi interneta veikals, profesionālie matu kopšanas līdzekļi interneta veikals latvija",
+    "landing-title": 'Miks Plus - profesionālie matu kopšanas līdzekļi',
+
     // AGREEMENT
     "agreement-header": "Mēs cienām jūsu privātumu",
     "agreement-text": "Mēs izmantojam sīkfailus, lai uzlabotu jūsu pārlūkošanas pieredzi, personalizējot reklāmas un saturu, pamatojoties uz datplūsmas analīzi. Noklikšķinot uz 'Pieņemt', jūs piekrītat sīkfailu izmantošanai. ",
