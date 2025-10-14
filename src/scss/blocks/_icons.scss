@@ -29,7 +29,6 @@
 
 	&:hover{		
 		scale: 1.05;
-		// rotate: -5deg;
 		fill: rgb(45, 3, 180);
 
 	}
@@ -62,32 +61,38 @@
 }
 
 .icon--01andis,
-.icon--02black,
 .icon--03charles_w,
 .icon--04dikson,
-.icon--05feetcalm,
 .icon--06frutti,
-.icon--07fudge,
 .icon--08ilu, 
 .icon--09kallos, 
-.icon--10lussoni, 
-.icon--11luxina,
-.icon--12sanctuaryspa,
 .icon--13stapiz,
-.icon--14sttropez, 
-.icon--15beautyimage,
 .icon--16otools,
-.icon--17kashoki, 
 .icon--18niamh,
 .icon--19dandy,
 .icon--20fudgeurban,
 .icon--21cera,
-.icon--22serical,
 .icon--23hairwell,
-.icon--24ceriotti,
-.icon--25maxus,
 .icon--26kieppe {
 	width: 100px;
 	height: 100px;
+	fill: var(--accent-2);
+}
+
+.icon--02black,
+.icon--05feetcalm,
+.icon--07fudge,
+.icon--10lussoni, 
+.icon--11luxina,
+.icon--12sanctuaryspa,
+.icon--14sttropez, 
+.icon--15beautyimage,
+.icon--17kashoki, 
+.icon--22serical,
+.icon--24ceriotti,
+.icon--25maxus,
+.icon--26kieppe {
+	width: 120px;
+	height: 120px;
 	fill: var(--accent-2);
 }
