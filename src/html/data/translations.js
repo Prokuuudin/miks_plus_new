@@ -281,8 +281,10 @@ const translations = {
 
     // FOOTER
     "footer-company-name": "\"Miks Plus\", SIA",
-    "footer-company-registration": "Рег. номер: 40203287886",
-    "footer-company-address": "Адрес: Рига, ул. Русес 26-135, LV-1029, Латвия",
+    "footer-company-registration": "Рег. номер: LV40103351370",
+    "footer-company-address": "Адрес: Рига, ул. Ренцену 10a, LV-1073",
+    "footer-phone-landline": "тел.: 00 371 27067730",
+    "footer-phone-mobile": "моб.: 00 371 29439437",
     "footer-rights": "Все права защищены",  
     
     // VACANCIES PAGE
@@ -553,8 +555,10 @@ const translations = {
 
     // FOOTER   
     "footer-company-name": "\"Miks Plus\", Ltd.",
-    "footer-company-registration": "Reg. No.: 40203287886",
-    "footer-company-address": "Address: Riga, Ruses Street 26-135, LV-1029, Latvia",
+    "footer-company-registration": "VAT Nr.: LV40103351370",
+    "footer-company-address": "Address: Riga, Rencenu Street 10a, LV-1073",
+    "footer-phone-landline": "tel.: 00 371 27067730",
+    "footer-phone-mobile": "mob.: 00 371 29439437",
     "footer-rights": "All rights reserved",
 
     // VACANCIES PAGE
@@ -825,8 +829,10 @@ const translations = {
 
     // FOOTER    
     "footer-company-name": "\"Miks Plus\", SIA",
-    "footer-company-registration": "Reģ. nr.: 40203287886",
-    "footer-company-address": "Adrese: Rīga, Ruses iela 26-135, LV-1029, Latvija",
+    "footer-company-registration": "Reģ. Nr.: LV40103351370",
+    "footer-company-address": "Adrese: Rīga, Rencēnu iela 10a, LV-1073",
+    "footer-phone-landline": "tel.: 00 371 27067730",
+    "footer-phone-mobile": "mob.: 00 371 29439437",
     "footer-rights": "Visas tiesības aizsargātas" ,
 
     // VACANCIES PAGE
