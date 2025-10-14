@@ -29,7 +29,7 @@ function scrollRevealFunc () {
 		origin: 'top',
 	});
 
-	ScrollReveal().reveal( `.about__text, .contacts, .card-front, .store-card-front, .activities__card-front, .footer__company, .activities__title, .swiper, .activities__image, .vacancies-outro`, {
+	ScrollReveal().reveal( `.about__text, .contacts, .card-front, .store-card-front, .activities__card-front, .footer__company, .swiper, .activities__image, .vacancies-outro`, {
 		
 		origin: 'left',
 	});

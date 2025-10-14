@@ -1,10 +1,11 @@
 const translations = {  
 
   "ru": {
-    // SEO
+   // SEO
     "desc-content": "Miks Plus — профессиональная косметика для волос, средства для ухода за волосами. Официальный дистрибьютор более 25 брендов в Латвии. Лучшие цены и условия для профессионалов и частных клиентов.",
-		"keywords-content": "микс плюс, miks plus, miksplus, miksplus.lv, miksplus.eu, miksplus.com, miksplus интернет магазин, miks plus интернет магазин, miks plus интернет магазин латвия, профессиональная косметика для волос, профессиональная косметика для волос купить, профессиональная косметика для волос интернет магазин, профессиональная косметика для волос интернет магазин латвия",
-		"landing-title": 'Miks Plus - профессиональные средства для ухода за волосами',
+    "keywords-content": "микс плюс, miks plus, miksplus, miksplus.lv, miksplus.eu, miksplus.com, miksplus интернет магазин, miks plus интернет магазин, miks plus интернет магазин латвия, профессиональная косметика для волос, профессиональная косметика для волос купить, профессиональная косметика для волос интернет магазин, профессиональная косметика для волос интернет магазин латвия",
+    "landing-title": 'Miks Plus - профессиональные средства для ухода за волосами',
+
 
     // AGREEMENT
         "agreement-header": "Мы ценим вашу приватность",
@@ -27,7 +28,6 @@ const translations = {
     "about-detail3": "Надежная доставка",
     "about-title": "Профессиональные средства для ухода за волосами",
     "about-text": "Miks Plus — компания с 15-летним опытом работы в бьюти-индустрии Латвии. Сеть наших магазинов предлагает широкий ассортимент профессиональной косметики для волос, ногтей, лица и тела. Мы являемся официальным дистрибьютором более 25 мировых брендов, благодаря чему предлагаем своим клиентам лучшие условия и ассортимент. Мы предлагаем продукцию, помогающую не только ухаживать за волосами в домашних условиях, но и обеспечивающую результат салонного уровня. У нас вы найдёте шампуни, бальзамы, маски, сыворотки, масла, а также краски для волос от лучших производителей. Кроме средств для волос, в нашем ассортименте представлены инструменты и аксессуары для стайлинга: фены, плойки, утюжки, машинки для стрижки, щипцы и многое другое. Для мастеров-профессионалов действуют эксклюзивные условия: специальные цены на продукцию, обучающие программы, семинары и тестирование новинок мировых брендов.",
-
 
     // DISTRIBUTION SECTION
        // Заголовок секции
@@ -331,7 +331,8 @@ const translations = {
     "keywords-content": "miks plus, miksplus, miksplus.lv, miksplus.eu, miksplus.com, miksplus online shop, miks plus online shop, miks plus online shop latvia, professional hair care products, professional hair care products buy, professional hair care products online shop, professional hair care products online shop latvia",
     "landing-title": 'Miks Plus - professional hair care products',
 
-     // AGREEMENT
+
+      // AGREEMENT
     "agreement-header": "We respect your privacy",
     "agreement-text": "We use cookies to improve your browsing experience by personalizing ads and content based on traffic analysis. By clicking 'Accept', you agree to our use of cookies. ",
     "agreement-link": "Cookie policy.",
@@ -593,18 +594,18 @@ const translations = {
     "activities-events-text-7": "From October 31 to November 2, 2025.",
     "activities-events-text-8": "Find us at BALTIC BEAUTY 2025! Get full information from professional consultants and purchase products at special PROMO prices!",
     "activities-events-text-9": "Yours truly, SIA Miks Plus!"
-  
+
   },
 
   "lv": {
     // SEO
-    "desc-content": "Miks Plus - profesionālie matu kopšanas līdzekļi, matu kopšanas līdzekļi. Vairāk nekā 25 zīmolu oficiālais izplatītājs Latvijā. Labākās cenas un nosacījumi profesionāļiem un privātajiem klientiem.",
+    "desc-content": "Miks Plus – profesionālā kosmētika un matu kopšanas līdzekļi. Vairāk nekā 25 zīmolu oficiālais izplatītājs Latvijā. Labākās cenas un nosacījumi profesionāļiem un privātajiem klientiem.",
     "keywords-content": "miks plus, miksplus, miksplus.lv, miksplus.eu, miksplus.com, miksplus interneta veikals, miks plus interneta veikals, miks plus interneta veikals latvija, profesionālie matu kopšanas līdzekļi, profesionālie matu kopšanas līdzekļi pirkšana, profesionālie matu kopšanas līdzekļi interneta veikals, profesionālie matu kopšanas līdzekļi interneta veikals latvija",
     "landing-title": 'Miks Plus - profesionālie matu kopšanas līdzekļi',
 
     // AGREEMENT
-    "agreement-header": "Mēs cienām jūsu privātumu",
-    "agreement-text": "Mēs izmantojam sīkfailus, lai uzlabotu jūsu pārlūkošanas pieredzi, personalizējot reklāmas un saturu, pamatojoties uz datplūsmas analīzi. Noklikšķinot uz 'Pieņemt', jūs piekrītat sīkfailu izmantošanai. ",
+    "agreement-header": "Mēs cienām Jūsu privātumu",
+    "agreement-text": "Mēs izmantojam sīkfailus, lai uzlabotu Jūsu pārlūkošanas pieredzi, personalizējot reklāmas un saturu, pamatojoties uz datplūsmas analīzi. Noklikšķinot uz 'Pieņemt', Jūs piekrītat sīkfailu izmantošanai. ",
     "agreement-link": "Sīkfailu politika.",
     "accept-btn": "Pieņemt",
     "reject-btn": "Noraidīt",
@@ -622,16 +623,16 @@ const translations = {
     "about-detail2": "Kvalitātes garantija",
     "about-detail3": "Uzticama piegāde",
     "about-title": "Profesionāli matu kopšanas līdzekļi",
-    "about-text": "Miks Plus ir uzņēmums ar 15 gadu pieredzi skaistumkopšanas nozarē Latvijā. Mūsu veikalu tīkls piedāvā plašu profesionālās kosmētikas klāstu matiem, nagiem, sejai un ķermenim. Mēs esam vairāk nekā 25 pasaules zīmolu oficiālais izplatītājs, tāpēc saviem klientiem piedāvājam vislabākos nosacījumus un sortimentu. Mēs piedāvājam produktus, kas palīdz ne tikai rūpēties par matiem mājas apstākļos, bet arī nodrošina salona līmeņa rezultātu. Pie mums atradīsiet šampūnus, balzamus, maskas, serumus, eļļas, kā arī matu krāsas no labākajiem ražotājiem. Papildus matu kopšanas līdzekļiem mūsu sortimentā ir iekļauti arī veidošanas instrumenti un aksesuāri: fēni, lokšķēres, taisnotāji, matu griešanas mašīnas, knaibles un daudz kas cits. Profesionālajiem meistariem tiek piedāvāti ekskluzīvi nosacījumi: īpašas cenas produktiem, apmācību programmas, semināri un pasaules zīmolu jauninājumu testēšana.",
+    "about-text": "Miks Plus ir uzņēmums ar 15 gadu pieredzi skaistumkopšanas nozarē Latvijā. Mūsu veikalu tīkls piedāvā plašu profesionālās kosmētikas klāstu matiem, nagiem, sejai un ķermenim. Mēs esam vairāk nekā 25 pasaules zīmolu oficiālais izplatītājs, tāpēc saviem klientiem piedāvājam vislabākos nosacījumus un sortimentu. Mēs piedāvājam produktus, kas palīdz ne tikai rūpēties par matiem mājas apstākļos, bet arī nodrošina salona līmeņa rezultātu. Pie mums atradīsiet šampūnus, kondicionierus, maskas, serumus, eļļas, kā arī matu krāsas no labākajiem ražotājiem. Papildus matu kopšanas līdzekļiem mūsu sortimentā ir iekļauti arī veidošanas instrumenti un aksesuāri: fēni, lokšķēres, taisnotāji, matu griešanas mašīnas, knaibles un daudz kas cits. Profesionālajiem meistariem tiek piedāvāti ekskluzīvi nosacījumi: īpašas cenas produktiem, apmācību programmas, semināri un pasaules zīmolu jaunumu testēšana.",
 
     // DISTRIBUTION SECTION
     'distribution.title': 'Distribūcija',
     'brand.1.title': 'andis',
-    'brand.1.description': 'Pasaules līderis profesionālo matu un bārdu apgriešanas mašīnu ražošanā. ASV.',
+    'brand.1.description': 'Pasaules līderis profesionālo matu un bārdas griešanas mašīnu ražošana. ASV.',
     'brand.1.close': 'Aizvērt',
     'brand.1.shop': 'Uz veikalu',
     'brand.2.title': 'Black Professional',
-    'brand.2.description': 'Itāļu matu kopšanas zīmols. Milzīgs matu krāsvielu, matu kopšanas un stila līdzekļu sortiments.',
+    'brand.2.description': 'Itāļu matu kopšanas zīmols. Milzīgs matu krāsu, matu kopšanas un stila līdzekļu sortiments.',
     'brand.2.close': 'Aizvērt',
     'brand.2.shop': 'Uz veikalu',
     'brand.3.title': 'Charles W',
@@ -643,7 +644,7 @@ const translations = {
     'brand.4.close': 'Aizvērt',
     'brand.4.shop': 'Uz veikalu',
     'brand.5.title': 'feetcalm',
-    'brand.5.description': 'Revolucionārs zīmols no Spānijas. Nodrošina pilnīgu jūsu kāju un pēdu kopšanu. Plašs profesionālu procedūru un produktu klāsts salonam un mājām.',
+    'brand.5.description': 'Revolucionārs zīmols no Spānijas. Nodrošina pilnīgu Jūsu kāju un pēdu kopšanu. Plašs profesionālu procedūru un produktu klāsts skaistumkopšanas saloniem un mājām.',
     'brand.5.close': 'Aizvērt',
     'brand.5.shop': 'Uz veikalu',
     'brand.6.title': 'Frutti Professional',
@@ -663,7 +664,7 @@ const translations = {
     'brand.9.close': 'Aizvērt',
     'brand.9.shop': 'Uz veikalu',
     'brand.10.title': 'lussoni',
-    'brand.10.description': 'Zīmols, kas ir labi ieteicams frizieriem. Piedāvā plašu profesionālu suku un otašu sortimentu no Dienvidkorejas.',
+    'brand.10.description': 'Zīmols, kas ir labi ieteicams frizieriem. Piedāvā plašu profesionālu matu suku un otu sortimentu no Dienvidkorejas.',
     'brand.10.close': 'Aizvērt',
     'brand.10.shop': 'Uz veikalu',
     'brand.11.title': 'luxina',
@@ -671,7 +672,7 @@ const translations = {
     'brand.11.close': 'Aizvērt',
     'brand.11.shop': 'Uz veikalu',
     'brand.12.title': 'sanctuary spa',
-    'brand.12.description': 'Unikāls SPA zīmols - produkti ar ilgtspējīgām aromātām, pievilcīgām tekstūrām un dabīgām sastāvdaļām jūsu ādai.',
+    'brand.12.description': 'Unikāls SPA zīmols - produkti ar ilgtspējīgiem aromātiem, pievilcīgu tekstūru un dabīgām sastāvdaļām jūsu ādai.',
     'brand.12.close': 'Aizvērt',
     'brand.12.shop': 'Uz veikalu',
     'brand.13.title': 'stapiz',
@@ -679,7 +680,7 @@ const translations = {
     'brand.13.close': 'Aizvērt',
     'brand.13.shop': 'Uz veikalu',
     'brand.14.title': 'st. tropez',
-    'brand.14.description': 'ST Tropez Premium pašapsedzošo līdzekļu zīmols. Jauni ādas kopšanas standarti - viegla ādas spīduma bez saules līdzdalības.',
+    'brand.14.description': 'ST Tropez Premium pašiedeguma līdzekļu zīmols. Jauni ādas kopšanas standarti - viegla ādas spīduma bez saules palīdzības.',
     'brand.14.close': 'Aizvērt',
     'brand.14.shop': 'Uz veikalu',
     'brand.15.title': 'beauty image',
@@ -687,7 +688,7 @@ const translations = {
     'brand.15.close': 'Aizvērt',
     'brand.15.shop': 'Uz veikalu',
     'brand.16.title': 'otools',
-    'brand.16.description': 'Radīgs un modīgs aksesuāru zīmols frizieriem un skaistumkopšanas saloniem.',
+    'brand.16.description': 'Radošs un moderns aksesuāru zīmols frizieriem un skaistumkopšanas saloniem.',
     'brand.16.close': 'Aizvērt',
     'brand.16.shop': 'Uz veikalu',
     'brand.17.title': 'kashoki',
@@ -699,11 +700,11 @@ const translations = {
     'brand.18.close': 'Aizvērt',
     'brand.18.shop': 'Uz veikalu',
     'brand.19.title': 'Dandy',
-    'brand.19.description': 'Vīriešu matu un bārdu kopšanas produktu līnija. Toņu krāsvielu sortiments vīriešiem. Profesionāla un mājas kopšana. Itālija.',
+    'brand.19.description': 'Vīriešu matu un bārdu kopšanas produktu līnija. Krāsu sortiments vīriešiem. Profesionāla un mājas kopšana. Itālija.',
     'brand.19.close': 'Aizvērt',
     'brand.19.shop': 'Uz veikalu',
     'brand.20.title': 'Fudge Urban',
-    'brand.20.description': 'Britu matu stila līdzekļu zīmols. Produkti izceļas ar spilgtu dizainu, pieejamību un uzsvaru uz drosmīgiem, radošiem risinājumiem.',
+    'brand.20.description': 'Britu matu veidošanas līdzekļu zīmols. Produkti izceļas ar spilgtu dizainu, pieejamību un uzsvaru uz drosmīgiem, radošiem risinājumiem.',
     'brand.20.close': 'Aizvērt',
     'brand.20.shop': 'Uz veikalu',
     'brand.21.title': 'Cera',
@@ -715,7 +716,7 @@ const translations = {
     'brand.22.close': 'Aizvērt',
     'brand.22.shop': 'Uz veikalu',
     'brand.23.title': 'Hairwell',
-    'brand.23.description': 'Vācu uzacju kopšanas produktu ražotājs. Inovatīvi risinājumi uzacju krāsošanā un kopšanā.',
+    'brand.23.description': 'Vācu uzacu kopšanas produktu ražotājs. Inovatīvi risinājumi uzacu krāsošanā un kopšanā.',
     'brand.23.close': 'Aizvērt',
     'brand.23.shop': 'Uz veikalu',
     'brand.24.title': 'Ceriotti',
@@ -735,9 +736,9 @@ const translations = {
     "stores-title": "Mūsu veikali",
     "store-map": "📍 Karte",
     "store-vacancies": "💼 Vakances",
-    "store-phone-label": "Tāl.:",
+    "store-phone-label": "Tālr.:",
 
-    "store-riga-office-title": "Rīga (ofiss)",
+    "store-riga-office-title": "Rīga (birojs)",
     "store-riga-office-address": "Rīga, Rencēnu iela 10a",
     "store-riga-office-hours1": "Pirmd.-Piektd.: 09:00 - 17:00",
     "store-riga-office-hours2": "Sestd.-Sv.: Slēgts",
@@ -786,13 +787,13 @@ const translations = {
     "store-jelgava-hours2": "Sestd.-Sv.: 10:00 - 16:00",
 
     // ACTIVITIES SECTION
-    "activities.intro": "Miks Plus nozīmē uzticamību, kvalitāti un uzmanību detaļām. Mūsu mērķis ir, lai katrs klients justos pārliecināts, ka izvēlējies labāko sev un saviem matiem. Mēs ne tikai tirgojam lieliskus produktus, bet arī nodarbojamies ar izglītošanu un apmācību.",
+    "activities.intro": "Miks Plus nozīmē uzticamību, kvalitāti un uzmanību. Mūsu mērķis, lai katrs klients justos pārliecināts, ka izvēlējies labāko sev un saviem matiem. Mēs ne tikai tirgojam lieliskus produktus, bet arī nodarbojamies ar apmācībām un semināriem.",
     
     "activities.title": "Mūsu darbība",
 
     "activities.seminars.title": "Semināri",
     "activities.seminars.heading": "Semināri",
-    "activities.seminars.text": "Miks Plus ir 25+ zīmolu izplatītājs. Mēs regulāri rīkojam apmācības un seminārus, lai iepazīstinātu klientus ar mūsu ražotāju jaunākajiem produktiem un to lietošanas tehnoloģijām.",
+    "activities.seminars.text": "Miks Plus ir  vairāk, nekā 25 zīmolu izplatītājs. Mēs regulāri rīkojam apmācības un seminārus, lai iepazīstinātu klientus ar mūsu ražotāju jaunākajiem produktiem un to lietošanas tehnoloģijām.",
     "activities.seminars.link": "Uzzināt vairāk",
 
     "activities.exhibitions.title": "Izstādes",
@@ -802,7 +803,7 @@ const translations = {
 
     "activities.sponsorship.title": "Sponsorēšana",
     "activities.sponsorship.heading": "Sponsorēšana",
-    "activities.sponsorship.text": "Miks Plus ar prieku piedalās labdarības, sporta un izglītības pasākumos kā sponsors. Mēs labprāt atbalstām jaunu salonu, bārdasvīru salonu un jebkuru citu skaistumkopšanas biznesa uzsākšanu.",
+    "activities.sponsorship.text": "Miks Plus ar prieku piedalās labdarības, sporta un izglītības pasākumos kā sponsors. Mēs labprāt atbalstām jaunu salonu, barbershop salonu un jebkuru citu skaistumkopšanas biznesa uzsākšanu.",
     "activities.sponsorship.link": "Atvērt",
 
     // CONTACTS
@@ -830,7 +831,7 @@ const translations = {
 
     // VACANCIES PAGE
     "vacancies-title": "Miks Plus vakances",
-    "vacancies-outro": " Cienījamie kolēģi! Ja šobrīd mums nav piemērotas vakances jums, tas nenozīmē, ka tā neparādīsies nākotnē. Nosūtiet mums savu CV, lai mēs varētu ar jums sazināties.",
+    "vacancies-outro": " Cienījamie kolēģi! Ja šobrīd mums nav piemērotas vakances Jums, tas nenozīmē, ka tā neparādīsies nākotnē. Nosūtiet mums savu CV, lai mēs varētu ar Jums sazināties.",
   
   // ACTIVITIES PAGE
     
@@ -841,7 +842,7 @@ const translations = {
   "activities-seminars-text-2": "STAPIZ Professional (Polija) un Black Professional (Itālija)",
   "activities-seminars-text-3": "Mēs aicinām pazīstamus meistarus, kuri vada praktiskas nodarbības mūsu klientiem. Pēdējā laikā Rīgu, Daugavpili un Valmieru ir apmeklējuši labākie mūsu pārstāvēto zīmolu frizieri:",
   "activities-seminars-text-4": "Silvia Limetti (Stapiz Professional)   Angela Cannito (Black Professional)   Enrico Delorenzi (Black Professional)",
-  "activities-seminars-text-5": "Sekojiet mūsu reklāmām un apmeklējiet seminārus un apmācības, ko organizē mūsu komanda. Gaidām jūs ciemos!",
+  "activities-seminars-text-5": "Sekojiet mūsu reklāmām un apmeklējiet seminārus un apmācības, ko organizē mūsu komanda. Gaidām Jūs ciemos!",
 
   "activities-exhibitions-title": "Izstādes",
   "activities-exhibitions-text-1": "Uzņēmums SIA MIKS PLUS jau vairāk nekā 10 gadus piedalās apmeklētākajā skaistumkopšanas izstādē Baltijā – BALTIC BEAUTY, kas katru rudeni notiek Rīgā.",
@@ -849,26 +850,24 @@ const translations = {
   "activities-exhibitions-text-3": "- Vairāk nekā 30 000 apmeklētāju ik gadu.",
   "activities-exhibitions-text-4": "Mūsu stendos vienmēr atradīsiet modernākos un populārākos risinājumus matu, nagu un ķermeņa kopšanai. Saņemiet pilnīgu informāciju no profesionāliem konsultantiem un iegādājieties produktus par īpašām PROMO cenām!",
 
-  "activities-sponsorship-title": "Sponsorships un līdzdalība",
+  "activities-sponsorship-title": "Sponsorēšana un līdzdalība",
   "activities-sponsorship-text-1": "SIA MIKS PLUS vienmēr cenšas atbalstīt projektus, kuros piedalās jaunie skaistumkopšanas nozares speciālisti, sportisti un studenti. Starp mūsu pastāvīgajiem projektiem:",
   "activities-sponsorship-text-2": "- sporta un deju sacensību sponsorēšana;",
-  "activities-sponsorship-text-3": "- atbalsts jauno meistaru saloniem un barbershopiem;",
+  "activities-sponsorship-text-3": "- atbalsts jauno meistaru salonus un barbershop;",
   "activities-sponsorship-text-4": "- auto un motosporta pasākumu sponsorēšana.",
   "activities-sponsorship-text-5": "Mēs vienmēr esam atvērti jaunām idejām un iniciatīvām. Sazinieties ar mums, ja vēlaties piedāvāt sadarbību vai jums nepieciešama palīdzība savu ideju īstenošanā!",
 
   "activities-events-title": "Tuvākie pasākumi",
-  "activities-events-text-1": "Sekojiet reklāmām šajā vietnē un mūsu sociālajos tīklos. Mēs solām jūs savlaicīgi informēt par visiem pasākumiem, kuros piedalāmies.",
+  "activities-events-text-1": "Sekojiet reklāmām šajā vietnē un mūsu sociālajos tīklos. Mēs solām Jūs savlaicīgi informēt par visiem pasākumiem, kuros piedalāmies.",
   "activities-events-text-2": "Nākamais pasākums:",
   "activities-events-text-3": "izstāde BALTIC BEAUTY 2025;",
   "activities-events-text-4": "Norises vieta:",
   "activities-events-text-5": "Latvija, Rīga, izstāžu centrs Ķīpsala;",
   "activities-events-text-6": "Datums:",
   "activities-events-text-7": "no 2025. gada 31. oktobra līdz 2. novembrim.",
-  "activities-events-text-8": "Meklējiet mūs BALTIC BEAUTY 2025 izstādē! Saņemiet pilnīgu informāciju no profesionāliem konsultantiem un iegādājieties produktus par īpašām PROMO cenām!",
+  "activities-events-text-8": "Meklējiet mūs BALTIC BEAUTY 2025 izstādē! Saņemiet plašu informāciju no profesionāliem konsultantiem un iegādājieties produktus par īpašām PROMO cenām!",
   "activities-events-text-9": "Jūsu SIA Miks Plus!"
 }
-
-
 
 };
 
