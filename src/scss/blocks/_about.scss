@@ -119,3 +119,14 @@
             line-height: 1.4;
         }
 }
+
+a.about-activities-link{
+    text-decoration: underline;
+    font-weight: 600;
+    transition: all 0.2s ease-in;
+    
+    &:hover {
+        color: green;
+    }
+
+}

@@ -6,7 +6,6 @@ const translations = {
     "keywords-content": "микс плюс, miks plus, miksplus, miksplus.lv, miksplus.eu, miksplus.com, miksplus интернет магазин, miks plus интернет магазин, miks plus интернет магазин латвия, профессиональная косметика для волос, профессиональная косметика для волос купить, профессиональная косметика для волос интернет магазин, профессиональная косметика для волос интернет магазин латвия",
     "landing-title": 'Miks Plus - профессиональные средства для ухода за волосами',
 
-
     // AGREEMENT
         "agreement-header": "Мы ценим вашу приватность",
         "agreement-text": "Мы используем файлы cookie, чтобы улучшить качество ваших просмотров, персонализируя для вас рекламу и контент на основе анализа трафика. Нажимая \"Принять\", вы соглашаетесь с использованием файлов cookie. ",
@@ -27,7 +26,8 @@ const translations = {
     "about-detail2": "Гарантия качества",
     "about-detail3": "Надежная доставка",
     "about-title": "Профессиональные средства для ухода за волосами",
-    "about-text": "Miks Plus — компания с 15-летним опытом работы в бьюти-индустрии Латвии. Сеть наших магазинов предлагает широкий ассортимент профессиональной косметики для волос, ногтей, лица и тела. Мы являемся официальным дистрибьютором более 25 мировых брендов, благодаря чему предлагаем своим клиентам лучшие условия и ассортимент. Мы предлагаем продукцию, помогающую не только ухаживать за волосами в домашних условиях, но и обеспечивающую результат салонного уровня. У нас вы найдёте шампуни, бальзамы, маски, сыворотки, масла, а также краски для волос от лучших производителей. Кроме средств для волос, в нашем ассортименте представлены инструменты и аксессуары для стайлинга: фены, плойки, утюжки, машинки для стрижки, щипцы и многое другое. Для мастеров-профессионалов действуют эксклюзивные условия: специальные цены на продукцию, обучающие программы, семинары и тестирование новинок мировых брендов.",
+    "about-text": "Miks Plus — компания с 15-летним опытом работы в бьюти-индустрии Латвии. Сеть наших магазинов предлагает широкий ассортимент профессиональной косметики для волос, ногтей, лица и тела. Мы являемся официальным дистрибьютором более 25 мировых брендов, благодаря чему предлагаем своим клиентам лучшие условия и ассортимент. Мы предлагаем продукцию, помогающую не только ухаживать за волосами в домашних условиях, но и обеспечивающую результат салонного уровня. У нас вы найдёте шампуни, бальзамы, маски, сыворотки, масла, а также краски для волос от лучших производителей. Кроме средств для волос, в нашем ассортименте представлены инструменты и аксессуары для стайлинга: фены, плойки, утюжки, машинки для стрижки, щипцы и многое другое. Для мастеров-профессионалов действуют эксклюзивные условия: специальные цены на продукцию, обучающие программы, семинары и тестирование новинок мировых брендов. Подробнее с нашей деятельностью можно познакомиться ",
+    "about-activities": "здесь.",
 
     // DISTRIBUTION SECTION
        // Заголовок секции
@@ -217,7 +217,7 @@ const translations = {
     "store-riga-yugla-hours3": "Вск: выходной",
 
     "store-daugavpils-title": "Даугавпилс",
-    "store-daugavpils-address": "Даугавпилс, ул. Виестура 68",
+    "store-daugavpils-address": "Даугавпилс, ул. Виестура 68-2",
     "store-daugavpils-hours1": "Пн-Пт: с 09:00 до 19:00",
     "store-daugavpils-hours2": "Сб-Вск: с 10:00 до 16:00",
 
@@ -241,7 +241,8 @@ const translations = {
     "store-jelgava-title": "Елгава",
     "store-jelgava-address": "Елгава, ул. Католю 1A",
     "store-jelgava-hours1": "Пн-Пт: с 09:00 до 19:00",
-    "store-jelgava-hours2": "Сб-Вск: с 10:00 до 16:00",
+    "store-jelgava-hours2": "Сб: с 10:00 до 16:00",
+    "store-jelgava-hours3": "Вск: выходной",
 
     // ACTIVITIES SECTION
     "activities.intro": "Miks Plus — это надёжность, качество и внимание к деталям. Наша цель — чтобы каждый клиент был уверен в том, что выбрал лучшее для себя и своих волос. Мы не только торгуем отличными товарами, мы занимаемся просвещением и обучением.",
@@ -281,9 +282,9 @@ const translations = {
 
     // FOOTER
     "footer-company-name": "\"Miks Plus\", SIA",
-    "footer-company-registration": "Рег. номер: LV40103351370",
+    "footer-company-registration": "Рег. НДС номер: LV40103351370",
     "footer-company-address": "Адрес: Рига, ул. Ренцену 10a, LV-1073",
-    "footer-phone-landline": "тел.: 00 371 27067730",
+    "footer-phone-landline": "тел. : 00 371 27067730",
     "footer-rights": "Все права защищены",  
     
     // VACANCIES PAGE
@@ -353,7 +354,9 @@ const translations = {
     "about-detail2": "Quality guarantee",
     "about-detail3": "Reliable delivery",
     "about-title": "Professional hair care products",
-    "about-text": "Miks Plus is a company with 15 years of experience in the beauty industry in Latvia. Our network of stores offers a wide range of professional cosmetics for hair, nails, face, and body. We are the official distributor of more than 25 global brands, which allows us to offer our clients the best conditions and assortment. We provide products that help not only to care for hair at home but also to achieve salon-level results. With us, you will find shampoos, conditioners, masks, serums, oils, and hair dyes from the best manufacturers. In addition to hair care products, our assortment includes styling tools and accessories: hair dryers, curling irons, straighteners, clippers, tongs, and much more. For professional stylists, we offer exclusive conditions: special product prices, training programs, seminars, and testing of new products from global brands.",
+    "about-text": "Miks Plus is a company with 15 years of experience in the beauty industry in Latvia. Our network of stores offers a wide range of professional cosmetics for hair, nails, face, and body. We are the official distributor of more than 25 global brands, which allows us to offer our clients the best conditions and assortment. We provide products that help not only to care for hair at home but also to achieve salon-level results. With us, you will find shampoos, conditioners, masks, serums, oils, and hair dyes from the best manufacturers. In addition to hair care products, our assortment includes styling tools and accessories: hair dryers, curling irons, straighteners, clippers, tongs, and much more. For professional stylists, we offer exclusive conditions: special product prices, training programs, seminars, and testing of new products from global brands. You can learn more about our activities ",
+    "about-activities": "here.",
+
 
     // DISTRIBUTION SECTION
         'distribution.title': 'Distribution',
@@ -490,7 +493,7 @@ const translations = {
     "store-riga-yugla-hours3": "Sun: Closed",
 
     "store-daugavpils-title": "Daugavpils",
-    "store-daugavpils-address": "Daugavpils, Viestura Street 68",
+    "store-daugavpils-address": "Daugavpils, Viestura Street 68-2",
     "store-daugavpils-hours1": "Mon-Fri: 09:00 - 19:00",
     "store-daugavpils-hours2": "Sat-Sun: 10:00 - 16:00",
 
@@ -514,7 +517,8 @@ const translations = {
     "store-jelgava-title": "Jelgava",
     "store-jelgava-address": "Jelgava, Katolu Street 1A",
     "store-jelgava-hours1": "Mon-Fri: 09:00 - 19:00",
-    "store-jelgava-hours2": "Sat-Sun: 10:00 - 16:00",
+    "store-jelgava-hours2": "Sat: 10:00 - 16:00",
+    "store-jelgava-hours2": "Sun: Closed",
 
     // ACTIVITIES SECTION
      "activities.intro": "Miks Plus stands for reliability, quality, and attention to detail. Our goal is to ensure that every client feels confident they have chosen the best for themselves and their hair. We not only sell excellent products but also provide education and training.",
@@ -554,9 +558,9 @@ const translations = {
 
     // FOOTER   
     "footer-company-name": "\"Miks Plus\", Ltd.",
-    "footer-company-registration": "VAT Nr.: LV40103351370",
+    "footer-company-registration": "Reg. VAT Nr. : LV40103351370",
     "footer-company-address": "Address: Riga, Rencenu Street 10a, LV-1073",
-    "footer-phone-landline": "tel.: 00 371 27067730",
+    "footer-phone-landline": "phone : 00 371 27067730",
     "footer-rights": "All rights reserved",
 
     // VACANCIES PAGE
@@ -625,7 +629,9 @@ const translations = {
     "about-detail2": "Kvalitātes garantija",
     "about-detail3": "Uzticama piegāde",
     "about-title": "Profesionāli matu kopšanas līdzekļi",
-    "about-text": "Miks Plus ir uzņēmums ar 15 gadu pieredzi skaistumkopšanas nozarē Latvijā. Mūsu veikalu tīkls piedāvā plašu profesionālās kosmētikas klāstu matiem, nagiem, sejai un ķermenim. Mēs esam vairāk nekā 25 pasaules zīmolu oficiālais izplatītājs, tāpēc saviem klientiem piedāvājam vislabākos nosacījumus un sortimentu. Mēs piedāvājam produktus, kas palīdz ne tikai rūpēties par matiem mājas apstākļos, bet arī nodrošina salona līmeņa rezultātu. Pie mums atradīsiet šampūnus, kondicionierus, maskas, serumus, eļļas, kā arī matu krāsas no labākajiem ražotājiem. Papildus matu kopšanas līdzekļiem mūsu sortimentā ir iekļauti arī veidošanas instrumenti un aksesuāri: fēni, lokšķēres, taisnotāji, matu griešanas mašīnas, knaibles un daudz kas cits. Profesionālajiem meistariem tiek piedāvāti ekskluzīvi nosacījumi: īpašas cenas produktiem, apmācību programmas, semināri un pasaules zīmolu jaunumu testēšana.",
+    "about-text": "Miks Plus ir uzņēmums ar 15 gadu pieredzi skaistumkopšanas nozarē Latvijā. Mūsu veikalu tīkls piedāvā plašu profesionālās kosmētikas klāstu matiem, nagiem, sejai un ķermenim. Mēs esam vairāk nekā 25 pasaules zīmolu oficiālais izplatītājs, tāpēc saviem klientiem piedāvājam vislabākos nosacījumus un sortimentu. Mēs piedāvājam produktus, kas palīdz ne tikai rūpēties par matiem mājas apstākļos, bet arī nodrošina salona līmeņa rezultātu. Pie mums atradīsiet šampūnus, kondicionierus, maskas, serumus, eļļas, kā arī matu krāsas no labākajiem ražotājiem. Papildus matu kopšanas līdzekļiem mūsu sortimentā ir iekļauti arī veidošanas instrumenti un aksesuāri: fēni, lokšķēres, taisnotāji, matu griešanas mašīnas, knaibles un daudz kas cits. Profesionālajiem meistariem tiek piedāvāti ekskluzīvi nosacījumi: īpašas cenas produktiem, apmācību programmas, semināri un pasaules zīmolu jaunumu testēšana. Ar mūsu darbību var iepazīties sīkāk ",
+    "about-activities": "šeit.",
+
 
     // DISTRIBUTION SECTION
     'distribution.title': 'Distribūcija',
@@ -762,7 +768,7 @@ const translations = {
     "store-riga-yugla-hours3": "Svētd.: Slēgts",
 
     "store-daugavpils-title": "Daugavpils",
-    "store-daugavpils-address": "Daugavpils, Viestura iela 68",
+    "store-daugavpils-address": "Daugavpils, Viestura iela 68-2",
     "store-daugavpils-hours1": "Pirmd.-Piektd.: 09:00 - 19:00",
     "store-daugavpils-hours2": "Sestd.-Sv.: 10:00 - 16:00",
 
@@ -786,7 +792,8 @@ const translations = {
     "store-jelgava-title": "Jelgava",
     "store-jelgava-address": "Jelgava, Katolu iela 1A",
     "store-jelgava-hours1": "Pirmd.-Piektd.: 09:00 - 19:00",
-    "store-jelgava-hours2": "Sestd.-Sv.: 10:00 - 16:00",
+    "store-jelgava-hours2": "Sestd.: 10:00 - 16:00",
+    "store-jelgava-hours3": "Sv.: Slēgts",
 
     // ACTIVITIES SECTION
     "activities.intro": "Miks Plus nozīmē uzticamību, kvalitāti un uzmanību. Mūsu mērķis, lai katrs klients justos pārliecināts, ka izvēlējies labāko sev un saviem matiem. Mēs ne tikai tirgojam lieliskus produktus, bet arī nodarbojamies ar apmācībām un semināriem.",
@@ -827,9 +834,9 @@ const translations = {
 
     // FOOTER    
     "footer-company-name": "\"Miks Plus\", SIA",
-    "footer-company-registration": "Reģ. Nr.: LV40103351370",
+    "footer-company-registration": "Reģ. PVN Nr. : LV40103351370",
     "footer-company-address": "Adrese: Rīga, Rencēnu iela 10a, LV-1073",
-    "footer-phone-landline": "tel.: 00 371 27067730",
+    "footer-phone-landline": "tālr. : 00 371 27067730",
     "footer-rights": "Visas tiesības aizsargātas" ,
 
     // VACANCIES PAGE
