@@ -1,13 +1,8 @@
 .footer {
   position: relative;
   border-top: 1px solid rgba(0,0,0,.08);
-  background-color: rgb(242, 196, 196); 
-  background-color: #141212; 
+  background-color: #141212;
   box-shadow: 0 -10px 30px rgba(0,0,0,.08);
-
-  @include mobile {
-      padding: 0;
-  }
 }
 
 .footer__container {
@@ -22,24 +17,35 @@
   gap: 24px 40px;
   align-items: center;
   padding: 28px 0;
-}
 
-@media (max-width: 720px) {
-  .footer__row {
+  @media (max-width: 1028px) {
     grid-template-columns: 1fr;
     gap: 16px;
     padding: 20px 0;
   }
 }
 
-.footer__company { 
-	display: flex;
-	flex-direction: column;
-	gap: 15px;
-  
-  @include mobile {
-      gap: 0;
+/* --- три столбца --- */
+.footer__company {
+  display: grid;
+  grid-template-columns: auto 1fr 1fr; /* логотип — автоширина, 2 и 3 столбцы равны */
+  gap: 60px; 
+  align-items: start;
+
+  @media (max-width: 1028px) {
+    gap: 40px;
+    grid-template-columns: 1fr;
   }
+
+  @media (max-width: 1028px) {
+    gap: 20px;
+  }
+}
+
+.footer__col {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
 .footer__title {
@@ -49,10 +55,7 @@
   color: #fff;
 }
 
-.footer__info {
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
+.footer__text {
   font-size: 15px;
   color: #fff;
 }
@@ -60,12 +63,12 @@
 .footer__link {
   display: inline-flex;
   align-items: center;
-  gap: 15px;
+  gap: 10px;
   text-decoration: none;
   font-weight: 600;
   color: #fff;
-  position: relative;
-  transition: all 0.2s ease-in;  
+  letter-spacing: 1.1px;
+  transition: all 0.2s ease-in;
 
   &:hover {
     color: var(--accent);
@@ -77,9 +80,9 @@
   font-size: 14px;
   color: #fff;
   text-align: right;
-  align-self: end;
-}
+  align-self: start;
 
-@media (max-width: 720px) {
-  .footer__copyright { text-align: left; }
+  @media (max-width: 1028px) {
+    text-align: left;
+  }
 }

@@ -265,7 +265,11 @@ const translations = {
 
     // CONTACTS
     "contacts-title": "контакты",
-
+     "contacts-info":"Уважаемые коллеги! По вопросом закупок, дистрибуции, устройства на работу и другим видам сотрудничества вы можете связаться с нашим офисом по следующим контактам: ",
+    "contacts-phone-landline":"тел.: +371 27067730",
+    "contacts-socials":"А также при помощи соцсетей: ",
+    "form-text":"Или заполнив форму:",
+    
     // FORM placeholders
     "form-name": "Ваше имя",
     "form-email": "Ваш email",
@@ -518,7 +522,7 @@ const translations = {
     "store-jelgava-address": "Jelgava, Katolu Street 1A",
     "store-jelgava-hours1": "Mon-Fri: 09:00 - 19:00",
     "store-jelgava-hours2": "Sat: 10:00 - 16:00",
-    "store-jelgava-hours2": "Sun: Closed",
+    "store-jelgava-hours3": "Sun: Closed",
 
     // ACTIVITIES SECTION
      "activities.intro": "Miks Plus stands for reliability, quality, and attention to detail. Our goal is to ensure that every client feels confident they have chosen the best for themselves and their hair. We not only sell excellent products but also provide education and training.",
@@ -541,7 +545,11 @@ const translations = {
 
     // CONTACTS
     "contacts-title": "Contacts",
-
+    "contacts-info": "Dear colleagues! For questions regarding procurement, distribution, employment opportunities, or other types of cooperation, you can contact our office using the following details:",
+    "contacts-phone-landline": "phone: +371 27067730",
+    "contacts-socials": "Or via social networks:",
+    "form-text": "Or by filling out the form:",   
+            
     // FORM placeholders
     "form-name": "Your name",
     "form-email": "Your email",
@@ -631,7 +639,6 @@ const translations = {
     "about-title": "Profesionāli matu kopšanas līdzekļi",
     "about-text": "Miks Plus ir uzņēmums ar 15 gadu pieredzi skaistumkopšanas nozarē Latvijā. Mūsu veikalu tīkls piedāvā plašu profesionālās kosmētikas klāstu matiem, nagiem, sejai un ķermenim. Mēs esam vairāk nekā 25 pasaules zīmolu oficiālais izplatītājs, tāpēc saviem klientiem piedāvājam vislabākos nosacījumus un sortimentu. Mēs piedāvājam produktus, kas palīdz ne tikai rūpēties par matiem mājas apstākļos, bet arī nodrošina salona līmeņa rezultātu. Pie mums atradīsiet šampūnus, kondicionierus, maskas, serumus, eļļas, kā arī matu krāsas no labākajiem ražotājiem. Papildus matu kopšanas līdzekļiem mūsu sortimentā ir iekļauti arī veidošanas instrumenti un aksesuāri: fēni, lokšķēres, taisnotāji, matu griešanas mašīnas, knaibles un daudz kas cits. Profesionālajiem meistariem tiek piedāvāti ekskluzīvi nosacījumi: īpašas cenas produktiem, apmācību programmas, semināri un pasaules zīmolu jaunumu testēšana. Ar mūsu darbību var iepazīties sīkāk ",
     "about-activities": "šeit.",
-
 
     // DISTRIBUTION SECTION
     'distribution.title': 'Distribūcija',
@@ -817,6 +824,10 @@ const translations = {
 
     // CONTACTS
     "contacts-title": "Kontakti",
+    "contacts-info": "Cienījamie kolēģi! Jautājumos par iepirkumiem, izplatīšanu, darba iespējām un citiem sadarbības veidiem varat sazināties ar mūsu biroju, izmantojot šādus kontaktus:",
+    "contacts-phone-landline": "tālr.: +371 27067730",
+    "contacts-socials": "Kā arī, izmantojot sociālos tīklus:",
+    "form-text": "Vai aizpildot veidlapu:",
 
     // FORM placeholders
     "form-name": "Jūsu vārds",

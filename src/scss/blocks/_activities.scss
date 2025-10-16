@@ -4,6 +4,10 @@
   font-family: var(--font-main);
   text-align: center;
   margin-bottom: 80px;
+
+  @include mobile {
+      margin-bottom: 10px;
+  }
 }
 
 .activities__title {

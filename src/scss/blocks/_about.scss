@@ -1,6 +1,10 @@
 .about {
     margin-top: 50px;
-    margin-bottom: 80px;
+    margin-bottom: 40px;
+
+    @include mobile {
+        margin-bottom: 10px;
+    }
 }
 
 .about__inner {

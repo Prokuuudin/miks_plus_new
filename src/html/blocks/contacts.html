@@ -1,34 +1,63 @@
 <section class="contacts" id="contacts">
     <div class="container contacts__container">
-        <h2 class="contacts__title title-2" data-key="contacts-title">контакты</h2>
-        <form action="/send.php" method="post" id="form" class="form" name="form" enctype="multipart/form-data"
+        <h2 class="contacts__title title-2" data-key="contacts-title">контакты</h2>        
+        <div class="contacts__info">
+            <p class="contacts__info-text" data-key="contacts-info">
+                Уважаемые коллеги! По вопросом закупок, дистрибуции, устройства на работу и другим видам сотрудничества вы можете связаться с нашим офисом по следующим контактам:
+            </p>
+            <div class="contacts__links">            
+          <a class="contacts__link" href="mailto:office@miksplus.eu" target="_blank" rel="noopener" data-key="contacts-email">
+            office@miksplus.eu
+          </a>
+          <a class="contacts__link" href="tel:+37127067730" data-key="contacts-phone-landline">
+            tel.: +371 27067730
+          </a>
+        </div>
+        <div class="contacts__socials">
+              <p data-key="contacts-socials">А также при помощи соцсетей:</p>
+        <a href="https://www.facebook.com/miksplusveikals" target="_blank">
+            <svg class="icon icon--facebook">
+                <use href="./img/svgsprite/sprite.symbol.svg#facebook"></use>
+            </svg>
+        </a>
+        <a href="https://www.instagram.com/miksplusveikals/" target="_blank">
+            <svg class="icon icon--instagram">
+                <use href="./img/svgsprite/sprite.symbol.svg#instagram"></use>
+            </svg>
+        </a>
+          </div>        
+        </div>
+
+        <div class="form__container">
+            <p data-key="form-text">Или заполнив форму:</p>
+            <form action="/send.php" method="post" id="form" class="form" name="form" enctype="multipart/form-data"
             autocomplete="on">
             <input type="text" placeholder="Ваше имя" name="name" id="formName" class="form__input _req"
-                data-placeholder-key="form-name" />
-
+            data-placeholder-key="form-name" />
+            
             <input type="text" placeholder="Ваш email" name="email" id="formEmail" class="form__input _req _email"
-                data-placeholder-key="form-email" />
-
+            data-placeholder-key="form-email" />
+            
             <input type="tel" id="formTel" class="form__input _req" name="tel" placeholder="Ваш телефон"
-                data-placeholder-key="form-phone" />
-
+            data-placeholder-key="form-phone" />
+            
             <textarea name="message" data-placeholder-key="form-message" wrap="hard"></textarea>
-
+            
             <div class="form__resume">
                 <label for="cv" class="custom-file-label" data-key="form-resume">Выбрать файл</label>
                 <input type="file" id="cv" name="cv[]" accept=".pdf,.doc,.docx,.png,.jpg,.jpeg,.gif" />
                 <div class="form__resume-info"></div>
                 <ul class="form__resume-list"></ul>
             </div>
-
+            
             <div class="form-group">
                 <input id="formAgreement" type="checkbox" name="agreement" class="checkbox__input _req "
-                    data-key="form-agreement" />
+                data-key="form-agreement" />
                 <label for="formAgreement" class="checkbox__label">
                     <span class="checkbox__box-span">
                         <span data-key="users-agreement-1">Я принимаю условия </span><a data-key="policy-link"
-                            href="./../../files/agreement-miksplus_lv_ru_en.pdf" target="_blank">политики
-                            конфиденциальности </a><span data-key="users-agreement-2">компании и даю согласие на
+                        href="./../../files/agreement-miksplus_lv_ru_en.pdf" target="_blank">политики
+                        конфиденциальности </a><span data-key="users-agreement-2">компании и даю согласие на
                             обработку своих персональных данных.
                         </span>
                     </span>
@@ -41,5 +70,6 @@
                 </button>
             </div>
         </form>
+    </div>
     </div>
 </section>
