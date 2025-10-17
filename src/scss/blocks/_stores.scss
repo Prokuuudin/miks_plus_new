@@ -35,14 +35,16 @@
   z-index: 1;
 
   @media (max-width: 480px) {
-    width: 90%;       
-    max-width: 280px; 
-    height: 280px; /* фикс вместо auto для стабильности 3D */
+    width: 90%;
+    max-width: 280px;
+    height: 280px;
+    /* фикс вместо auto для стабильности 3D */
   }
 }
 
 .store-card:hover {
-  z-index: 20; /* поднимаем карточку выше соседей */
+  z-index: 20;
+  /* поднимаем карточку выше соседей */
 }
 
 .store-card__inner {
@@ -57,11 +59,12 @@
 .store-card:hover .store-card__inner {
   transform: rotateY(180deg);
   z-index: 10;
-  box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
 
   @media (max-width: 480px) {
-    transform: rotateY(180deg); /* без масштаба на мобильных */
-    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+    transform: rotateY(180deg);
+    /* без масштаба на мобильных */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
   }
 }
 
@@ -87,7 +90,7 @@
 }
 
 .store-card-front span {
-  background: rgba(0,0,0,0.4);
+  background: rgba(0, 0, 0, 0.4);
   padding: 6px 12px;
   border-radius: 6px;
   z-index: 2;
@@ -99,7 +102,7 @@
   flex-direction: column;
   text-align: left;
   padding: 15px;
-  font-size: 14px;  
+  font-size: 14px;
   transform: rotateY(180deg);
   z-index: 2;
 }

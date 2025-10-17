@@ -7,12 +7,12 @@
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   display: flex;
   flex-direction: column;
-  gap: 15px;  
+  gap: 15px;
 
   @media (max-width: 768px) {
     width: 90%;
-  }  
-  
+  }
+
   @include mobile {
     width: 100%;
     padding: 15px 5px;
@@ -67,7 +67,7 @@
   .checkbox__input {
     display: none;
 
-    &:checked + .checkbox__label::after {
+    &:checked+.checkbox__label::after {
       transform: scale(1);
     }
   }
@@ -135,7 +135,7 @@
     text-align: start;
 
     @include mobile {
-        gap: 0;
+      gap: 0;
     }
 
     input[type='file'] {
@@ -156,7 +156,7 @@
 
       &:hover {
         box-shadow: 0 2px 8px rgba(0, 0, 0, 0.9);
-		    scale: 1.05;
+        scale: 1.05;
         background-color: #45a049;
       }
     }
@@ -202,18 +202,18 @@
     align-items: center;
 
     @include tablet {
-        flex-direction: column;
-        gap: 20px;
-        align-items: flex-start;
-        overflow: hidden;
-    }   
-    @include mobile {
-        gap: 10px;
+      flex-direction: column;
+      gap: 20px;
+      align-items: flex-start;
+      overflow: hidden;
     }
-   
+
+    @include mobile {
+      gap: 10px;
+    }
   }
 
   .g-recaptcha {
-    width: 50%;   
-    }
-}  
+    width: 50%;
+  }
+}

@@ -1,12 +1,6 @@
-.contacts__container{
-    padding: 40px;   
-    text-align: center;   
-    margin-bottom: 80px;
-}
-
-.title-2.contacts__title{
-    margin-bottom: 10px; 
-    color: #fff; 
+.title-2.contacts__title {
+    margin-bottom: 10px;
+    color: #fff;
 }
 
 .contacts {
@@ -20,26 +14,27 @@
 .contacts__container {
     padding: 40px;
     text-align: center;
-    margin-bottom: 80px;
+    // margin-bottom: 80px;
 
     @include tablet-small {
         padding: 20px;
         margin-bottom: 20px;
     }
 }
+
 .contacts__info {
     width: 50%;
     margin: 0 auto;
     font-size: 22px;
     font-weight: 600;
-    
+
     @include tablet-small {
         width: 100%;
         font-size: 16px;
-    }    
+    }
 }
 
-.contacts__info p{
+.contacts__info p {
     color: #fff;
     font-size: 22px;
 
@@ -65,19 +60,12 @@
     background-color: var(--accent);
     border-radius: 5px;
     transition: all 0.3s ease-in;
-    
+
     color: #fff;
 
-    @include tablet-small {        
-    }
-    
-    &:hover{
+    @include tablet-small {}
+
+    &:hover {
         background-color: #fff;
     }
-
-
 }
-
-.contacts__socials {
-}
-

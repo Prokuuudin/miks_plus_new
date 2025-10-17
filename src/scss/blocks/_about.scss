@@ -12,27 +12,29 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    min-height: 100vh; /* на весь экран */
-    
+    min-height: 100vh;
+    /* на весь экран */
+
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-end; 
-    
+    align-items: flex-end;
+
     padding: 0 20px;
     color: #fff;
 
     @media (max-width: 1240px) {
         background-size: cover;
-        background-position: left top; /* или left center */
+        background-position: left top;
+        /* или left center */
     }
 
     @include mobile {
         position: relative;
         background-position: left;
-        min-height: auto;  
+        min-height: auto;
     }
- 
+
 }
 
 .about .container {
@@ -46,11 +48,11 @@
     }
 }
 
-.about__wrapper {    
+.about__wrapper {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    gap: 100px;       
+    gap: 100px;
     margin-top: 20px;
 }
 
@@ -61,34 +63,34 @@
 
     @include mobile {
         font-size: 16px;
-    }    
+    }
 }
 
 .about__details li {
-    margin-bottom: 5px;    
-    
+    margin-bottom: 5px;
+
 }
 
-.about__content{
+.about__content {
     width: 70%;
     text-align: right;
-    margin-top: auto;   
-   
+    margin-top: auto;
+
     @include tablet {
         width: 100%;
     }
 }
 
-.about .title-1 { 
+.about .title-1 {
     margin-bottom: 10px;
     font-weight: 700;
     color: #fff;
 }
 
-.about__details li p{
+.about__details li p {
     font-size: 18px;
 
-        @include mobile {
+    @include mobile {
         font-size: 14px;
         line-height: 1;
         margin-bottom: 0;
@@ -103,34 +105,33 @@
     padding: 20px;
 
     @include mobile {
-     margin-top: 10px;
-     padding: 10px;
+        margin-top: 10px;
+        padding: 10px;
     }
 }
 
 .about__text {
-    font-size: 20px;    
+    font-size: 20px;
     line-height: 1.6;
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
     text-align: justify;
-    
-        @include mobile {
-            padding: 10px;
-            width: 100%;
-            font-size: 14px;
-            line-height: 1.4;
-        }
+
+    @include mobile {
+        padding: 10px;
+        width: 100%;
+        font-size: 14px;
+        line-height: 1.4;
+    }
 }
 
-a.about-activities-link{
+a.about-activities-link {
     text-decoration: underline;
     font-weight: 600;
     transition: all 0.2s ease-in;
-    
+
     &:hover {
         color: green;
     }
-
 }

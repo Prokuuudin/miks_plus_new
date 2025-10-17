@@ -8,7 +8,7 @@ function initSwiper(selector) {
   if (!container) return;
 
   return new Swiper(container, {
-    modules: [Navigation], 
+    modules: [Navigation],
     loop: true,
     slidesPerView: 1,
     centeredSlides: true,

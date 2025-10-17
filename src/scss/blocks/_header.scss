@@ -3,7 +3,7 @@
     top: 0;
     left: 0;
     width: 100%;
-    background-color: rgb(241, 166, 166);  
+    background-color: rgb(241, 166, 166);
     padding: 10px 0;
     transition: all 0.3s ease;
     z-index: 1000;
@@ -42,11 +42,12 @@
 
     &:hover {
         background-color: red;
-    }   
-} 
+    }
+}
 
 .nav__list a {
-    position: relative; /* для линии */
+    position: relative;
+    /* для линии */
     color: white;
     font-family: var(--font-accent);
     text-decoration: none;
@@ -60,7 +61,7 @@
     font-size: 18px;
 }
 
-.header__right-side{
+.header__right-side {
     display: flex;
     align-items: center;
     gap: 20px;
@@ -86,48 +87,3 @@
 .nav__list a:hover::after {
     transform: scaleX(1);
 }
-
-// /* ---------- MOBILE NAV ---------- */
-// .mobile-nav-btn {
-//     display: none;
-//     background: none;
-//     border: none;
-//     cursor: pointer;
-// }
-
-// .nav-icon {
-//     width: 25px;
-//     height: 2px;
-//     background: white;
-//     position: relative;
-// }
-
-// .nav-icon::before,
-// .nav-icon::after {
-//     content: "";
-//     position: absolute;
-//     left: 0;
-//     width: 25px;
-//     height: 2px;
-//     background: white;
-//     transition: all 0.3s ease;
-// }
-
-// .nav-icon::before {
-//     top: -8px;
-// }
-
-// .nav-icon::after {
-//     top: 8px;
-// }
-
-// /* ---------- RESPONSIVE ---------- */
-// @media (max-width: 768px) {
-//     .nav__list {
-//         display: none;
-//     }
-
-//     .mobile-nav-btn {
-//         display: block;
-//     }
-// }

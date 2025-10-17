@@ -15,15 +15,15 @@
         width: auto;
         height: 20px;
         padding: 0;
-        gap: 3px;  
+        gap: 3px;
     }
 }
 
 .switcher-wrapper .switcher {
     position: relative;
-    flex: 0 0 auto;     
+    flex: 0 0 auto;
     padding: 3px 6px;
-    min-width: 28px;  
+    min-width: 28px;
     text-align: center;
     color: var(--accent);
     transition: color .25s ease-in-out;
@@ -38,7 +38,7 @@
 
 
 .switcher:hover {
-    background: rgba(255,255,255,0.2);
+    background: rgba(255, 255, 255, 0.2);
 }
 
 .switcher-wrapper {
@@ -50,7 +50,7 @@
     padding: 0 10px;
     cursor: pointer;
     font-size: 14px;
-    
+
     @include mobile {
         width: 100px;
         height: 20px;
@@ -61,9 +61,11 @@
 .switcher-wrapper:hover {
     opacity: 1;
 }
+
 .switcher-wrapper input[type="radio"] {
     display: none;
 }
+
 .switcher-wrapper .switcher {
     position: relative;
     flex: 1 1 calc(100% / 3);
@@ -71,13 +73,13 @@
     color: var(--accent);
     transition: color .25s ease-in-out;
     z-index: 2;
-    cursor: pointer;    
+    cursor: pointer;
 }
 
-
-.switcher-wrapper input[type="radio"]:checked + .switcher {
+.switcher-wrapper input[type="radio"]:checked+.switcher {
     color: #fff;
 }
+
 .lang-placeholder {
     width: 34px;
     height: 28px;
@@ -87,7 +89,7 @@
     z-index: 1;
     transition: left .25s ease-in-out;
 
-        @include mobile {
+    @include mobile {
         width: 18px;
         height: 16px;
     }
@@ -97,16 +99,16 @@
     }
 }
 
-.switcher-wrapper input[type="radio"]:nth-of-type(1):checked ~ .lang-placeholder {
+.switcher-wrapper input[type="radio"]:nth-of-type(1):checked~.lang-placeholder {
     left: 12px;
 }
 
-.switcher-wrapper input[type="radio"]:nth-of-type(2):checked ~ .lang-placeholder {
+.switcher-wrapper input[type="radio"]:nth-of-type(2):checked~.lang-placeholder {
     left: 54px;
-   
+
 }
 
-.switcher-wrapper input[type="radio"]:nth-of-type(3):checked ~ .lang-placeholder {
+.switcher-wrapper input[type="radio"]:nth-of-type(3):checked~.lang-placeholder {
     left: 95px;
-    
+
 }

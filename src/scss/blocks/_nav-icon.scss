@@ -32,8 +32,8 @@
 	border-radius: var(--radius);
 	display: none;
 
-	@include tablet {	
-	
+	@include tablet {
+
 		display: block;
 	}
 }
@@ -85,7 +85,6 @@
 }
 
 /* Layout */
-
 .mobile-nav-btn {
 	z-index: 999;
 	display: none;
@@ -100,4 +99,3 @@
 		--spacing: 4px;
 	}
 }
-

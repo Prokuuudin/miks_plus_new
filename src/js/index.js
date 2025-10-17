@@ -1,4 +1,3 @@
-
 import initAllSwipers from './modules/swipers.js';
 initAllSwipers();
 
@@ -8,8 +7,8 @@ setLanguage();
 import headerScroll from './modules/header-scroll.js';
 headerScroll();
 
-// import scrollReveal from './modules/scrollReveal.js';
-// scrollReveal();
+import scrollReveal from './modules/scrollReveal.js';
+scrollReveal();
 
 import openBrandCard from './modules/brand-cards.js';
 openBrandCard();

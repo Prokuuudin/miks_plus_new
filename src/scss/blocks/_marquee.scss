@@ -1,54 +1,56 @@
-.marquee1, .marquee2 {
+.marquee1,
+.marquee2 {
 	margin-bottom: 80px;
 }
 
-.marquee2{
+.marquee2 {
 	margin-top: 20px;
 }
-	.marquee-container {			
-            width: 100%;
-            overflow: hidden;
-            white-space: nowrap;
-            background-color: rgb(240, 134, 146);						
-            padding: 10px 0;
-        }
 
-		.marquee1-content {
-			display: flex;
-			width: max-content;
-            align-items: center;
-            animation: marquee1 50s linear infinite;
-        }
-        
-		.marquee-item img {
-			width: auto;
-			height: 300px;
-			object-fit: cover;
-			margin: 0 10px;
+.marquee-container {
+	width: 100%;
+	overflow: hidden;
+	white-space: nowrap;
+	background-color: rgb(240, 134, 146);
+	padding: 10px 0;
+}
 
-			@include mobile {
-				height: 180px;
-			}
-		}
+.marquee1-content {
+	display: flex;
+	width: max-content;
+	align-items: center;
+	animation: marquee1 50s linear infinite;
+}
 
-        .marquee-item {
-            display: inline-flex;
-			align-items: center;
-            padding: 10px 20px;
-            margin: 0 30px;       
-          	
-			@include mobile {
-				margin: 0 10px;
-				padding: 5px 10px;    
-			}
-        }
-	
-		@keyframes marquee1 {
-			from {
-				transform: translateX(0);
-			}
-			to {
-				transform: translateX(-50%);
-			}
-        }
-	
+.marquee-item img {
+	width: auto;
+	height: 300px;
+	object-fit: cover;
+	margin: 0 10px;
+
+	@include mobile {
+		height: 180px;
+	}
+}
+
+.marquee-item {
+	display: inline-flex;
+	align-items: center;
+	padding: 10px 20px;
+	margin: 0 30px;
+
+	@include mobile {
+		margin: 0 10px;
+		padding: 5px 10px;
+	}
+}
+
+@keyframes marquee1 {
+	from {
+		transform: translateX(0);
+	}
+
+	to {
+		transform: translateX(-50%);
+	}
+}

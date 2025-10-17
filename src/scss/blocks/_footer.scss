@@ -1,8 +1,8 @@
 .footer {
   position: relative;
-  border-top: 1px solid rgba(0,0,0,.08);
+  border-top: 1px solid rgba(0, 0, 0, .08);
   background-color: #141212;
-  box-shadow: 0 -10px 30px rgba(0,0,0,.08);
+  box-shadow: 0 -10px 30px rgba(0, 0, 0, .08);
 }
 
 .footer__container {
@@ -25,11 +25,11 @@
   }
 }
 
-/* --- три столбца --- */
 .footer__company {
   display: grid;
-  grid-template-columns: auto 1fr 1fr; /* логотип — автоширина, 2 и 3 столбцы равны */
-  gap: 60px; 
+  grid-template-columns: auto 1fr 1fr;
+  /* логотип — автоширина, 2 и 3 столбцы равны */
+  gap: 60px;
   align-items: start;
 
   @media (max-width: 1028px) {

@@ -1,8 +1,12 @@
 .swiper {
-  position: relative; /* для кнопок */
-  width: 100%; /* вернем нормальную ширину */
-  max-width: 450px; /* ограничим по размеру картинки */
-  margin: 0 auto; /* центрируем */
+  position: relative;
+  /* для кнопок */
+  width: 100%;
+  /* вернем нормальную ширину */
+  max-width: 450px;
+  /* ограничим по размеру картинки */
+  margin: 0 auto;
+  /* центрируем */
   overflow: hidden;
 }
 
@@ -22,7 +26,7 @@
 /* --- Кнопки --- */
 .swiper__btns {
   position: absolute;
-  bottom: 10px; /* расстояние от нижнего края картинки */
+  bottom: 10px;
   left: 50%;
   transform: translateX(-50%);
   display: flex;
@@ -44,8 +48,8 @@
   transition: all 0.3s ease;
 
   @include mobile {
-      font-size: 14px;
-      padding: 6px 12px;
+    font-size: 14px;
+    padding: 6px 12px;
   }
 
 

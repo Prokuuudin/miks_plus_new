@@ -7,44 +7,44 @@ ScrollReveal({
 	// reset: true,
 });
 
-function scrollRevealFunc () {
-	ScrollReveal().reveal( {
+function scrollRevealFunc() {
+	ScrollReveal().reveal({
 		delay: 1300,
 		distance: '0px',
 		opacity: 0,
 	});
 
-	ScrollReveal().reveal( { 
+	ScrollReveal().reveal({
 		delay: 200,
 		distance: '0px',
 		opacity: 0,
 	});
 
-	ScrollReveal().reveal( `.header__row`, {
+	ScrollReveal().reveal(`.header__row`, {
 		origin: 'top',
 	});
-	
-	ScrollReveal().reveal( '.title-2, .vacancies-title, .contacts__info-text ', {
+
+	ScrollReveal().reveal('.title-2, .vacancies-title, .contacts__info-text ', {
 		delay: 400,
 		origin: 'top',
 	});
 
-	ScrollReveal().reveal( `.about__text, .contacts, .card-front, .store-card-front, .activities__card-front, .footer__company, .swiper, .contacts__links, .activities__image, .vacancies-outro`, {
-		
+	ScrollReveal().reveal(`.about__text, .contacts, .card-front, .store-card-front, .activities__card-front, .footer__company, .swiper, .contacts__links, .activities__image, .vacancies-outro`, {
+
 		origin: 'left',
 	});
 
-	ScrollReveal().reveal( `.about__details`,
+	ScrollReveal().reveal(`.about__details`,
 		{
 			origin: 'right',
 		}
 	);
 
-	ScrollReveal().reveal(`.about__content, .footer__copyright, .activities__info, .contacts__socials, .vacancy__form`,  {
+	ScrollReveal().reveal(`.about__content, .footer__copyright, .activities__info, .contacts__socials, .vacancy__form`, {
 		// delay: 600,
 		origin: 'bottom',
 	});
-	
+
 }
 
 export default scrollRevealFunc;

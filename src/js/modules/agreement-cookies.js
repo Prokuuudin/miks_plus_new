@@ -1,4 +1,4 @@
-function getCookiesConsent(){                        
+function getCookiesConsent() {
     document.querySelector('.reject-btn').addEventListener('click', e => {
         document.querySelector('.cookiebg').classList.remove('appear');
     });
@@ -7,10 +7,10 @@ function getCookiesConsent(){
         document.querySelector('.cookiebg').classList.remove('appear');
     });
 
-    setTimeout(()=>{
+    setTimeout(() => {
         if (!localStorage.getItem("cookieBannerDisplayed")) {
             document.querySelector('.cookiebg').classList.add('appear');
-        }                
+        }
     }, 3000);
 }
 

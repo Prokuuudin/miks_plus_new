@@ -5,10 +5,10 @@ function getModalForm() {
     let body = document.querySelector('body');
     let header = document.querySelector('header');
     let widthScroll;
-    
+
     if (openFormBtns.length > 0) {
         for (let btn of openFormBtns) {
-            btn.onclick = function(){
+            btn.onclick = function () {
                 modalForm.classList.add('modal-form--active');
                 widthScroll = window.innerWidth - modalForm.offsetWidth + 'px';
                 body.style.overflow = 'hidden';
@@ -18,8 +18,8 @@ function getModalForm() {
             }
         }
     }
-    
-    closeModalBtn.onclick = function(){
+
+    closeModalBtn.onclick = function () {
         modalForm.classList.remove('modal-form--active');
         setTimeout(() => {
             body.style.overflow = 'visible';
@@ -28,10 +28,10 @@ function getModalForm() {
             header.style.paddingRight = '0px';
         }, 800);
     }
-    
+
     window.addEventListener('click', (e) => {
         let target = e.target;
-        if (target === modalForm){
+        if (target === modalForm) {
             modalForm.classList.remove('modal-form--active');
             setTimeout(() => {
                 body.style.overflow = 'visible';
@@ -44,5 +44,4 @@ function getModalForm() {
 }
 
 export default getModalForm;
-   
-   
+
