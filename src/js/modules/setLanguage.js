@@ -41,14 +41,12 @@ function setLanguage() {
     window.history.replaceState(null, "", url);
   }
 
-  // Установка языка из localStorage или URL
+  // Инициализация языка при загрузке страницы
   function initializeLanguage() {
-    const urlParams = new URLSearchParams(window.location.search);
     const savedLanguage = localStorage.getItem("selectedLanguage");
-    const urlLanguage = urlParams.get("lang");
 
-    // Приоритет: URL > localStorage > по умолчанию ("lv")
-    const initialLanguage = urlLanguage || savedLanguage || "lv";
+    // Если пользователь ещё не выбирал язык, ставим латышский (lv)
+    const initialLanguage = savedLanguage || "lv";
 
     // Установка радиокнопки
     const initialRadio = document.querySelector(`input[name="language"][value="${initialLanguage}"]`);
@@ -69,7 +67,7 @@ function setLanguage() {
     });
   });
 
-  // Инициализация языка при загрузке страницы
+  // Запуск инициализации
   initializeLanguage();
 }
 
