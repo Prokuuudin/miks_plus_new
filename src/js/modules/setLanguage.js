@@ -47,8 +47,8 @@ function setLanguage() {
     const savedLanguage = localStorage.getItem("selectedLanguage");
     const urlLanguage = urlParams.get("lang");
 
-    // Приоритет: URL > localStorage > по умолчанию ("ee")
-    const initialLanguage = urlLanguage || savedLanguage || "ee";
+    // Приоритет: URL > localStorage > по умолчанию ("lv")
+    const initialLanguage = urlLanguage || savedLanguage || "lv";
 
     // Установка радиокнопки
     const initialRadio = document.querySelector(`input[name="language"][value="${initialLanguage}"]`);
