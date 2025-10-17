@@ -1,11 +1,163 @@
+// .distribution {
+//   padding: 40px;
+//   background-color: rgb(241, 166, 166, 0.8);  
+//   font-family: var(--font-titles);
+//   text-align: center;
+//   font-size: 16px;
+//   margin-bottom: 80px;
+  
+//   @include mobile {
+//     padding: 20px;
+//     margin-bottom: 10px;   
+//   }
+// }
+
+// .brand-grid {
+//   display: grid;
+//   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+//   gap: 30px;
+//   margin-top: 30px;
+//   justify-items: center;
+  
+//    @include mobile {
+//     grid-template-columns: 1fr;
+
+//   }
+// }
+
+// .brand-card {
+//   width: 100%;
+//   aspect-ratio: 1 / 1;
+//   position: relative;
+//   perspective: 800px;  
+//   display: flex;
+//   flex-direction: column;
+  
+//   @include mobile-large{
+//     width: 70%;
+//   }
+//   @include mobile {
+//       width: 100%;
+//   }
+// }
+
+// .brand__title {
+//   font-size: 17px;
+//   margin: 10px 0;
+//   color: #000;
+//   font-weight: 700;
+//   text-transform: uppercase;
+// }
+
+// .card-front, .card-back {
+//   width: 100%;
+//   height: 100%;
+//   position: absolute;
+//   top: 0; left: 0;
+//   border-radius: 12px;
+//   backface-visibility: hidden;
+//   transition: transform 0.6s;
+//   box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   padding: 10px;  
+  
+  
+// }
+
+// .card-front {
+//   background-color: #fff;
+//   font-size: 16px;
+//   cursor: pointer;
+// }
+
+// .card-back {
+//   height: 100%;
+//   display: flex;
+//   flex-direction: column;
+//   background-color: #f6f6f6;
+//   transform: rotateY(180deg);
+//   text-align: center;
+//   justify-content: space-between; 
+//   padding: 10px;
+// }
+
+// .card-back .card-link {
+//   display: flex;
+//   flex-direction: column;
+//   align-items: center;
+//   text-decoration: none;
+//   color: inherit;
+//   flex-grow: 1;       
+//   overflow-y: auto;   
+//   justify-content: flex-start;
+// }
+
+// .card-back h3 {
+//   margin: 30px 0 10px 0; 
+//   flex-shrink: 0; 
+// }
+
+// .card-back p {
+//   font-size: 15px;
+//   color: black;
+//   font-family: var(--font-main);
+//   letter-spacing: 1px;
+//   margin: 0;
+//   line-height: 1.15;
+//   text-align:center ;
+// }
+
+// .card-buttons {
+//   display: flex;
+//   flex-direction: column;
+//   gap: 12px;
+//   margin-top: auto;
+//   margin-bottom: 10px;
+// }
+
+// .card-back a.shop-link {
+//   text-decoration: none;
+//   color: #1e88e5;
+//   font-weight: bold;
+
+//   &:hover {
+//     color: var(--accent);
+//   }
+// }
+
+// .card-back button.close-btn {
+//   background: #ccc;
+//   border: none;
+//   font-family: var(--font-main);
+//   padding: 5px 10px;
+//   border-radius: 5px;
+//   cursor: pointer;
+//   transition: all 0.2s ease-in;
+
+//   &:hover {
+//     background: #bbb;
+//     color: var(--accent);
+//   }
+  
+// }
+
+// .brand-card.flipped .card-front {
+//   transform: rotateY(180deg);
+// }
+// .brand-card.flipped .card-back {
+//   transform: rotateY(0);
+// }
+
 .distribution {
   padding: 40px;
-  background-color: rgb(241, 166, 166, 0.8);  
+  background-color: rgb(241, 166, 166, 0.8);
   font-family: var(--font-titles);
   text-align: center;
   font-size: 16px;
   margin-bottom: 80px;
-  
+
   @include mobile {
     padding: 20px;
     margin-bottom: 10px;   
@@ -18,85 +170,90 @@
   gap: 30px;
   margin-top: 30px;
   justify-items: center;
-  
-   @include mobile {
-    grid-template-columns: 1fr;
+  position: relative;
+  z-index: 0;
 
+  @include mobile {
+    grid-template-columns: 1fr;
   }
 }
 
 .brand-card {
-  width: 100%;
-  aspect-ratio: 1 / 1;
+  width: 250px;
+  height: 250px;
+  perspective: 1000px;
   position: relative;
-  perspective: 800px;  
-  display: flex;
-  flex-direction: column;
-  
-  @include mobile-large{
-    width: 70%;
-  }
-  @include mobile {
-      width: 100%;
+  z-index: 1;
+
+  @media (max-width: 480px) {
+    width: 90%;
+    max-width: 280px;
+    height: 280px;
   }
 }
 
-.brand__title {
-  font-size: 17px;
-  margin: 10px 0;
-  color: #000;
-  font-weight: 700;
-  text-transform: uppercase;
+.brand-card:hover {
+  z-index: 20; /* карточка над соседями */
 }
 
-.card-front, .card-back {
+.brand-card__inner {
   width: 100%;
   height: 100%;
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform 0.6s ease, box-shadow 0.3s ease;
+  border-radius: 12px;
+}
+
+.brand-card.flipped .brand-card__inner {
+  transform: rotateY(180deg);
+  z-index: 10;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+
+  @media (max-width: 480px) {
+    transform: rotateY(180deg);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+  }
+}
+
+  .brand__title {
+    font-size: 17px;
+    margin: 10px 0;
+    color: #000;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+
+.card-front,
+.card-back {
   position: absolute;
-  top: 0; left: 0;
+  width: 100%;
+  height: 100%;
   border-radius: 12px;
   backface-visibility: hidden;
-  transition: transform 0.6s;
-  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
   display: flex;
-  justify-content: center;
   align-items: center;
-  padding: 10px;  
-  
-  
+  justify-content: center;
+  padding: 10px;
 }
 
 .card-front {
   background-color: #fff;
-  font-size: 16px;
-  cursor: pointer;
+  color: #000;
+  font-weight: 700;
+  font-size: 17px;
+  text-transform: uppercase;
+  z-index: 1;
 }
 
 .card-back {
-  height: 100%;
-  display: flex;
+  background: #f6f6f6;
+  color: #333;
   flex-direction: column;
-  background-color: #f6f6f6;
-  transform: rotateY(180deg);
   text-align: center;
-  justify-content: space-between; 
-  padding: 10px;
-}
-
-.card-back .card-link {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-decoration: none;
-  color: inherit;
-  flex-grow: 1;       
-  overflow-y: auto;   
-  justify-content: flex-start;
-}
-
-.card-back h3 {
-  margin: 30px 0 10px 0; 
-  flex-shrink: 0; 
+  padding: 15px;
+  transform: rotateY(180deg);
+  z-index: 2;
 }
 
 .card-back p {
@@ -106,7 +263,6 @@
   letter-spacing: 1px;
   margin: 0;
   line-height: 1.15;
-  text-align:center ;
 }
 
 .card-buttons {
@@ -140,12 +296,4 @@
     background: #bbb;
     color: var(--accent);
   }
-  
-}
-
-.brand-card.flipped .card-front {
-  transform: rotateY(180deg);
-}
-.brand-card.flipped .card-back {
-  transform: rotateY(0);
 }

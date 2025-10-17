@@ -188,6 +188,18 @@ const translations = {
     'brand.26.description': 'Итальянский производитель профессиональных ножниц и инструментов для ухода за ногтями.',
     'brand.26.close': 'Закрыть',
     'brand.26.shop': 'Перейти в магазин',
+    
+    // Бренд 27: ECO-Hygiena
+    'brand.27.title': 'ECO-Hygiena',
+    'brand.27.description': 'Польский производитель инновационных одноразовых изделий для косметического и парикмахерского бизнеса.',
+    'brand.27.close': 'Закрыть',
+    'brand.27.shop': 'Перейти в магазин',
+    
+    // Бренд 28: Hair Expert
+    'brand.28.title': 'Hair Expert',
+    'brand.28.description': 'Бренд профессиональной продукции для парикмахеров, созданный компанией SIA MIKS PLUS на основе многолетнего опыта.',
+    'brand.28.close': 'Закрыть',
+    'brand.28.shop': 'Перейти в магазин',
 
     // STORES SECTION
     "stores-title": "Наши магазины",
@@ -456,18 +468,34 @@ const translations = {
     'brand.23.description': 'German manufacturer of eyebrow care products. Innovative solutions in eyebrow coloring and care.',
     'brand.23.close': 'Close',
     'brand.23.shop': 'Go to shop',
+    
     'brand.24.title': 'Ceriotti',
     'brand.24.description': 'Italian manufacturer of furniture for beauty salons and barbershops. Wide range of professional electrical goods for the beauty industry.',
     'brand.24.close': 'Close',
     'brand.24.shop': 'Go to shop',
+    
     'brand.25.title': 'MAXUS',
     'brand.25.description': 'Innovative brand for care, restoration and strengthening of damaged nails (USA).',
     'brand.25.close': 'Close',
     'brand.25.shop': 'Go to shop',
+    
     'brand.26.title': 'KIEPE',
     'brand.26.description': 'Italian manufacturer of professional scissors and nail care tools.',
     'brand.26.close': 'Close',
     'brand.26.shop': 'Go to shop',
+
+    // Brand 27: ECO-Hygiena
+    'brand.27.title': 'ECO-Hygiena',
+    'brand.27.description': 'A Polish manufacturer of innovative disposable products for the beauty and hairdressing industry.',
+    'brand.27.close': 'Close',
+    'brand.27.shop': 'Go to shop',
+
+    // Brand 28: Hair Expert
+    'brand.28.title': 'Hair Expert',
+    'brand.28.description': 'A brand that includes professional products for hairdressers, created by SIA MIKS PLUS based on many years of experience.',
+    'brand.28.close': 'Close',
+    'brand.28.shop': 'Go to shop',
+
 
     // STORES SECTION    
     "stores-title": "Our Stores",
@@ -747,6 +775,18 @@ const translations = {
     'brand.26.close': 'Aizvērt',
     'brand.26.shop': 'Uz veikalu',
     
+    // Zīmols 27: ECO-Hygiena
+    'brand.27.title': 'ECO-Hygiena',
+    'brand.27.description': 'Poļu ražotājs, kas piedāvā inovatīvus vienreizlietojamos izstrādājumus skaistumkopšanas un frizieru nozarei.',
+    'brand.27.close': 'Aizvērt',
+    'brand.27.shop': 'Doties uz veikalu',
+
+    // Zīmols 28: Hair Expert
+    'brand.28.title': 'Hair Expert',
+    'brand.28.description': 'Zīmols, kas ietver profesionālus produktus frizieriem, izveidots uzņēmumā SIA MIKS PLUS, balstoties uz daudzu gadu pieredzi.',
+    'brand.28.close': 'Aizvērt',
+    'brand.28.shop': 'Doties uz veikalu',
+
     // STORES SECTION  
     "stores-title": "Mūsu veikali",
     "store-map": "📍 Karte",
