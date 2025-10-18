@@ -29,7 +29,7 @@ function scrollRevealFunc() {
 		origin: 'top',
 	});
 
-	ScrollReveal().reveal(`.about__text, .contacts, .card-front, .store-card-front, .activities__card-front, .footer__company, .swiper, .contacts__links, .activities__image, .vacancies-outro`, {
+	ScrollReveal().reveal(`.about__text, .contacts, .card-front, .store-card-front, .activities__card-front, .footer__company, .swiper, .contacts__links, .activities__image, .vacancies-outro, .contacts__info-text--vacasncies, .contacts__socials--vacasncies`, {
 
 		origin: 'left',
 	});
@@ -40,7 +40,7 @@ function scrollRevealFunc() {
 		}
 	);
 
-	ScrollReveal().reveal(`.about__content, .footer__copyright, .activities__info, .contacts__socials, .vacancy__form`, {
+	ScrollReveal().reveal(`.about__content, .footer__copyright, .activities__info, .contacts__socials, .vacancy__form, .contacts__links--vacasncies`, {
 		// delay: 600,
 		origin: 'bottom',
 	});
