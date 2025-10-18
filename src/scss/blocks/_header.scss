@@ -68,7 +68,9 @@
 }
 
 .header__socials {
+    display: flex;    
     margin-top: 5px;
+    gap: 5px;    
 }
 
 .nav__list a::after {

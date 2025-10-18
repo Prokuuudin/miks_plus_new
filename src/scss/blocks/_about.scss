@@ -1,137 +1,143 @@
 .about {
-    margin-top: 50px;
-    margin-bottom: 40px;
+  margin: 50px 0 40px;
 
-    @include mobile {
-        margin-bottom: 10px;
-    }
-}
+  @include mobile {
+    margin-bottom: 10px;
+  }
 
-.about__inner {
-    background-image: url("../../img/backgrounds/main@2x.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    min-height: 100vh;
-    /* на весь экран */
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-end;
-
-    padding: 0 20px;
-    color: #fff;
-
-    @media (max-width: 1240px) {
-        background-size: cover;
-        background-position: left top;
-        /* или left center */
-    }
-
-    @include mobile {
-        position: relative;
-        background-position: left;
-        min-height: auto;
-    }
-
-}
-
-.about .container {
+  .container {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
     text-align: center;
 
     @include mobile {
-        padding: 0;
+      padding: 0;
     }
-}
+  }
 
-.about__wrapper {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    gap: 100px;
-    margin-top: 20px;
-}
-
-.about__details {
-    text-align: right;
-    font-size: 1.2rem;
-    line-height: 1.5;
-
-    @include mobile {
-        font-size: 16px;
-    }
-}
-
-.about__details li {
-    margin-bottom: 5px;
-
-}
-
-.about__content {
-    width: 70%;
-    text-align: right;
-    margin-top: auto;
-
-    @include tablet {
-        width: 100%;
-    }
-}
-
-.about .title-1 {
+  .title-1 {
     margin-bottom: 10px;
     font-weight: 700;
     color: #fff;
+  }
 }
 
-.about__details li p {
-    font-size: 18px;
+.about__inner {
+  background: url("../../img/backgrounds/main@2x.jpg") center / cover no-repeat;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  padding: 0 20px;
+  color: #fff;
 
-    @include mobile {
+  @media (max-width: 1240px) {
+    background-position: left top;
+  }
+
+  @include mobile {
+    position: relative;
+    background-position: left;
+    min-height: auto;
+  }
+}
+
+.about__wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 100px;
+  margin-top: 20px;
+}
+
+.about__content {
+  width: 70%;
+  text-align: right;
+  margin-top: auto;
+
+  @include tablet {
+    width: 100%;
+  }
+}
+
+.about__details {
+  text-align: right;
+  font-size: 1.2rem;
+  line-height: 1.5;
+
+  @include mobile {
+    font-size: 16px;
+  }
+
+  li {
+    margin-bottom: 5px;
+
+    p {
+      font-size: 18px;
+
+      @include mobile {
         font-size: 14px;
         line-height: 1;
         margin-bottom: 0;
+      }
     }
+  }
+}
 
+.about__eshop-link a {
+  display: none;
+  text-transform: lowercase;
+  padding: 2px 10px;
+  background-color: var(--accent);
+  border-radius: 25px;
+  color: #fff;
+  text-align: center;
+
+  @include tablet {
+    display: block;
+  }
+
+  @include mobile {
+    font-size: 14px;
+  }
 }
 
 .about__footer {
-    background: #fff;
-    color: #000;
-    margin-top: 40px;
-    padding: 20px;
+  background: #fff;
+  color: #000;
+  margin-top: 40px;
+  padding: 20px;
 
-    @include mobile {
-        margin-top: 10px;
-        padding: 10px;
-    }
+  @include mobile {
+    margin-top: 10px;
+    padding: 10px;
+  }
 }
 
 .about__text {
-    font-size: 20px;
-    line-height: 1.6;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
-    text-align: justify;
+  font-size: 20px;
+  line-height: 1.6;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: justify;
 
-    @include mobile {
-        padding: 10px;
-        width: 100%;
-        font-size: 14px;
-        line-height: 1.4;
-    }
+  @include mobile {
+    padding: 10px;
+    width: 100%;
+    font-size: 14px;
+    line-height: 1.4;
+  }
 }
 
 a.about-activities-link {
-    text-decoration: underline;
-    font-weight: 600;
-    transition: all 0.2s ease-in;
+  text-decoration: underline;
+  font-weight: 600;
+  transition: color 0.2s ease-in;
 
-    &:hover {
-        color: green;
-    }
+  &:hover {
+    color: green;
+  }
 }
