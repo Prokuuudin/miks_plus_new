@@ -314,7 +314,8 @@ const translations = {
     
     // VACANCIES PAGE
     "vacancies-title": "Вакансии Miks Plus",
-    "vacancies-outro": "Уважаемые коллеги! Если на данный момент у нас нет подходящей вам вакансии, это не значит, что её не появится в будущем. Пришлите нам своё резюме, чтобы мы могли с вами связаться.",
+    "vacancies-outro": "Если на данный момент у нас нет подходящей вам вакансии, это не значит, что её не появится в будущем. Пришлите нам своё резюме, чтобы мы могли с вами связаться.",
+    "vacancies-send-cv": "Отправить резюме",    
 
     // ACTIVITIES PAGE
     
@@ -617,7 +618,8 @@ const translations = {
 
     // VACANCIES PAGE
     "vacancies-title": "Miks Plus Vacancies",
-    "vacancies-outro": " Dear colleagues! If we do not have a suitable vacancy for you at the moment, it does not mean that it will not appear in the future. Send us your resume so that we can contact you.",
+    "vacancies-outro": "If we do not have a suitable vacancy for you at the moment, it does not mean that it will not appear in the future. Send us your resume so that we can contact you.",
+    "vacancies-send-cv": "Send resume",
     
     // ACTIVITIES PAGE 
   
@@ -917,7 +919,8 @@ const translations = {
 
     // VACANCIES PAGE
     "vacancies-title": "Miks Plus vakances",
-    "vacancies-outro": " Cienījamie kolēģi! Ja šobrīd mums nav piemērotas vakances Jums, tas nenozīmē, ka tā neparādīsies nākotnē. Nosūtiet mums savu CV, lai mēs varētu ar Jums sazināties.",
+    "vacancies-outro": "Ja šobrīd mums nav piemērotas vakances Jums, tas nenozīmē, ka tā neparādīsies nākotnē. Nosūtiet mums savu CV, lai mēs varētu ar Jums sazināties.",
+    "vacancies-send-cv": "Nosūtīt CV",
   
   // ACTIVITIES PAGE
     

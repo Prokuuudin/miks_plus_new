@@ -53,13 +53,15 @@
                         </li>
                     </ul>	 
                     -->
-                <p class="vacancies-outro none" data-key="vacancies-outro"> Уважаемые коллеги! Если на данный момент у
-                    нас нет подходящей вам вакансии, это не значит, что ее не появится в будущем. Пришлите нам своё
-                    резюме, чтобы мы могли с вами связаться.
+                <p class="vacancies-outro" data-key="vacancies-outro"> Уважаемые коллеги! Если на данный момент у нас
+                    нет подходящей вам вакансии, это не значит, что ее не появится в будущем. Пришлите нам своё резюме,
+                    чтобы мы могли с вами связаться.
                 </p>
-
-                <div class="vacancy__form none">
-                    <form action="/send.php" method="post" id="form" class="form" name="form"
+                <a href="index.html#form" class="btn vacancies__cta" data-key="vacancies-send-cv">
+                    Прислать резюме
+                </a>
+                <div class="vacancy__form">
+                    <form action="/send.php" method="post" id="form" class="form none" name="form"
                         enctype="multipart/form-data" autocomplete="on">
                         <input type="text" placeholder="Ваше имя" name="name" id="formName" class="form__input _req"
                             data-placeholder-key="form-name" />
@@ -95,7 +97,7 @@
                             </label>
                         </div>
                         <div class="form__footer">
-                            <div class="g-recaptcha" data-sitekey="6LeoENkrAAAAALitgL37b4M9MhLA_KBsPcS00L7T"></div>
+                            <div class="g-recaptcha" data-sitekey="6LfoZDIsAAAAAEl-WH4ja1gvQ7-hbx6F_1j-9cUg"></div>
                             <button type="submit" class="btn form__button" data-key="form-submit">
                                 Оставить заявку
                             </button>

@@ -144,7 +144,7 @@ function sendContactsForm() {
             submitBtn.disabled = true;
 
             try {
-                let response = await fetch("sendmail.php", {
+                let response = await fetch("send.php", {
                     method: "POST",
                     body: formData
                 });
